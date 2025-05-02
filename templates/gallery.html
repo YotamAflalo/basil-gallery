@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gallery - {{ title }}</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Paintings from {{ title }}</h1>
+    <div class="gallery">
+        {% for painting in paintings %}
+        <div class="painting">
+            <img src="{{ painting.image_path }}" alt="{{ painting.title }}">
+            <p><strong>{{ painting.title }}</strong></p>
+            <p>{{ painting.year }} – {{ painting.location }}</p>
+            <p>{{ painting.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <p><a href="/">Back to Home</a></p>
+</body>
+</html>

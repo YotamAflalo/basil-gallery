@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Basil Swimmer - Gallery</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <h1>Basil Swimmer</h1>
+    <p><!-- Your biography goes here --></p>
+
+    <h2>Browse by Country</h2>
+    <ul>
+        {% for country in countries %}
+        <li><a href="/galleries/{{ country }}">{{ country }}</a></li>
+        {% endfor %}
+    </ul>
+
+    <h2>Browse by Year</h2>
+    <ul>
+        {% for year in years %}
+        <li><a href="/paintings/{{ year }}">{{ year }}</a></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
