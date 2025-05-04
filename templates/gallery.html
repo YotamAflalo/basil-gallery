@@ -4,6 +4,47 @@
     <meta charset="UTF-8">
     <title>{{ title }} – Basil Swimmer Gallery</title>
     <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        /* Modal Styling */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 9999;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0,0,0,0.9);
+        }
+
+        .modal-content {
+            margin: 5% auto;
+            display: block;
+            max-width: 80%;
+            text-align: center;
+        }
+
+        .modal-content img {
+            max-width: 100%;
+            max-height: 80vh;
+        }
+
+        .modal-details {
+            color: #fff;
+            margin-top: 1em;
+        }
+
+        .close {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            color: #fff;
+            font-size: 35px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+    </style>
 </head>
 <body>
     <h1>Paintings from {{ title }}</h1>
@@ -12,7 +53,14 @@
     <div class="gallery">
         {% for painting in paintings %}
         <div class="painting">
-            <img src="{{ painting.image_path }}" alt="{{ painting.title }}">
+            <img src="{{ painting.image_path }}" alt="{{ painting.title }}"
+                 class="zoomable"
+                 data-title="{{ painting.title }}"
+                 data-year="{{ painting.year }}"
+                 data-location="{{ painting.location }}"
+                 data-current_location="{{ painting.current_location }}"
+                 data-description="{{ painting.description }}"
+                 data-technique="{{ painting.technique }}">
             <p><strong>{{ painting.title }}</strong></p>
             <p>{{ painting.year }} – {{ painting.location }}</p>
             <p><em>Current Location:</em> {{ painting.current_location }}</p>
@@ -20,5 +68,46 @@
         </div>
         {% endfor %}
     </div>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+            <div class="modal-details" id="modalDetails"></div>
+        </div>
+    </div>
+
+    <script>
+        const modal = document.getElementById("imageModal");
+        const modalImg = document.getElementById("modalImage");
+        const modalDetails = document.getElementById("modalDetails");
+        const closeBtn = document.querySelector(".close");
+
+        document.querySelectorAll('.zoomable').forEach(img => {
+            img.addEventListener('click', () => {
+                modal.style.display = "block";
+                modalImg.src = img.src;
+                modalDetails.innerHTML = `
+                    <h2>${img.dataset.title}</h2>
+                    <p><strong>Year:</strong> ${img.dataset.year}</p>
+                    <p><strong>Location:</strong> ${img.dataset.location}</p>
+                    <p><strong>Current Location:</strong> ${img.dataset.current_location}</p>
+                    <p><strong>Technique:</strong> ${img.dataset.technique}</p>
+                    <p>${img.dataset.description}</p>
+                `;
+            });
+        });
+
+        closeBtn.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
 </body>
 </html>

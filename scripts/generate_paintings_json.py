@@ -43,6 +43,7 @@ for country_folder in images_dir.iterdir():
             "country": country,
             "location": "unsorted yet",
             "current_location": "unsorted yet",
+            "technique": "unsorted yet",
             "description": "unsorted yet"
         }
 
