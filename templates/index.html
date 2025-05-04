@@ -21,5 +21,12 @@
         <li><a href="/paintings/{{ year }}">{{ year }}</a></li>
         {% endfor %}
     </ul>
+    <h2>Browse by Current Location</h2>
+    <ul>
+        {% for location in locations_now %}
+        <li><a href="/locations/{{ location }}">{{ location }}</a></li>
+        {% endfor %}
+    </ul>
+
 </body>
 </html>

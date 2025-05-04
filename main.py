@@ -18,11 +18,13 @@ with open(BASE_DIR / "data/paintings.json", "r", encoding="utf-8") as f:
 @app.get("/")
 def home(request: Request):
     countries = sorted(set(p["country"] for p in paintings))
-    years = sorted(set(p["year"] for p in paintings))
+    years = sorted(set(p["year"] for p in paintings if isinstance(p["year"], int)))
+    locations_now = sorted(set(p["current_location"] for p in paintings))
     return templates.TemplateResponse("index.html", {
         "request": request,
         "countries": countries,
-        "years": years
+        "years": years,
+        "locations_now": locations_now
     })
 
 @app.get("/galleries/{country}")
@@ -40,5 +42,14 @@ def gallery_by_year(year: int, request: Request):
     return templates.TemplateResponse("gallery.html", {
         "request": request,
         "title": str(year),
+        "paintings": filtered
+    })
+
+@app.get("/locations/{location}")
+def gallery_by_current_location(location: str, request: Request):
+    filtered = [p for p in paintings if p["current_location"].lower() == location.lower()]
+    return templates.TemplateResponse("gallery.html", {
+        "request": request,
+        "title": location.title(),
         "paintings": filtered
     })
