@@ -68,3 +68,50 @@ def gallery_by_current_location(location: str, request: Request):
         "title": location.title(),
         "paintings": filtered
     })
+from fastapi import Form
+from fastapi.responses import RedirectResponse
+
+@app.get("/manage")
+def manage_page(request: Request):
+    with open(BASE_DIR / "data/paintings.json", "r", encoding="utf-8") as f:
+        paintings_data = json.load(f)
+
+    unsorted = next((p for p in paintings_data if "unsorted yet" in p.values()), None)
+    if not unsorted:
+        return templates.TemplateResponse("done.html", {"request": request})
+    return templates.TemplateResponse("manage.html", {"request": request, "painting": unsorted})
+
+@app.post("/update_painting")
+def update_painting(
+    request: Request,
+    image_path: str = Form(...),
+    title: str = Form(...),
+    year: str = Form(...),
+    location: str = Form(...),
+    current_location: str = Form(...),
+    technique: str = Form(...),
+    description: str = Form(...)
+):
+    with open(BASE_DIR / "data/paintings.json", "r", encoding="utf-8") as f:
+        paintings_data = json.load(f)
+
+    for painting in paintings_data:
+        if painting["image_path"] == image_path:
+            painting.update({
+                "title": title,
+                "year": int(year) if year.isdigit() else year,
+                "location": location,
+                "current_location": current_location,
+                "technique": technique,
+                "description": description
+            })
+            break
+
+    with open(BASE_DIR / "data/paintings.json", "w", encoding="utf-8") as f:
+        json.dump(paintings_data, f, indent=4, ensure_ascii=False)
+
+    return RedirectResponse("/manage", status_code=303)
+
+@app.get("/skip")
+def skip_painting():
+    return RedirectResponse("/manage", status_code=303)
