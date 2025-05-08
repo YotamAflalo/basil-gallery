@@ -10,9 +10,10 @@
       font-family: 'Georgia', serif;
       color: #eee;
       background-color: #111;
-      display: flex;
       height: 100vh;
+      display: flex;
     }
+    
     .sidebar {
       background-color: #000;
       width: 240px;
@@ -21,15 +22,19 @@
       border-right: 1px solid #333;
       overflow-y: auto;
     }
+    
     .sidebar h2 {
       font-size: 1.2em;
       margin-bottom: 10px;
       border-bottom: 1px solid #444;
       padding-bottom: 5px;
+      color: #6b889c;
     }
+    
     .sidebar .section {
       margin-bottom: 30px;
     }
+    
     .sidebar a {
       display: block;
       color: #ccc;
@@ -37,51 +42,106 @@
       margin: 5px 0;
       font-size: 0.95em;
     }
+    
     .sidebar a:hover {
       color: #ff5f5f;
     }
 
     .main {
-      display: flex;
       flex: 1;
       padding: 40px;
       box-sizing: border-box;
-      gap: 40px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header {
+      display: flex;
+      margin-bottom: 30px;
       align-items: center;
+      gap: 30px;
     }
-    .main .left-image {
-      max-width: 50%;
-      height: auto;
-      object-fit: contain;
+    
+    .portrait-container {
+      flex-shrink: 0;
     }
+    
+    .portrait {
+      width: 180px;
+      border-radius: 8px;
+      border: 2px solid #444;
+    }
+    
     .main-content {
-      max-width: 600px;
+      flex: 1;
     }
+    
     .main-content h1 {
-      font-size: 3em;
-      margin-bottom: 10px;
+      font-size: 3.5em;
+      margin-bottom: 20px;
+      color: #6b889c;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
+    
     .main-content p {
       font-size: 1.1em;
       line-height: 1.6;
     }
-    .main-content a.button-link {
-      display: inline-block;
+    
+    .main-content a {
+      color: #6b889c;
+      text-decoration: none;
+    }
+    
+    .main-content a:hover {
+      text-decoration: underline;
+    }
+    
+    .painting-mosaic {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 15px;
+      margin-top: 30px;
+    }
+    
+    .mosaic-item {
+      position: relative;
+      overflow: hidden;
+      border-radius: 5px;
+      height: 200px;
+      transition: transform 0.3s;
+    }
+    
+    .mosaic-item:hover {
+      transform: scale(1.03);
+    }
+    
+    .mosaic-item img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    
+    .cta-buttons {
+      display: flex;
+      gap: 20px;
       margin-top: 20px;
+    }
+    
+    .button-link {
+      display: inline-block;
       padding: 10px 20px;
-      border: 1px solid #eee;
+      border: 1px solid #6b889c;
       text-decoration: none;
       color: #eee;
       border-radius: 20px;
+      transition: all 0.3s;
     }
-    .main-content a.button-link:hover {
-      background-color: #eee;
+    
+    .button-link:hover {
+      background-color: #6b889c;
       color: #000;
-    }
-    .portrait {
-      width: 120px;
-      border-radius: 8px;
-      margin-top: 20px;
     }
   </style>
 </head>
@@ -91,7 +151,7 @@
     <div class="section">
       <h2>By Country</h2>
       {% for country in countries %}
-        <a href="/galleries/{{ country }}">{{ country }}</a>
+        <a href="/galleries/{{ country.lower() if country != 'Unsorted yet' else 'unsorted_yet' }}">{{ country }}</a>
       {% endfor %}
     </div>
 
@@ -101,31 +161,60 @@
         <a href="/galleries/year/{{ year }}">{{ year }}</a>
       {% endfor %}
     </div>
-    <div class="section"></div>
-    <h3>By Technique</h3>
-        <ul>
-        {% for tech in techniques %}
-            <li><a href="/techniques/{{ tech }}">{{ tech }}</a></li>
-        {% endfor %}
+    
+    <div class="section">
+      <h2>By Technique</h2>
+      {% for tech in techniques %}
+        <a href="/techniques/{{ tech }}">{{ tech }}</a>
+      {% endfor %}
     </div>
-</ul>
-
+    
+    <div class="section">
+      <h2>Current Locations</h2>
+      {% for loc in locations_now %}
+        <a href="/locations/{{ loc }}">{{ loc }}</a>
+      {% endfor %}
+    </div>
   </div>
 
   <div class="main">
-    <img class="left-image" src="/static/images/home_art.jpg" alt="Background art"> <!-- Replace with your actual image -->
-
-    <div class="main-content">
-      <h1>Basil Swimmer</h1>
-      <p>
-        Dubi's journey began in <strong>South Africa</strong>, where his deep love for landscapes and human life led him to the canvas.
-        Over decades of painting across <a href="/galleries/Netherlands">Netherlands</a>, 
-        and <a href="/galleries/Switzerland">Switzerland</a>, he created a body of work capturing not just places but the soul of experience.
-        His paintings are windows into memories — some vivid, some blurred, but all deeply personal.
-      </p>
-
-      <img class="portrait" src="/static/images/dubi.jpg" alt="Dubi portrait">
-      <a class="button-link" href="/galleries/South Africa">See South Africa Gallery</a>
+    <div class="header">
+      <div class="portrait-container">
+        <img class="portrait" src="/static/images/dubi.jpg" alt="Basil Swimmer portrait">
+      </div>
+      
+      <div class="main-content">
+        <h1>Basil Swimmer</h1>
+        <p>
+          Dubi's journey began in <strong>South Africa</strong>, where his deep love for landscapes and human life led him to the canvas
+          In ___ he immigrated to Israel and worked for the Kargel company. 
+          This gallery displays the paintings that Dubi painted throughout his life. 
+          The paintings depict sights he saw in his youth in South Africa, Israel, and on his travels around the world. 
+          Dubi painted many paintings in oil, watercolor, and a few other surprising techniques.
+          His paintings are windows into memories — some vivid, some blurred, but all deeply personal.
+        </p>
+        
+        <div class="cta-buttons">
+          <a class="button-link" href="/galleries/South Africa">South Africa Gallery</a>
+          <a class="button-link" href="/galleries/Switzerland">Switzerland Gallery</a>
+          <a class="button-link" href="/galleries/Netherlands">Netherlands Gallery</a>
+        </div>
+      </div>
+    </div>
+    
+    <div class="painting-mosaic">
+      {% if mosaic_paintings %}
+        {% for painting in mosaic_paintings %}
+          <a href="/painting/{{ painting.id if painting.get('id') else loop.index }}" class="mosaic-item">
+            <img src="{{ painting.image_path }}" alt="{{ painting.title if painting.get('title') else 'Painting by Basil Swimmer' }}">
+          </a>
+        {% endfor %}
+      {% else %}
+        <!-- Fallback in case no paintings are available -->
+        <div class="mosaic-item">
+          <img src="/static/images/home_art.jpg" alt="Painting by Basil Swimmer">
+        </div>
+      {% endif %}
     </div>
   </div>
 

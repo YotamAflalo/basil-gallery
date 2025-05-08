@@ -4,34 +4,117 @@
     <meta charset="UTF-8">
     <title>Edit Painting Metadata</title>
     <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 1.2rem;
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .progress {
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #555;
+        }
+
+        .editor {
+            text-align: center;
+        }
+
+        img {
+            max-height: 400px;
+            margin-bottom: 20px;
+            border: 2px solid #ccc;
+        }
+
+        label {
+            font-weight: bold;
+            display: block;
+            text-align: left;
+            margin-top: 15px;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            font-size: 1.1rem;
+            padding: 10px;
+            margin-top: 5px;
+            border: 1px solid #aaa;
+            border-radius: 5px;
+        }
+
+        textarea {
+            resize: vertical;
+        }
+
+        .buttons {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        button {
+            font-size: 1.2rem;
+            padding: 12px 25px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .enter-btn {
+            background-color: #28a745;
+            color: white;
+        }
+
+        .skip-btn {
+            background-color: #f0ad4e;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>Metadata Editor</h1>
+    <h1>🖼️ Help Sort the Painting Info</h1>
+    <div class="progress">
+        Image {{ index }} of {{ total }}
+    </div>
+
     <div class="editor">
-        <img src="{{ painting.image_path }}" alt="Painting" style="max-height: 300px;"><br>
+        <img src="{{ painting.image_path }}" alt="Painting"><br>
+
         <form action="/update_painting" method="post">
             <input type="hidden" name="image_path" value="{{ painting.image_path }}">
 
-            <label>Title:</label><br>
-            <input type="text" name="title" value="{{ painting.title }}"><br><br>
+            <label>Title:</label>
+            <input type="text" name="title" value="{{ painting.title }}">
 
-            <label>Year:</label><br>
-            <input type="text" name="year" value="{{ painting.year }}"><br><br>
+            <label>Year:</label>
+            <input type="text" name="year" value="{{ painting.year }}">
 
-            <label>Location (Where it was painted):</label><br>
-            <input type="text" name="location" value="{{ painting.location }}"><br><br>
+            <label>Location (Where it was painted):</label>
+            <input type="text" name="location" value="{{ painting.location }}">
 
-            <label>Current Location:</label><br>
-            <input type="text" name="current_location" value="{{ painting.current_location }}"><br><br>
+            <label>Current Location:</label>
+            <input type="text" name="current_location" value="{{ painting.current_location }}">
 
-            <label>Technique:</label><br>
-            <input type="text" name="technique" value="{{ painting.technique }}"><br><br>
+            <label>Technique:</label>
+            <input type="text" name="technique" value="{{ painting.technique }}">
 
-            <label>Description:</label><br>
-            <textarea name="description" rows="4" cols="50">{{ painting.description }}</textarea><br><br>
+            <label>Description:</label>
+            <textarea name="description" rows="4">{{ painting.description }}</textarea>
 
-            <button type="submit" style="background-color: green; color: white;">✔ Enter</button>
-            <a href="/skip"><button type="button">⏭ Skip</button></a>
+            <div class="buttons">
+                <button type="submit" class="enter-btn">✔ Enter</button>
+                <a href="/skip"><button type="button" class="skip-btn">⏭ Skip</button></a>
+            </div>
         </form>
     </div>
 </body>
