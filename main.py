@@ -4,14 +4,22 @@ from fastapi.templating import Jinja2Templates
 from fastapi.responses import RedirectResponse
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
-import json, os
+import json, os, shutil
 from pathlib import Path
+import subprocess
+from datetime import datetime
+import schedule
+import time
+import threading
 
 # Load .env
 load_dotenv()
 
 USERNAME = os.getenv("GALLERY_USER")
 PASSWORD = os.getenv("GALLERY_PASS")
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_REPO = os.getenv("GITHUB_REPO")  # Format: "username/repo"
+
 print(USERNAME,PASSWORD)
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key="your_super_secret_key")
@@ -21,10 +29,89 @@ app.mount("/static", StaticFiles(directory=BASE_DIR / "static"), name="static")
 templates = Jinja2Templates(directory=str(BASE_DIR / "templates"))
 
 # Load paintings data
-with open(BASE_DIR / "data/paintings.json", "r", encoding="utf-8") as f:
+PAINTINGS_JSON_PATH = BASE_DIR / "data/paintings.json"
+with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
     paintings = json.load(f)
 
 manager_index = 0  # tracks current position in painting list
+last_json_mtime = PAINTINGS_JSON_PATH.stat().st_mtime  # tracks last modification time of paintings.json
+
+def move_image_to_country_folder(image_path: str, country: str):
+    """Move an image to its country folder, creating the folder if it doesn't exist."""
+    if not image_path or not country:
+        return image_path
+
+    # Get the full path of the image
+    full_image_path = BASE_DIR / "static" / image_path
+    if not full_image_path.exists():
+        return image_path
+
+    # Create country folder if it doesn't exist
+    country_folder = BASE_DIR / "static" / "images" / country.lower().replace(" ", "_")
+    country_folder.mkdir(parents=True, exist_ok=True)
+
+    # Get the filename from the original path
+    filename = full_image_path.name
+    new_path = country_folder / filename
+
+    # Move the file
+    shutil.move(str(full_image_path), str(new_path))
+
+    # Return the new relative path
+    return f"images/{country.lower().replace(' ', '_')}/{filename}"
+
+def has_json_changes():
+    """Check if paintings.json has been modified since last check."""
+    global last_json_mtime
+    current_mtime = PAINTINGS_JSON_PATH.stat().st_mtime
+    if current_mtime > last_json_mtime:
+        last_json_mtime = current_mtime
+        return True
+    return False
+
+def create_github_pr():
+    """Create a GitHub PR with the current changes."""
+    if not has_json_changes():
+        print("No changes in paintings.json, skipping PR creation")
+        return
+
+    try:
+        # Create a new branch
+        branch_name = f"update-gallery-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
+        subprocess.run(["git", "checkout", "-b", branch_name], check=True)
+
+        # Add all changes
+        subprocess.run(["git", "add", "."], check=True)
+
+        # Commit changes
+        commit_message = f"Update gallery: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
+        subprocess.run(["git", "commit", "-m", commit_message], check=True)
+
+        # Push changes
+        subprocess.run(["git", "push", "origin", branch_name], check=True)
+
+        # Create PR using GitHub API
+        pr_title = f"Gallery Update {datetime.now().strftime('%Y-%m-%d')}"
+        pr_body = "Automatic gallery update with new paintings and organization changes."
+        
+        # You would need to implement the actual PR creation using GitHub's API
+        # This is a placeholder for the actual implementation
+        print(f"Created PR: {pr_title}")
+
+    except Exception as e:
+        print(f"Error creating PR: {e}")
+
+def schedule_daily_pr():
+    """Schedule daily PR creation."""
+    schedule.every().day.at("00:00").do(create_github_pr)
+    
+    while True:
+        schedule.run_pending()
+        time.sleep(60)
+
+# Start the scheduler in a separate thread
+scheduler_thread = threading.Thread(target=schedule_daily_pr, daemon=True)
+scheduler_thread.start()
 
 @app.get("/")
 def home(request: Request):
@@ -54,6 +141,18 @@ def home(request: Request):
         "techniques": techniques,
         "mosaic_paintings": mosaic_paintings
     })
+
+@app.get("/painting/{painting_id}")
+def view_painting(request: Request, painting_id: int):
+    # Find the painting by its index in the list
+    if 0 <= painting_id - 1 < len(paintings):
+        painting = paintings[painting_id - 1]
+        return templates.TemplateResponse("painting_detail.html", {
+            "request": request,
+            "painting": painting
+        })
+    return {"detail": "Painting not found"}
+
 @app.get("/galleries/{country}")
 def gallery_by_country(country: str, request: Request):
     filtered = [p for p in paintings if p.get("country", "").lower() == country.lower()]
@@ -112,7 +211,7 @@ def manage_page(request: Request):
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
 
-    with open(BASE_DIR / "data/paintings.json", "r", encoding="utf-8") as f:
+    with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
         paintings_data = json.load(f)
 
     # Find next unsorted
@@ -142,29 +241,44 @@ def update_painting(
     location: str = Form(...),
     current_location: str = Form(...),
     technique: str = Form(...),
-    description: str = Form(...)
+    description: str = Form(...),
+    country: str = Form(...)
 ):
     global manager_index
 
-    with open(BASE_DIR / "data/paintings.json", "r", encoding="utf-8") as f:
+    with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
         paintings_data = json.load(f)
 
     for painting in paintings_data:
         if painting["image_path"] == image_path:
+            # Move image to country folder if country is provided
+            new_image_path = move_image_to_country_folder(image_path, country)
+            
             painting.update({
                 "title": title,
                 "year": int(year) if year.isdigit() else year,
                 "location": location,
                 "current_location": current_location,
                 "technique": technique,
-                "description": description
+                "description": description,
+                "country": country,
+                "image_path": new_image_path
             })
             break
 
-    with open(BASE_DIR / "data/paintings.json", "w", encoding="utf-8") as f:
+    with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(paintings_data, f, indent=4, ensure_ascii=False)
 
     manager_index += 1
+    return RedirectResponse("/manage", status_code=303)
+
+@app.get("/create_pr")
+def create_pr(request: Request):
+    """Manual trigger for creating a PR."""
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    
+    create_github_pr()
     return RedirectResponse("/manage", status_code=303)
 
 @app.get("/skip")

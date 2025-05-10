@@ -90,30 +90,48 @@
     <div class="editor">
         <img src="{{ painting.image_path }}" alt="Painting"><br>
 
-        <form action="/update_painting" method="post">
+        <form method="POST" action="/update_painting">
             <input type="hidden" name="image_path" value="{{ painting.image_path }}">
+            
+            <div class="form-group">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" value="{{ painting.title if painting.get('title') else '' }}" required>
+            </div>
 
-            <label>Title:</label>
-            <input type="text" name="title" value="{{ painting.title }}">
+            <div class="form-group">
+                <label for="country">Country:</label>
+                <input type="text" id="country" name="country" value="{{ painting.country if painting.get('country') else '' }}" required>
+            </div>
 
-            <label>Year:</label>
-            <input type="text" name="year" value="{{ painting.year }}">
+            <div class="form-group">
+                <label for="year">Year:</label>
+                <input type="text" id="year" name="year" value="{{ painting.year if painting.get('year') else '' }}" required>
+            </div>
 
-            <label>Location (Where it was painted):</label>
-            <input type="text" name="location" value="{{ painting.location }}">
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <input type="text" id="location" name="location" value="{{ painting.location if painting.get('location') else '' }}" required>
+            </div>
 
-            <label>Current Location:</label>
-            <input type="text" name="current_location" value="{{ painting.current_location }}">
+            <div class="form-group">
+                <label for="current_location">Current Location:</label>
+                <input type="text" id="current_location" name="current_location" value="{{ painting.current_location if painting.get('current_location') else '' }}" required>
+            </div>
 
-            <label>Technique:</label>
-            <input type="text" name="technique" value="{{ painting.technique }}">
+            <div class="form-group">
+                <label for="technique">Technique:</label>
+                <input type="text" id="technique" name="technique" value="{{ painting.technique if painting.get('technique') else '' }}" required>
+            </div>
 
-            <label>Description:</label>
-            <textarea name="description" rows="4">{{ painting.description }}</textarea>
+            <div class="form-group">
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" rows="4">{{ painting.description if painting.get('description') else '' }}</textarea>
+            </div>
 
-            <div class="buttons">
-                <button type="submit" class="enter-btn">✔ Enter</button>
-                <a href="/skip"><button type="button" class="skip-btn">⏭ Skip</button></a>
+            <div class="button-group">
+                <button type="submit">Save</button>
+                <a href="/skip" class="button">Skip</a>
+                <a href="/create_pr" class="button">Upload to Git</a>
             </div>
         </form>
     </div>
