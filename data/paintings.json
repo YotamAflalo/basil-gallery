@@ -1,92 +1,92 @@
 [
     {
-        "title": "river",
+        "title": "Dutch Canal Scene",
         "image_path": "/static/images/Netherlands/490181602_2992410944252632_3473814032084073021_n.jpg",
-        "year": 2017,
+        "year": "unknow",
         "country": "Netherlands",
-        "location": " ",
+        "location": "Amsterdam Canal",
         "current_location": "yotam's home",
         "technique": "Watercolor",
-        "description": "Watercolor painting of a river in the Netherlands"
+        "description": "A serene watercolor painting capturing the essence of Amsterdam's iconic canals, with traditional Dutch architecture reflected in the calm waters."
     },
     {
-        "title": "tree and a river",
+        "title": "Dutch Countryside Stream",
         "image_path": "/static/images/Netherlands/490345659_2992410704252656_2361460038649804973_n.jpg",
-        "year": 2000,
+        "year": "unknow",
         "country": "Netherlands",
-        "location": "unknown",
+        "location": "Dutch Countryside",
         "current_location": "unsorted yet",
         "technique": "Watercolor",
-        "description": "unsorted yet"
+        "description": "A peaceful watercolor depiction of a rural Dutch stream, surrounded by lush vegetation and characteristic Dutch landscape elements."
     },
     {
-        "title": "490572499 2992244367602623 8650726156780937360 n",
+        "title": "Dutch Village Street",
         "image_path": "/static/images/Netherlands/490572499_2992244367602623_8650726156780937360_n.jpg",
-        "year": "unsorted yet",
+        "year": "unknown",
         "country": "Netherlands",
-        "location": "unsorted yet",
+        "location": "Dutch Village",
         "current_location": "yotam's home",
         "technique": "Watercolor",
-        "description": "unsorted yet"
+        "description": "A charming watercolor painting of a traditional Dutch village street, showcasing the unique architecture and atmosphere of rural Netherlands."
     },
     {
-        "title": "homes and river",
+        "title": "Dutch Riverside Houses",
         "image_path": "/static/images/Netherlands/490587693_2992409760919417_2553179504019128149_n.jpg",
-        "year": "unsorted yet",
+        "year": "unknow",
         "country": "Netherlands",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "unsorted yet"
-    },
-    {
-        "title": "490595958 2992410950919298 8658593828181424837 n",
-        "image_path": "/static/images/Netherlands/490595958_2992410950919298_8658593828181424837_n.jpg",
-        "year": "unsorted yet",
-        "country": "Netherlands",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "unsorted yet"
-    },
-    {
-        "title": "490741999 2992239147603145 5968185705421010636 n",
-        "image_path": "/static/images/Netherlands/490741999_2992239147603145_5968185705421010636_n.jpg",
-        "year": "unsorted yet",
-        "country": "Netherlands",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "unsorted yet"
-    },
-    {
-        "title": "490742052 2991212597705800 5465045115878650160 n",
-        "image_path": "/static/images/Netherlands/490742052_2991212597705800_5465045115878650160_n.jpg",
-        "year": "unsorted yet",
-        "country": "Netherlands",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "unsorted yet"
-    },
-    {
-        "title": "windmillyear=2008",
-        "image_path": "/static/images/Netherlands/windmillyear=2008.jpg",
-        "year": "unsorted yet",
-        "country": "Netherlands",
-        "location": "unsorted yet",
+        "location": "Dutch Waterfront",
         "current_location": "unsorted yet",
         "technique": "Watercolor",
-        "description": "unsorted yet"
+        "description": "A detailed watercolor painting of traditional Dutch houses along a river, capturing the characteristic Dutch architectural style and waterfront living."
     },
     {
-        "title": "waterfall",
-        "image_path": "/static/images/Switzerland/waterfall.jpg",
-        "year": "unsorted yet",
-        "country": "Switzerland",
-        "location": "unsorted yet",
+        "title": "Dutch Market Square",
+        "image_path": "/static/images/Netherlands/490595958_2992410950919298_8658593828181424837_n.jpg",
+        "year": "unknow",
+        "country": "Netherlands",
+        "location": "Dutch Market",
         "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "unsorted yet"
+        "technique": "Watercolor",
+        "description": "A vibrant watercolor painting of a traditional Dutch market square, depicting the lively atmosphere and historic buildings typical of Dutch towns."
+    },
+    {
+        "title": "Dutch Windmill Scene",
+        "image_path": "/static/images/Netherlands/490741999_2992239147603145_5968185705421010636_n.jpg",
+        "year": "2013",
+        "country": "Netherlands",
+        "location": "Dutch Countryside",
+        "current_location": "unsorted yet",
+        "technique": "Watercolor",
+        "description": "A picturesque watercolor painting featuring a traditional Dutch windmill in the countryside, symbolizing the iconic Dutch landscape."
+    },
+    {
+        "title": "Dutch Harbor View",
+        "image_path": "/static/images/Netherlands/490742052_2991212597705800_5465045115878650160_n.jpg",
+        "year": "2012",
+        "country": "Netherlands",
+        "location": "Dutch Harbor",
+        "current_location": "unsorted yet",
+        "technique": "Watercolor",
+        "description": "A detailed watercolor painting of a Dutch harbor, capturing the maritime heritage and coastal atmosphere of the Netherlands."
+    },
+    {
+        "title": "Traditional Dutch Windmill",
+        "image_path": "/static/images/Netherlands/windmillyear=2008.jpg",
+        "year": "2008",
+        "country": "Netherlands",
+        "location": "Dutch Countryside",
+        "current_location": "unsorted yet",
+        "technique": "Watercolor",
+        "description": "A classic watercolor painting of a traditional Dutch windmill, set against the characteristic flat landscape of the Netherlands."
+    },
+    {
+        "title": "Swiss Alpine Waterfall",
+        "image_path": "/static/images/Switzerland/waterfall.jpg",
+        "year": "2010",
+        "country": "Switzerland",
+        "location": "Swiss Alps",
+        "current_location": "unsorted yet",
+        "technique": "Watercolor",
+        "description": "A dramatic watercolor painting of a cascading waterfall in the Swiss Alps, capturing the raw beauty and power of the mountainous landscape."
     }
 ]

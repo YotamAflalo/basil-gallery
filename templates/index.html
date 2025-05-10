@@ -175,6 +175,9 @@
         <a href="/locations/{{ loc }}">{{ loc }}</a>
       {% endfor %}
     </div>
+    <div style="position: absolute; bottom: 30px; left: 20px; width: 200px;">
+      <a class="button-link" href="/login" style="background:#6b889c;color:#000;width:100%;text-align:center;">Manager Login</a>
+    </div>
   </div>
 
   <div class="main">
@@ -205,7 +208,7 @@
     <div class="painting-mosaic">
       {% if mosaic_paintings %}
         {% for painting in mosaic_paintings %}
-          <a href="/painting/{{ painting.id if painting.get('id') else loop.index }}" class="mosaic-item">
+          <a href="/painting/{{ painting.image_path }}" class="mosaic-item">
             <img src="{{ painting.image_path }}" alt="{{ painting.title if painting.get('title') else 'Painting by Basil Swimmer' }}">
           </a>
         {% endfor %}

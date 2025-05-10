@@ -1,4 +1,4 @@
-from fastapi import FastAPI, Request, Form
+from fastapi import FastAPI, Request, Form, UploadFile
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 from fastapi.responses import RedirectResponse
@@ -20,7 +20,6 @@ PASSWORD = os.getenv("GALLERY_PASS")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPO")  # Format: "username/repo"
 
-print(USERNAME,PASSWORD)
 app = FastAPI()
 app.add_middleware(SessionMiddleware, secret_key="your_super_secret_key")
 
@@ -113,10 +112,15 @@ def schedule_daily_pr():
 scheduler_thread = threading.Thread(target=schedule_daily_pr, daemon=True)
 scheduler_thread.start()
 
+# Helper function to load paintings
+def load_paintings():
+    with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
+        return json.load(f)
+
 @app.get("/")
 def home(request: Request):
     import random
-    
+    paintings = load_paintings()
     countries = sorted(set(p.get("country", "Unsorted yet") for p in paintings))
     years = sorted(set(
         int(p["year"]) for p in paintings 
@@ -124,15 +128,9 @@ def home(request: Request):
     ))
     locations_now = sorted(set(p.get("current_location", "Unknown") for p in paintings))
     techniques = sorted(set(p.get("technique", "Unsorted yet") for p in paintings))
-    
-    # Get a sample of paintings for the mosaic (max 6)
-    # Filter out paintings without image_path
     valid_paintings = [p for p in paintings if p.get("image_path")]
-    
-    # If fewer than 6 paintings are available, use all of them
     sample_size = min(6, len(valid_paintings))
     mosaic_paintings = random.sample(valid_paintings, sample_size) if valid_paintings else []
-    
     return templates.TemplateResponse("index.html", {
         "request": request,
         "countries": countries,
@@ -142,19 +140,20 @@ def home(request: Request):
         "mosaic_paintings": mosaic_paintings
     })
 
-@app.get("/painting/{painting_id}")
-def view_painting(request: Request, painting_id: int):
-    # Find the painting by its index in the list
-    if 0 <= painting_id - 1 < len(paintings):
-        painting = paintings[painting_id - 1]
-        return templates.TemplateResponse("painting_detail.html", {
-            "request": request,
-            "painting": painting
-        })
+@app.get("/painting/{image_path:path}")
+def view_painting(request: Request, image_path: str):
+    paintings = load_paintings()
+    for painting in paintings:
+        if painting.get("image_path") == image_path:
+            return templates.TemplateResponse("painting_detail.html", {
+                "request": request,
+                "painting": painting
+            })
     return {"detail": "Painting not found"}
 
 @app.get("/galleries/{country}")
 def gallery_by_country(country: str, request: Request):
+    paintings = load_paintings()
     filtered = [p for p in paintings if p.get("country", "").lower() == country.lower()]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
@@ -164,6 +163,7 @@ def gallery_by_country(country: str, request: Request):
 
 @app.get("/galleries/year/{year}")
 def gallery_by_year(year: int, request: Request):
+    paintings = load_paintings()
     filtered = [p for p in paintings if str(p.get("year")) == str(year)]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
@@ -173,6 +173,7 @@ def gallery_by_year(year: int, request: Request):
 
 @app.get("/locations/{location}")
 def gallery_by_current_location(location: str, request: Request):
+    paintings = load_paintings()
     filtered = [p for p in paintings if p.get("current_location", "").lower() == location.lower()]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
@@ -182,6 +183,7 @@ def gallery_by_current_location(location: str, request: Request):
 
 @app.get("/techniques/{technique}")
 def gallery_by_technique(technique: str, request: Request):
+    paintings = load_paintings()
     filtered = [p for p in paintings if p.get("technique", "").lower() == technique.lower()]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
@@ -197,7 +199,7 @@ def login_page(request: Request):
 def login(request: Request, username: str = Form(...), password: str = Form(...)):
     if username == USERNAME and password == PASSWORD:
         request.session["authenticated"] = True
-        return RedirectResponse("/manage", status_code=303)
+        return RedirectResponse("/dashboard", status_code=303)
     else:
         return templates.TemplateResponse("login.html", {
             "request": request,
@@ -207,7 +209,6 @@ def login(request: Request, username: str = Form(...), password: str = Form(...)
 @app.get("/manage")
 def manage_page(request: Request):
     global manager_index
-
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
 
@@ -295,3 +296,92 @@ def reset_manager():
     global manager_index
     manager_index = 0
     return RedirectResponse("/manage", status_code=303)
+
+@app.get("/upload_image")
+def upload_image_form(request: Request):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    return templates.TemplateResponse("upload_image.html", {"request": request})
+
+@app.post("/upload_image")
+def upload_image(request: Request, image_file: UploadFile = Form(...)):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    unsorted_dir = BASE_DIR / "static" / "images" / "unsorted"
+    unsorted_dir.mkdir(parents=True, exist_ok=True)
+    file_location = unsorted_dir / image_file.filename
+    with open(file_location, "wb") as f:
+        f.write(image_file.file.read())
+    return RedirectResponse(f"/add_painting?image_path=images/unsorted/{image_file.filename}", status_code=303)
+
+@app.get("/add_painting")
+def add_painting_form(request: Request, image_path: str):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    return templates.TemplateResponse("add_painting.html", {"request": request, "image_path": image_path})
+
+@app.post("/add_painting")
+def add_painting(
+    request: Request,
+    image_path: str = Form(...),
+    title: str = Form(...),
+    year: str = Form(...),
+    country: str = Form(...),
+    location: str = Form(...),
+    current_location: str = Form(...),
+    technique: str = Form(...),
+    description: str = Form(...)
+):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    paintings = load_paintings()
+    new_entry = {
+        "title": title,
+        "image_path": image_path,
+        "year": year,
+        "country": country,
+        "location": location,
+        "current_location": current_location,
+        "technique": technique,
+        "description": description
+    }
+    paintings.append(new_entry)
+    with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(paintings, f, indent=4, ensure_ascii=False)
+    return RedirectResponse("/manage", status_code=303)
+
+@app.get("/dashboard")
+def manager_dashboard(request: Request):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    return templates.TemplateResponse("dashboard.html", {"request": request})
+
+@app.get("/edit_gallery")
+def edit_gallery(request: Request):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    paintings = load_paintings()
+    return templates.TemplateResponse("edit_gallery.html", {"request": request, "paintings": paintings})
+
+@app.post("/edit_gallery")
+async def save_edit_gallery(request: Request):
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
+    form = await request.form()
+    paintings = load_paintings()
+    # Update paintings with form data
+    updated_paintings = []
+    for i, painting in enumerate(paintings):
+        updated_paintings.append({
+            "title": form.get(f"title_{i}", painting["title"]),
+            "image_path": painting["image_path"],
+            "year": form.get(f"year_{i}", painting["year"]),
+            "country": form.get(f"country_{i}", painting["country"]),
+            "location": form.get(f"location_{i}", painting["location"]),
+            "current_location": form.get(f"current_location_{i}", painting["current_location"]),
+            "technique": form.get(f"technique_{i}", painting["technique"]),
+            "description": form.get(f"description_{i}", painting["description"])
+        })
+    with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
+        json.dump(updated_paintings, f, indent=4, ensure_ascii=False)
+    return RedirectResponse("/galleries/Netherlands", status_code=303)

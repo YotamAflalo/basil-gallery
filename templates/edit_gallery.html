@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Gallery – Basil Swimmer</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f7f7f7;
+            margin: 0;
+            padding: 0;
+        }
+        .save-btn {
+            position: fixed;
+            top: 30px;
+            right: 40px;
+            z-index: 1000;
+            font-size: 1.3rem;
+            padding: 18px 40px;
+            background: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            font-weight: bold;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .gallery {
+            max-width: 1100px;
+            margin: 80px auto 40px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+        }
+        .painting {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+            padding: 24px 18px 18px 18px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .painting img {
+            max-width: 100%;
+            max-height: 220px;
+            border-radius: 6px;
+            margin-bottom: 18px;
+        }
+        .painting label {
+            font-weight: bold;
+            margin-top: 10px;
+            display: block;
+            text-align: left;
+            width: 100%;
+        }
+        .painting input, .painting textarea {
+            width: 100%;
+            font-size: 1.05rem;
+            margin-top: 3px;
+            margin-bottom: 10px;
+            padding: 7px;
+            border: 1px solid #aaa;
+            border-radius: 4px;
+        }
+        .painting textarea {
+            resize: vertical;
+        }
+    </style>
+</head>
+<body>
+    <form method="POST" action="/edit_gallery">
+        <button class="save-btn" type="submit">💾 Save</button>
+        <h1>Edit Gallery</h1>
+        <a href="/dashboard">← Back to Dashboard</a>
+        <div class="gallery">
+            {% for painting in paintings %}
+            <div class="painting">
+                <img src="{{ painting.image_path }}" alt="Painting">
+                <label>Title:
+                    <input type="text" name="title_{{ loop.index0 }}" value="{{ painting.title }}">
+                </label>
+                {% if painting.year not in ["unknown", "unsorted yet"] %}
+                <label>Year:
+                    <input type="text" name="year_{{ loop.index0 }}" value="{{ painting.year }}">
+                </label>
+                {% endif %}
+                {% if painting.country not in ["unknown", "unsorted yet"] %}
+                <label>Country:
+                    <input type="text" name="country_{{ loop.index0 }}" value="{{ painting.country }}">
+                </label>
+                {% endif %}
+                {% if painting.location not in ["unknown", "unsorted yet"] %}
+                <label>Location:
+                    <input type="text" name="location_{{ loop.index0 }}" value="{{ painting.location }}">
+                </label>
+                {% endif %}
+                {% if painting.current_location not in ["unknown", "unsorted yet"] %}
+                <label>Current Location:
+                    <input type="text" name="current_location_{{ loop.index0 }}" value="{{ painting.current_location }}">
+                </label>
+                {% endif %}
+                {% if painting.technique not in ["unknown", "unsorted yet"] %}
+                <label>Technique:
+                    <input type="text" name="technique_{{ loop.index0 }}" value="{{ painting.technique }}">
+                </label>
+                {% endif %}
+                {% if painting.description not in ["unknown", "unsorted yet"] %}
+                <label>Description:
+                    <textarea name="description_{{ loop.index0 }}" rows="3">{{ painting.description }}</textarea>
+                </label>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+    </form>
+</body>
+</html> 

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Manager Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 1.2rem;
+            padding: 40px;
+            max-width: 600px;
+            margin: auto;
+            background: #f7f7f7;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .dashboard-options {
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            margin-top: 40px;
+        }
+        .dashboard-options a {
+            display: block;
+            padding: 18px;
+            background: #6b889c;
+            color: #fff;
+            text-align: center;
+            border-radius: 8px;
+            font-size: 1.2rem;
+            text-decoration: none;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+        .dashboard-options a:hover {
+            background: #4a6175;
+        }
+    </style>
+</head>
+<body>
+    <h1>Manager Dashboard</h1>
+    <div class="dashboard-options">
+        <a href="/upload_image">➕ Add Image</a>
+        <a href="/manage">📝 Fill Fields</a>
+        <a href="/edit_gallery">✏️ Edit Website</a>
+    </div>
+</body>
+</html> 

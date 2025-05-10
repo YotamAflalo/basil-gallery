@@ -62,9 +62,18 @@
                  data-description="{{ painting.description }}"
                  data-technique="{{ painting.technique }}">
             <p><strong>{{ painting.title }}</strong></p>
-            <p>{{ painting.year }} – {{ painting.location }}</p>
+            {% if painting.year not in ["unknown", "unsorted yet"] %}
+            <p>year: {{ painting.year }}</p>
+            {% endif %}
+            {% if painting.location not in ["unknown", "unsorted yet"] %}
+            <p>{{ painting.location }}</p>
+            {% endif %}
+            {% if painting.current_location not in ["unknown", "unsorted yet"] %}
             <p><em>Current Location:</em> {{ painting.current_location }}</p>
+            {% endif %}
+            {% if painting.description not in ["unknown", "unsorted yet"] %}
             <p>{{ painting.description }}</p>
+            {% endif %}
         </div>
         {% endfor %}
     </div>
