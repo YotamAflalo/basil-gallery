@@ -1,7 +1,7 @@
 from fastapi import FastAPI, Request, Form, UploadFile
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from fastapi.responses import RedirectResponse
+from fastapi.responses import RedirectResponse, JSONResponse
 from starlette.middleware.sessions import SessionMiddleware
 from dotenv import load_dotenv
 import json, os, shutil
@@ -11,6 +11,11 @@ from datetime import datetime
 import schedule
 import time
 import threading
+import logging
+from datetime import timedelta
+import smtplib
+from email.mime.text import MIMEText
+from collections import deque
 
 # Load .env
 load_dotenv()
@@ -34,6 +39,30 @@ with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
 
 manager_index = 0  # tracks current position in painting list
 last_json_mtime = PAINTINGS_JSON_PATH.stat().st_mtime  # tracks last modification time of paintings.json
+
+# Health check endpoint
+@app.get("/health")
+def health():
+    return JSONResponse({"status": "ok"})
+
+# Ensure logs directory exists
+LOGS_DIR = BASE_DIR / "logs"
+LOGS_DIR.mkdir(exist_ok=True)
+MANAGER_LOG_FILE = LOGS_DIR / "manager.log"
+
+# Set up logging for manager actions
+manager_logger = logging.getLogger("manager")
+manager_logger.setLevel(logging.INFO)
+manager_handler = logging.FileHandler(MANAGER_LOG_FILE, encoding="utf-8")
+manager_handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
+if not manager_logger.hasHandlers():
+    manager_logger.addHandler(manager_handler)
+
+def log_manager_action(action, details=None):
+    msg = f"ACTION: {action}"
+    if details:
+        msg += f" | DETAILS: {details}"
+    manager_logger.info(msg)
 
 def move_image_to_country_folder(image_path: str, country: str):
     """Move an image to its country folder, creating the folder if it doesn't exist."""
@@ -246,15 +275,13 @@ def update_painting(
     country: str = Form(...)
 ):
     global manager_index
-
+    if not request.session.get("authenticated"):
+        return RedirectResponse("/login", status_code=303)
     with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
         paintings_data = json.load(f)
-
     for painting in paintings_data:
         if painting["image_path"] == image_path:
-            # Move image to country folder if country is provided
             new_image_path = move_image_to_country_folder(image_path, country)
-            
             painting.update({
                 "title": title,
                 "year": int(year) if year.isdigit() else year,
@@ -265,11 +292,10 @@ def update_painting(
                 "country": country,
                 "image_path": new_image_path
             })
+            log_manager_action("update_painting", {"image_path": image_path, "title": title})
             break
-
     with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(paintings_data, f, indent=4, ensure_ascii=False)
-
     manager_index += 1
     return RedirectResponse("/manage", status_code=303)
 
@@ -312,6 +338,7 @@ def upload_image(request: Request, image_file: UploadFile = Form(...)):
     file_location = unsorted_dir / image_file.filename
     with open(file_location, "wb") as f:
         f.write(image_file.file.read())
+    log_manager_action("upload_image", {"filename": image_file.filename})
     return RedirectResponse(f"/add_painting?image_path=images/unsorted/{image_file.filename}", status_code=303)
 
 @app.get("/add_painting")
@@ -348,6 +375,7 @@ def add_painting(
     paintings.append(new_entry)
     with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(paintings, f, indent=4, ensure_ascii=False)
+    log_manager_action("add_painting", {"image_path": image_path, "title": title})
     return RedirectResponse("/manage", status_code=303)
 
 @app.get("/dashboard")
@@ -369,7 +397,6 @@ async def save_edit_gallery(request: Request):
         return RedirectResponse("/login", status_code=303)
     form = await request.form()
     paintings = load_paintings()
-    # Update paintings with form data
     updated_paintings = []
     for i, painting in enumerate(paintings):
         updated_paintings.append({
@@ -384,4 +411,71 @@ async def save_edit_gallery(request: Request):
         })
     with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(updated_paintings, f, indent=4, ensure_ascii=False)
+    log_manager_action("edit_gallery", {"count": len(updated_paintings)})
     return RedirectResponse("/galleries/Netherlands", status_code=303)
+
+# Error tracking
+ERROR_LOG_FILE = LOGS_DIR / "errors.log"
+error_logger = logging.getLogger("errors")
+error_logger.setLevel(logging.INFO)
+error_handler = logging.FileHandler(ERROR_LOG_FILE, encoding="utf-8")
+error_handler.setFormatter(logging.Formatter("%(asctime)s %(message)s"))
+if not error_logger.hasHandlers():
+    error_logger.addHandler(error_handler)
+
+error_events = deque()
+ERROR_THRESHOLD = 5
+ERROR_WINDOW_SECONDS = 600  # 10 minutes
+ALERT_SENT = False
+
+GMAIL_USER = os.getenv("GMAIL_USER")
+GMAIL_PASS = os.getenv("GMAIL_PASS")
+ALERT_EMAIL = os.getenv("ALERT_EMAIL")
+
+# Email alert function
+def send_error_alert(count):
+    global ALERT_SENT
+    if not (GMAIL_USER and GMAIL_PASS and ALERT_EMAIL):
+        print("Gmail credentials not set, cannot send alert.")
+        return
+    subject = "Gallery Error Alert"
+    body = f"There have been {count} errors (404/500) in the last 10 minutes. Please check the site."
+    msg = MIMEText(body)
+    msg["Subject"] = subject
+    msg["From"] = GMAIL_USER
+    msg["To"] = ALERT_EMAIL
+    try:
+        with smtplib.SMTP_SSL("smtp.gmail.com", 465) as server:
+            server.login(GMAIL_USER, GMAIL_PASS)
+            server.sendmail(GMAIL_USER, ALERT_EMAIL, msg.as_string())
+        ALERT_SENT = True
+        print("Error alert email sent.")
+    except Exception as e:
+        print(f"Failed to send alert email: {e}")
+
+# Error handler
+@app.exception_handler(404)
+def not_found_handler(request, exc):
+    from datetime import datetime
+    now = datetime.now().timestamp()
+    error_events.append(now)
+    error_logger.info(f"404: {request.url}")
+    # Remove old events
+    while error_events and now - error_events[0] > ERROR_WINDOW_SECONDS:
+        error_events.popleft()
+    if len(error_events) > ERROR_THRESHOLD and not ALERT_SENT:
+        send_error_alert(len(error_events))
+    return JSONResponse({"detail": "Not Found"}, status_code=404)
+
+@app.exception_handler(500)
+def server_error_handler(request, exc):
+    from datetime import datetime
+    now = datetime.now().timestamp()
+    error_events.append(now)
+    error_logger.info(f"500: {request.url}")
+    # Remove old events
+    while error_events and now - error_events[0] > ERROR_WINDOW_SECONDS:
+        error_events.popleft()
+    if len(error_events) > ERROR_THRESHOLD and not ALERT_SENT:
+        send_error_alert(len(error_events))
+    return JSONResponse({"detail": "Internal Server Error"}, status_code=500)
