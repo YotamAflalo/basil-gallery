@@ -160,13 +160,24 @@ def home(request: Request):
     valid_paintings = [p for p in paintings if p.get("image_path")]
     sample_size = min(6, len(valid_paintings))
     mosaic_paintings = random.sample(valid_paintings, sample_size) if valid_paintings else []
+
+    # Get first 9 paintings for each country
+    def first_n_by_country(country, n=9):
+        return [p for p in paintings if p.get("country") == country and p.get("image_path")] [:n]
+    swiss_paintings = first_n_by_country("Switzerland")
+    netherlands_paintings = first_n_by_country("Netherlands")
+    southafrica_paintings = first_n_by_country("South Africa")
+
     return templates.TemplateResponse("index.html", {
         "request": request,
         "countries": countries,
         "years": years,
         "locations_now": locations_now,
         "techniques": techniques,
-        "mosaic_paintings": mosaic_paintings
+        "mosaic_paintings": mosaic_paintings,
+        "swiss_paintings": swiss_paintings,
+        "netherlands_paintings": netherlands_paintings,
+        "southafrica_paintings": southafrica_paintings
     })
 
 @app.get("/painting/{image_path:path}")
