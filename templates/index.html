@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Basil Swimmer – Home</title>
   <link rel="stylesheet" href="/static/styles.css">
   <style>
@@ -13,7 +14,55 @@
       height: 100vh;
       display: flex;
     }
-    
+    @media (max-width: 900px) {
+      body {
+        flex-direction: column;
+        height: auto;
+      }
+      .sidebar {
+        width: 100vw;
+        position: static !important;
+        border-right: none;
+        border-bottom: 1px solid #333;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 5vw;
+        box-sizing: border-box;
+        overflow-x: auto;
+        overflow-y: visible;
+      }
+      .sidebar .section {
+        min-width: 120px;
+        margin-bottom: 10px;
+      }
+      .main {
+        padding: 20px 5vw;
+      }
+      .gallery, .painting-mosaic {
+        grid-template-columns: repeat(2, 1fr) !important;
+      }
+    }
+    @media (max-width: 600px) {
+      .sidebar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 10px;
+      }
+      .main {
+        padding: 10px 5px;
+      }
+      .gallery, .painting-mosaic {
+        grid-template-columns: 1fr !important;
+      }
+      .cta-buttons {
+        flex-direction: column;
+        gap: 10px;
+      }
+      .portrait {
+        width: 100px;
+      }
+    }
     .sidebar {
       background-color: #000;
       width: 240px;
@@ -21,6 +70,8 @@
       box-sizing: border-box;
       border-right: 1px solid #333;
       overflow-y: auto;
+      position: relative;
+      min-width: 0;
     }
     
     .sidebar h2 {
@@ -189,12 +240,13 @@
       <div class="main-content">
         <h1>Basil Swimmer</h1>
         <p>
-          Dubi's journey began in <strong>South Africa</strong>, where his deep love for landscapes and human life led him to the canvas
-          In ___ he immigrated to Israel and worked for the Kargel company. 
-          This gallery displays the paintings that Dubi painted throughout his life. 
-          The paintings depict sights he saw in his youth in South Africa, Israel, and on his travels around the world. 
-          Dubi painted many paintings in oil, watercolor, and a few other surprising techniques.
-          His paintings are windows into memories — some vivid, some blurred, but all deeply personal.
+Basil Andrew Swimmer - דב סוימר<br>
+Born 27.10.1941 South Africa and made Aliya to Israel in 1977.<br>
+The son of Rebecka and Avraham Swimmer, and the middle brother of Lennie and Courine (blessed memory)<br>
+Married to Phyllis, a father to Aviva, blessed memory, Osnat and Cherilee, and is the happiest grandfather to 11 wonderful grandchildren. (Moran, Ziv, Shira, Shai, Michal, Guy, Yotam, Eran, Dror, Yoav and Avner)<br><br>
+Basil has been painting and drawing in oil paints, water colours, acrylic, chalk ect.<br>
+His paintings are a world of nature, feelings, imaginary and thoughts.<br>
+Each painting can express so many feelings and beauty. His paintings include scenery from all over the world: South Africa, Israel, Switzerland, Netherlands and more.
         </p>
         
         <div class="cta-buttons">
