@@ -86,7 +86,7 @@
         "country": "Switzerland",
         "location": "Swiss Alps",
         "current_location": "Unknown",
-        "technique": "Watercolor",
+        "technique": "photo",
         "description": "A dramatic watercolor painting of a cascading waterfall in the Swiss Alps, capturing the raw beauty and power of the mountainous landscape."
     },
     "215ba558-a700-52e8-aefb-6e01880cf884": {
@@ -96,7 +96,7 @@
         "country": "unsorted",
         "location": "Unknown",
         "current_location": "Unknown",
-        "technique": "Unsorted yet",
+        "technique": "Watercolor",
         "description": "a painting of a waterfall in the woods."
     },
     "b644aafa-6236-5a18-b667-dc567c4e5c9a": {
@@ -106,7 +106,7 @@
         "country": "unsorted",
         "location": "Unknown",
         "current_location": "Unknown",
-        "technique": "Unsorted yet",
+        "technique": "Watercolor",
         "description": "a painting of a river in the mountains"
     },
     "094c7d39-83a0-5411-9c21-3e11bfa48635": {
@@ -116,7 +116,7 @@
         "country": "unsorted",
         "location": "Unknown",
         "current_location": "Unknown",
-        "technique": "Unsorted yet",
+        "technique": "Watercolor",
         "description": "a painting of a waterfall in the woods"
     },
     "1e90e459-65f5-505f-8cf3-695a0d19cd9c": {
@@ -124,17 +124,17 @@
         "image_path": "/static/images/unsorted/224408_100817796745309_1155049077_n.jpg",
         "year": "Unknown",
         "country": "unsorted",
-        "location": "Unknown",
+        "location": "Switzerland",
         "current_location": "Unknown",
         "technique": "Unsorted yet",
-        "description": "a painting of a waterfall in the mountains"
+        "description": "a painting of a waterfall in the mountains."
     },
     "97451288-6ad7-5faa-9c85-d510ba34129e": {
         "title": "a painting of a waterfall in the woods",
         "image_path": "/static/images/unsorted/227425_100832936743795_490879877_n.jpg",
         "year": "Unknown",
         "country": "unsorted",
-        "location": "Unknown",
+        "location": "Switzerland",
         "current_location": "Unknown",
         "technique": "Unsorted yet",
         "description": "a painting of a waterfall in the woods"
