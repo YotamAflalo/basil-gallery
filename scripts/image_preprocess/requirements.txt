@@ -3,4 +3,5 @@ torch>=2.0.0
 Pillow>=9.0.0
 tqdm>=4.65.0
 loguru>=0.7.0
-requests>=2.31.0 
+requests>=2.31.0
+PyMuPDF>=1.23.0 

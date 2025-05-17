@@ -17,6 +17,7 @@ import smtplib
 from email.mime.text import MIMEText
 from collections import deque
 from uuid import uuid5, NAMESPACE_URL
+import sys
 
 # Load .env
 load_dotenv()
@@ -105,30 +106,33 @@ def create_github_pr():
         return
 
     try:
-        # Create a new branch
+        # Configure git using environment variables
+        git_user = os.getenv("GIT_USER_NAME", "Basil Gallery Bot")
+        git_email = os.getenv("GIT_USER_EMAIL", "bot@basilgallery.com")
+        subprocess.run(["git", "config", "user.name", git_user], check=True)
+        subprocess.run(["git", "config", "user.email", git_email], check=True)
+        if GITHUB_TOKEN:
+            repo_url = f"https://{GITHUB_TOKEN}@github.com/{GITHUB_REPO}.git"
+            subprocess.run(["git", "remote", "set-url", "origin", repo_url], check=True)
         branch_name = f"update-gallery-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
         subprocess.run(["git", "checkout", "-b", branch_name], check=True)
-
-        # Add all changes
-        subprocess.run(["git", "add", "."], check=True)
-
-        # Commit changes
+        # Add paintings.json and all PNGs in static/images/unsorted
+        subprocess.run(["git", "add", "data/paintings.json"], check=True)
+        subprocess.run(["git", "add", "static/images/unsorted/*.png"], shell=True, check=True)
         commit_message = f"Update gallery: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
-
-        # Push changes
         subprocess.run(["git", "push", "origin", branch_name], check=True)
-
-        # Create PR using GitHub API
         pr_title = f"Gallery Update {datetime.now().strftime('%Y-%m-%d')}"
         pr_body = "Automatic gallery update with new paintings and organization changes."
-        
-        # You would need to implement the actual PR creation using GitHub's API
-        # This is a placeholder for the actual implementation
         print(f"Created PR: {pr_title}")
-
     except Exception as e:
         print(f"Error creating PR: {e}")
+        try:
+            subprocess.run(["git", "checkout", "main"], check=True)
+            subprocess.run(["git", "branch", "-D", branch_name], check=True)
+        except:
+            pass
+        raise e
 
 def schedule_daily_pr():
     """Schedule daily PR creation."""
@@ -348,11 +352,24 @@ def upload_image(request: Request, image_file: UploadFile = Form(...)):
         return RedirectResponse("/login", status_code=303)
     unsorted_dir = BASE_DIR / "static" / "images" / "unsorted"
     unsorted_dir.mkdir(parents=True, exist_ok=True)
-    file_location = unsorted_dir / image_file.filename
-    with open(file_location, "wb") as f:
+    temp_path = unsorted_dir / ("temp_" + image_file.filename)
+    with open(temp_path, "wb") as f:
         f.write(image_file.file.read())
-    log_manager_action("upload_image", {"filename": image_file.filename})
-    return RedirectResponse(f"/add_painting?image_path=images/unsorted/{image_file.filename}", status_code=303)
+    # Process the uploaded file (convert PDF to PNG if needed)
+    result = subprocess.run([
+        sys.executable, str(BASE_DIR / "scripts" / "process_uploaded.py"),
+        str(temp_path), str(unsorted_dir)
+    ], capture_output=True, text=True)
+    if result.returncode != 0:
+        log_manager_action("upload_image_failed", {"filename": image_file.filename, "error": result.stderr})
+        return templates.TemplateResponse("upload_image.html", {"request": request, "error": "Failed to process uploaded file."})
+    processed_path = result.stdout.strip()
+    # Remove the temp file if it was converted
+    if temp_path != processed_path and temp_path.exists():
+        temp_path.unlink()
+    filename = os.path.basename(processed_path)
+    log_manager_action("upload_image", {"filename": filename})
+    return RedirectResponse(f"/add_painting?image_path=images/unsorted/{filename}", status_code=303)
 
 @app.get("/add_painting")
 def add_painting_form(request: Request, image_path: str):

@@ -1,51 +1,144 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Manager Dashboard</title>
-    <link rel="stylesheet" href="/static/styles.css">
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            font-size: 1.2rem;
-            padding: 40px;
-            max-width: 600px;
-            margin: auto;
-            background: #f7f7f7;
+{% extends "base.html" %}
+
+{% block title %}Manager Dashboard{% endblock %}
+
+{% block extra_head %}
+<style>
+    body {
+        background: #fafafa;
+    }
+    .dashboard-container {
+        max-width: 600px;
+        margin: 4rem auto 0 auto;
+        padding: 2.5rem 2rem 2rem 2rem;
+        background: #fff;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+        text-align: center;
+    }
+    .dashboard-container h1 {
+        font-size: 2.2rem;
+        margin-bottom: 2.5rem;
+        color: #2c3e50;
+        font-weight: 700;
+    }
+    .action-buttons {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1.5rem;
+        justify-content: center;
+        margin-bottom: 2.5rem;
+    }
+    .action-button {
+        min-width: 180px;
+        padding: 1rem 0;
+        font-size: 1.1rem;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        background: #f4f4f4;
+        color: #2c3e50;
+        font-weight: 500;
+        box-shadow: 0 2px 8px rgba(44,62,80,0.04);
+        transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+        outline: none;
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+    }
+    .action-button:hover, .action-button:focus {
+        background: #e1eaff;
+        color: #1a237e;
+        box-shadow: 0 4px 16px rgba(44,62,80,0.08);
+    }
+    .pr-button {
+        background-color: #2ea44f;
+        color: white;
+    }
+    .pr-button:hover, .pr-button:focus {
+        background-color: #218838;
+        color: #fff;
+    }
+    .toast-container {
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        z-index: 1000;
+    }
+    .toast {
+        background-color: white;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+        display: none;
+    }
+    .toast.success {
+        border-left: 4px solid #2ea44f;
+    }
+    .toast.error {
+        border-left: 4px solid #dc3545;
+    }
+    .toast.show {
+        display: block;
+        animation: slideIn 0.5s ease-out;
+    }
+    @keyframes slideIn {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
         }
-        h1 {
-            text-align: center;
-            margin-bottom: 30px;
+        to {
+            transform: translateX(0);
+            opacity: 1;
         }
-        .dashboard-options {
-            display: flex;
-            flex-direction: column;
-            gap: 25px;
-            margin-top: 40px;
-        }
-        .dashboard-options a {
-            display: block;
-            padding: 18px;
-            background: #6b889c;
-            color: #fff;
-            text-align: center;
-            border-radius: 8px;
-            font-size: 1.2rem;
-            text-decoration: none;
-            font-weight: bold;
-            transition: background 0.2s;
-        }
-        .dashboard-options a:hover {
-            background: #4a6175;
-        }
-    </style>
-</head>
-<body>
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="dashboard-container">
     <h1>Manager Dashboard</h1>
-    <div class="dashboard-options">
-        <a href="/upload_image">➕ Add Image</a>
-        <a href="/manage">📝 Fill Fields</a>
-        <a href="/edit_gallery">✏️ Edit Website</a>
+    <div class="action-buttons">
+        <a href="/upload_image" class="action-button">Upload Image</a>
+        <a href="/manage" class="action-button">Manage Paintings</a>
+        <a href="/edit_gallery" class="action-button">Edit Gallery</a>
+        <button onclick="createPR()" class="action-button pr-button">Upload to Repository</button>
     </div>
-</body>
-</html> 
+    <div class="toast-container">
+        <div id="successToast" class="toast success">
+            <strong>Success!</strong> Changes have been uploaded to the repository.
+        </div>
+        <div id="errorToast" class="toast error">
+            <strong>Error!</strong> An error occurred. Please contact Yotam.
+        </div>
+    </div>
+</div>
+<script>
+function showToast(type) {
+    const toast = document.getElementById(type + 'Toast');
+    toast.classList.add('show');
+    setTimeout(() => {
+        toast.classList.remove('show');
+    }, 5000);
+}
+async function createPR() {
+    try {
+        const response = await fetch('/create_pr', {
+            method: 'GET',
+            headers: {
+                'Accept': 'application/json'
+            }
+        });
+        if (response.ok) {
+            showToast('success');
+        } else {
+            showToast('error');
+        }
+    } catch (error) {
+        console.error('Error:', error);
+        showToast('error');
+    }
+}
+</script>
+{% endblock %} 
