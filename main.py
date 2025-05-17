@@ -105,6 +105,19 @@ def create_github_pr():
         return
 
     try:
+        # Configure git using environment variables
+        git_user = os.getenv("GIT_USER_NAME", "Basil Gallery Bot")
+        git_email = os.getenv("GIT_USER_EMAIL", "bot@basilgallery.com")
+        
+        # Set git config for this repository only (no --global)
+        subprocess.run(["git", "config", "user.name", git_user], check=True)
+        subprocess.run(["git", "config", "user.email", git_email], check=True)
+        
+        # Also configure the remote URL if GITHUB_TOKEN is available
+        if GITHUB_TOKEN:
+            repo_url = f"https://{GITHUB_TOKEN}@github.com/{GITHUB_REPO}.git"
+            subprocess.run(["git", "remote", "set-url", "origin", repo_url], check=True)
+
         # Create a new branch
         branch_name = f"update-gallery-{datetime.now().strftime('%Y%m%d-%H%M%S')}"
         subprocess.run(["git", "checkout", "-b", branch_name], check=True)
@@ -129,6 +142,13 @@ def create_github_pr():
 
     except Exception as e:
         print(f"Error creating PR: {e}")
+        # Try to clean up in case of error
+        try:
+            subprocess.run(["git", "checkout", "main"], check=True)
+            subprocess.run(["git", "branch", "-D", branch_name], check=True)
+        except:
+            pass  # Ignore cleanup errors
+        raise e
 
 def schedule_daily_pr():
     """Schedule daily PR creation."""
@@ -254,25 +274,27 @@ def manage_page(request: Request):
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
 
-    with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
-        paintings_data = json.load(f)
+    paintings_dict = load_paintings()
+    painting_ids = list(paintings_dict.keys())
 
     # Find next unsorted
-    while manager_index < len(paintings_data):
-        p = paintings_data[manager_index]
-        if "unsorted yet" in str(p.values()).lower():
+    while manager_index < len(painting_ids):
+        painting_id = painting_ids[manager_index]
+        painting = paintings_dict[painting_id]
+        if "unsorted yet" in str(painting.values()).lower():
             break
         manager_index += 1
 
-    if manager_index >= len(paintings_data):
+    if manager_index >= len(painting_ids):
         return templates.TemplateResponse("done.html", {"request": request})
 
-    painting = paintings_data[manager_index]
+    current_painting_id = painting_ids[manager_index]
+    painting = paintings_dict[current_painting_id]
     return templates.TemplateResponse("manage.html", {
         "request": request,
         "painting": painting,
         "index": manager_index + 1,
-        "total": len(paintings_data)
+        "total": len(painting_ids)
     })
 
 @app.post("/update_painting")
@@ -290,25 +312,44 @@ def update_painting(
     global manager_index
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
-    with open(PAINTINGS_JSON_PATH, "r", encoding="utf-8") as f:
-        paintings_data = json.load(f)
-    for painting in paintings_data:
-        if painting["image_path"] == image_path:
-            new_image_path = move_image_to_country_folder(image_path, country)
-            painting.update({
-                "title": title,
-                "year": int(year) if year.isdigit() else year,
-                "location": location,
-                "current_location": current_location,
-                "technique": technique,
-                "description": description,
-                "country": country,
-                "image_path": new_image_path
-            })
-            log_manager_action("update_painting", {"image_path": image_path, "title": title})
+    
+    paintings_dict = load_paintings()
+    
+    # Find the painting by image_path
+    painting_id = None
+    for pid, painting in paintings_dict.items():
+        if painting.get("image_path") == image_path:
+            painting_id = pid
             break
-    with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(paintings_data, f, indent=4, ensure_ascii=False)
+    
+    if painting_id is not None:
+        # Convert year to int if it's a valid number
+        try:
+            year = int(year) if year.isdigit() else year
+        except (ValueError, AttributeError):
+            year = year
+            
+        # Move image to country folder if needed
+        new_image_path = move_image_to_country_folder(image_path, country)
+        
+        # Update the painting
+        paintings_dict[painting_id].update({
+            "title": title,
+            "year": year,
+            "location": location,
+            "current_location": current_location,
+            "technique": technique,
+            "description": description,
+            "country": country,
+            "image_path": new_image_path
+        })
+        
+        # Save changes
+        with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
+            json.dump(paintings_dict, f, indent=4, ensure_ascii=False)
+        
+        log_manager_action("update_painting", {"image_path": image_path, "title": title})
+    
     manager_index += 1
     return RedirectResponse("/manage", status_code=303)
 
@@ -316,10 +357,23 @@ def update_painting(
 def create_pr(request: Request):
     """Manual trigger for creating a PR."""
     if not request.session.get("authenticated"):
-        return RedirectResponse("/login", status_code=303)
+        return JSONResponse(
+            status_code=401,
+            content={"error": "Not authenticated"}
+        )
     
-    create_github_pr()
-    return RedirectResponse("/manage", status_code=303)
+    try:
+        create_github_pr()
+        return JSONResponse(
+            status_code=200,
+            content={"message": "Successfully created PR"}
+        )
+    except Exception as e:
+        error_logger.error(f"Failed to create PR: {str(e)}")
+        return JSONResponse(
+            status_code=500,
+            content={"error": "Failed to create pull request. Please contact Yotam."}
+        )
 
 @app.get("/skip")
 def skip_painting(request: Request):
