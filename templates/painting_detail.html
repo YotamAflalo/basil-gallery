@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>{{ painting.title if painting.get('title') else 'Untitled' }} - Basil Swimmer</title>
-  <link rel="stylesheet" href="/static/styles.css">
-  <style>
+{% extends "base.html" %}
+
+{% block title %}{{ painting.title if painting.get('title') else 'Untitled' }} - Basil Swimmer{% endblock %}
+
+{% block extra_head %}
+<style>
     body {
       margin: 0;
       font-family: 'Georgia', serif;
@@ -134,72 +133,72 @@
     .back-link:hover {
       text-decoration: underline;
     }
-  </style>
-</head>
-<body>
-  <div class="sidebar">
-    <div class="section">
-      <h2>Navigation</h2>
-      <a href="/">Home</a>
-      {% if painting.get('country') %}
-        <a href="/galleries/{{ painting.country }}">{{ painting.country }} Gallery</a>
-      {% endif %}
-      {% if painting.get('technique') %}
-        <a href="/techniques/{{ painting.technique }}">{{ painting.technique }} Works</a>
-      {% endif %}
-    </div>
-  </div>
+</style>
+{% endblock %}
 
-  <div class="main">
-    <a href="javascript:history.back()" class="back-link">← Back to Gallery</a>
+{% block content %}
+<div class="sidebar">
+  <div class="section">
+    <h2>Navigation</h2>
+    <a href="/">Home</a>
+    {% if painting.get('country') %}
+      <a href="/galleries/{{ painting.country }}">{{ painting.country }} Gallery</a>
+    {% endif %}
+    {% if painting.get('technique') %}
+      <a href="/techniques/{{ painting.technique }}">{{ painting.technique }} Works</a>
+    {% endif %}
+  </div>
+</div>
+
+<div class="main">
+  <a href="javascript:history.back()" class="back-link">← Back to Gallery</a>
+  
+  <div class="painting-detail">
+    <div class="painting-image">
+      <img src="{{ painting.image_path }}" alt="{{ painting.title if painting.get('title') else 'Untitled' }}">
+    </div>
     
-    <div class="painting-detail">
-      <div class="painting-image">
-        <img src="{{ painting.image_path }}" alt="{{ painting.title if painting.get('title') else 'Untitled' }}">
-      </div>
+    <div class="painting-info">
+      <h1>{{ painting.title if painting.get('title') else 'Untitled' }}</h1>
       
-      <div class="painting-info">
-        <h1>{{ painting.title if painting.get('title') else 'Untitled' }}</h1>
-        
-        <div class="painting-meta">
-          {% if painting.get('year') %}
-          <div class="meta-item">
-            <span class="meta-label">Year:</span> {{ painting.year }}
-          </div>
-          {% endif %}
-          
-          {% if painting.get('country') %}
-          <div class="meta-item">
-            <span class="meta-label">Country:</span> {{ painting.country }}
-          </div>
-          {% endif %}
-          
-          {% if painting.get('location') %}
-          <div class="meta-item">
-            <span class="meta-label">Location:</span> {{ painting.location }}
-          </div>
-          {% endif %}
-          
-          {% if painting.get('current_location') %}
-          <div class="meta-item">
-            <span class="meta-label">Current Location:</span> {{ painting.current_location }}
-          </div>
-          {% endif %}
-          
-          {% if painting.get('technique') %}
-          <div class="meta-item">
-            <span class="meta-label">Technique:</span> {{ painting.technique }}
-          </div>
-          {% endif %}
+      <div class="painting-meta">
+        {% if painting.get('year') %}
+        <div class="meta-item">
+          <span class="meta-label">Year:</span> {{ painting.year }}
         </div>
+        {% endif %}
         
-        {% if painting.get('description') %}
-        <div class="painting-description">
-          {{ painting.description }}
+        {% if painting.get('country') %}
+        <div class="meta-item">
+          <span class="meta-label">Country:</span> {{ painting.country }}
+        </div>
+        {% endif %}
+        
+        {% if painting.get('location') %}
+        <div class="meta-item">
+          <span class="meta-label">Location:</span> {{ painting.location }}
+        </div>
+        {% endif %}
+        
+        {% if painting.get('current_location') %}
+        <div class="meta-item">
+          <span class="meta-label">Current Location:</span> {{ painting.current_location }}
+        </div>
+        {% endif %}
+        
+        {% if painting.get('technique') %}
+        <div class="meta-item">
+          <span class="meta-label">Technique:</span> {{ painting.technique }}
         </div>
         {% endif %}
       </div>
+      
+      {% if painting.get('description') %}
+      <div class="painting-description">
+        {{ painting.description }}
+      </div>
+      {% endif %}
     </div>
   </div>
-</body>
-</html>
+</div>
+{% endblock %}

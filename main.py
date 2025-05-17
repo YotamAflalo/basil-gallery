@@ -16,6 +16,7 @@ from datetime import timedelta
 import smtplib
 from email.mime.text import MIMEText
 from collections import deque
+from uuid import uuid5, NAMESPACE_URL
 
 # Load .env
 load_dotenv()
@@ -149,7 +150,8 @@ def load_paintings():
 @app.get("/")
 def home(request: Request):
     import random
-    paintings = load_paintings()
+    paintings_dict = load_paintings()
+    paintings = list(paintings_dict.values())
     countries = sorted(set(p.get("country", "Unsorted yet") for p in paintings))
     years = sorted(set(
         int(p["year"]) for p in paintings 
@@ -182,8 +184,8 @@ def home(request: Request):
 
 @app.get("/painting/{image_path:path}")
 def view_painting(request: Request, image_path: str):
-    paintings = load_paintings()
-    for painting in paintings:
+    paintings_dict = load_paintings()
+    for painting in paintings_dict.values():
         if painting.get("image_path") == image_path:
             return templates.TemplateResponse("painting_detail.html", {
                 "request": request,
@@ -193,8 +195,8 @@ def view_painting(request: Request, image_path: str):
 
 @app.get("/galleries/{country}")
 def gallery_by_country(country: str, request: Request):
-    paintings = load_paintings()
-    filtered = [p for p in paintings if p.get("country", "").lower() == country.lower()]
+    paintings_dict = load_paintings()
+    filtered = [p for p in paintings_dict.values() if p.get("country", "").lower() == country.lower()]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
         "title": country.title(),
@@ -203,8 +205,8 @@ def gallery_by_country(country: str, request: Request):
 
 @app.get("/galleries/year/{year}")
 def gallery_by_year(year: int, request: Request):
-    paintings = load_paintings()
-    filtered = [p for p in paintings if str(p.get("year")) == str(year)]
+    paintings_dict = load_paintings()
+    filtered = [p for p in paintings_dict.values() if str(p.get("year")) == str(year)]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
         "title": str(year),
@@ -213,8 +215,8 @@ def gallery_by_year(year: int, request: Request):
 
 @app.get("/locations/{location}")
 def gallery_by_current_location(location: str, request: Request):
-    paintings = load_paintings()
-    filtered = [p for p in paintings if p.get("current_location", "").lower() == location.lower()]
+    paintings_dict = load_paintings()
+    filtered = [p for p in paintings_dict.values() if p.get("current_location", "").lower() == location.lower()]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
         "title": location.title(),
@@ -223,8 +225,8 @@ def gallery_by_current_location(location: str, request: Request):
 
 @app.get("/techniques/{technique}")
 def gallery_by_technique(technique: str, request: Request):
-    paintings = load_paintings()
-    filtered = [p for p in paintings if p.get("technique", "").lower() == technique.lower()]
+    paintings_dict = load_paintings()
+    filtered = [p for p in paintings_dict.values() if p.get("technique", "").lower() == technique.lower()]
     return templates.TemplateResponse("gallery.html", {
         "request": request,
         "title": technique.title(),
@@ -372,7 +374,9 @@ def add_painting(
 ):
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
-    paintings = load_paintings()
+    paintings_dict = load_paintings()
+    # Generate a new unique ID for the new painting
+    painting_id = str(uuid5(NAMESPACE_URL, image_path))
     new_entry = {
         "title": title,
         "image_path": image_path,
@@ -383,9 +387,9 @@ def add_painting(
         "technique": technique,
         "description": description
     }
-    paintings.append(new_entry)
+    paintings_dict[painting_id] = new_entry
     with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(paintings, f, indent=4, ensure_ascii=False)
+        json.dump(paintings_dict, f, indent=4, ensure_ascii=False)
     log_manager_action("add_painting", {"image_path": image_path, "title": title})
     return RedirectResponse("/manage", status_code=303)
 
@@ -399,17 +403,17 @@ def manager_dashboard(request: Request):
 def edit_gallery(request: Request):
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
-    paintings = load_paintings()
-    return templates.TemplateResponse("edit_gallery.html", {"request": request, "paintings": paintings})
+    paintings_dict = load_paintings()
+    return templates.TemplateResponse("edit_gallery.html", {"request": request, "paintings": paintings_dict.values()})
 
 @app.post("/edit_gallery")
 async def save_edit_gallery(request: Request):
     if not request.session.get("authenticated"):
         return RedirectResponse("/login", status_code=303)
     form = await request.form()
-    paintings = load_paintings()
+    paintings_dict = load_paintings()
     updated_paintings = []
-    for i, painting in enumerate(paintings):
+    for i, painting in enumerate(paintings_dict.values()):
         updated_paintings.append({
             "title": form.get(f"title_{i}", painting["title"]),
             "image_path": painting["image_path"],

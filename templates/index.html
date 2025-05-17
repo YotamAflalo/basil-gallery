@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Basil Swimmer – Home</title>
-  <link rel="stylesheet" href="/static/styles.css">
-  <style>
+{% extends "base.html" %}
+
+{% block title %}Basil Swimmer – Home{% endblock %}
+
+{% block extra_head %}
+<style>
     body {
       margin: 0;
       font-family: 'Georgia', serif;
@@ -308,9 +306,10 @@
       }
     }
   </style>
-</head>
-<body>
-  <div class="layout-wrapper">
+{% endblock %}
+
+{% block content %}
+<div class="layout-wrapper">
     <div class="sidebar">
       <div class="section">
         <h2>By Country</h2>
@@ -412,5 +411,4 @@ Each painting can express so many feelings and beauty. His paintings include sce
       </div>
     </div>
   </div>
-</body>
-</html>
+{% endblock %}

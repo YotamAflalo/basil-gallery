@@ -1,0 +1,422 @@
+2025-05-17 14:01:19.902 | INFO     | image_to_text:__init__:17 - Image to text model initialized
+2025-05-17 14:01:19.902 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/12742_100840093409746_132562522_n.jpg'
+2025-05-17 14:01:19.902 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/1653533_258190944341326_95250998_n.jpg'
+2025-05-17 14:01:19.902 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/190241_101423083351447_668202023_n.jpg'
+2025-05-17 14:01:19.902 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/224408_100817796745309_1155049077_n.jpg'
+2025-05-17 14:01:19.902 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/227425_100832936743795_490879877_n.jpg'
+2025-05-17 14:01:19.913 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/229466_100817720078650_1758497928_n.jpg'
+2025-05-17 14:01:19.915 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/23938_100814156745673_949479244_n.jpg'
+2025-05-17 14:01:19.917 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/250533_100826083411147_867563481_n.jpg'
+2025-05-17 14:01:19.919 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/255423_100811380079284_1913402430_n.jpg'
+2025-05-17 14:01:19.920 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/255497_100826243411131_376355613_n.jpg'
+2025-05-17 14:01:19.921 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/283502_100814373412318_311004557_n.jpg'
+2025-05-17 14:01:19.922 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/299401_101422500018172_23585620_n.jpg'
+2025-05-17 14:01:19.924 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/306704_116424091851346_705666573_n.jpg'
+2025-05-17 14:01:19.925 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/30975_100811360079286_506948413_n.jpg'
+2025-05-17 14:01:19.926 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/320326_101003326726756_1922572811_n.jpg'
+2025-05-17 14:01:19.927 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/400863_100840110076411_1729772591_n.jpg'
+2025-05-17 14:01:19.928 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/420422_100826056744483_604677425_n.jpg'
+2025-05-17 14:01:19.929 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/420965_100814193412336_1747432503_n.jpg'
+2025-05-17 14:01:19.930 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/427846_100834056743683_1527430621_n.jpg'
+2025-05-17 14:01:19.932 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/431590_100807910079631_741870341_n.jpg'
+2025-05-17 14:01:19.933 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/47237_100816836745405_143320572_n.jpg'
+2025-05-17 14:01:19.934 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/480333_101422683351487_299653461_n.jpg'
+2025-05-17 14:01:19.935 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/481078_100833486743740_1730748657_n.jpg'
+2025-05-17 14:01:19.936 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/488014_101363513357404_1515000450_n.jpg'
+2025-05-17 14:01:19.936 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/523128_101423060018116_472930056_n.jpg'
+2025-05-17 14:01:19.936 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/523150_100817013412054_601671940_n.jpg'
+2025-05-17 14:01:19.940 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/523769_100814350078987_1135238043_n.jpg'
+2025-05-17 14:01:19.940 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/523850_101422216684867_2127895294_n.jpg'
+2025-05-17 14:01:19.942 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/526048_100833153410440_789032929_n.jpg'
+2025-05-17 14:01:19.942 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/533888_114353592058396_1130543579_n.jpg'
+2025-05-17 14:01:19.944 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/548021_100833580077064_370817236_n.jpg'
+2025-05-17 14:01:19.944 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/554038_100840036743085_753691066_n.jpg'
+2025-05-17 14:01:19.946 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/556260_100826160077806_426458978_n.jpg'
+2025-05-17 14:01:19.946 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/560324_100814320078990_2022128722_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/563917_101422753351480_1512781489_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/564039_100840550076367_1478379455_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/564102_101422550018167_1011096357_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/577248_100817056745383_677676156_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/579720_100833170077105_1628981485_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/60114_100832976743791_693671608_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/644482_100822330078189_637177803_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/68430_100817766745312_518493507_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/76876_100816853412070_1104283866_n.jpg'
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: "/static/images/unsorted/A VIEW FROM KATARINA'S WINDOW,AESCHI,SWITZ..5-11-07.jpg"
+2025-05-17 14:01:19.947 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/ABSTRACT.PLANTS.1983.jpg'
+2025-05-17 14:01:19.958 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/ABSTRACTION-1983.jpg'
+2025-05-17 14:01:19.958 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/ABSTRACTION-PLANTS.1983.jpg'
+2025-05-17 14:01:19.958 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/BRIDGE.OBERLAND,SWITZ.24-12-07.jpg'
+2025-05-17 14:01:19.960 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/CASTLE AT SPITZ. SWITZRLND.12-01-07. 001.jpg'
+2025-05-17 14:01:19.960 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1464.JPG'
+2025-05-17 14:01:19.961 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1469.JPG'
+2025-05-17 14:01:19.961 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1476.JPG'
+2025-05-17 14:01:19.961 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1495.JPG'
+2025-05-17 14:01:19.961 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1496.JPG'
+2025-05-17 14:01:19.961 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1497.JPG'
+2025-05-17 14:01:19.961 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1499.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1536.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1537.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1541.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1543.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1547.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/DSCF1559.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/E.TVL.S.A.-1981.jpg'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/ENGSTLIGEN FALLS.ADELBODEN.SWITZLND.5-10-07.jpg'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/FALLS NEAR MERINGEN.SWITZ.2007.jpg'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/HEMELSVLUGT SWITZ 23-02-07 004.jpg'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/IMG_0025.JPG'
+2025-05-17 14:01:19.964 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/IMG_0029.JPG'
+2025-05-17 14:01:19.975 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/IMG_6577.jpg'
+2025-05-17 14:01:19.976 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/IMG_6578.jpg'
+2025-05-17 14:01:19.977 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/IMG_6579.jpg'
+2025-05-17 14:01:19.977 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/IMG_6580.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/LONE CREEK. E.TVL. S.A.2007.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/MAC-MAC FALLS S.A. OCT.2006 002.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/MERINGEN FALLS SWITZ.22-01-07.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/MURREN.SWITZ.2004.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/NEAR ECHO CAVES.OHRIGSTADT.N.TVL.1966.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/NEAR PALMACHIM-1982.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-07.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-46.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-48_2.jpg'
+2025-05-17 14:01:19.978 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-49.jpg'
+2025-05-17 14:01:19.988 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-50_1.jpg'
+2025-05-17 14:01:19.989 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-50_2.jpg'
+2025-05-17 14:01:19.989 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-54_1.jpg'
+2025-05-17 14:01:19.989 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-57-56_1.jpg'
+2025-05-17 14:01:19.991 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-58-01_1.jpg'
+2025-05-17 14:01:19.991 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-58-01_2.jpg'
+2025-05-17 14:01:19.991 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-58-01_3.jpg'
+2025-05-17 14:01:19.992 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-58-03_1.jpg'
+2025-05-17 14:01:19.992 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-59-53.jpg'
+2025-05-17 14:01:19.992 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-59-56.jpg'
+2025-05-17 14:01:19.992 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-15-59-58.jpg'
+2025-05-17 14:01:19.992 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-20_3.jpg'
+2025-05-17 14:01:19.992 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-23.jpg'
+2025-05-17 14:01:19.995 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-33.jpg'
+2025-05-17 14:01:19.996 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-33_2.jpg'
+2025-05-17 14:01:19.996 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-46_1.jpg'
+2025-05-17 14:01:19.997 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-47.jpg'
+2025-05-17 14:01:19.997 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-55.jpg'
+2025-05-17 14:01:19.997 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-55_2.jpg'
+2025-05-17 14:01:19.997 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-56.jpg'
+2025-05-17 14:01:19.997 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-00-59.jpg'
+2025-05-17 14:01:19.997 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-01-03.jpg'
+2025-05-17 14:01:20.002 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-01-03_2.jpg'
+2025-05-17 14:01:20.002 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-01-04.jpg'
+2025-05-17 14:01:20.002 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-01-04_2.jpg'
+2025-05-17 14:01:20.004 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-03-58.jpg'
+2025-05-17 14:01:20.004 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-00.jpg'
+2025-05-17 14:01:20.004 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-10.jpg'
+2025-05-17 14:01:20.005 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-11_2.jpg'
+2025-05-17 14:01:20.005 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-14.jpg'
+2025-05-17 14:01:20.006 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-22.jpg'
+2025-05-17 14:01:20.006 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-25_1.jpg'
+2025-05-17 14:01:20.006 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-26.jpg'
+2025-05-17 14:01:20.007 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-26_1.jpg'
+2025-05-17 14:01:20.007 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-27.jpg'
+2025-05-17 14:01:20.008 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-29.jpg'
+2025-05-17 14:01:20.008 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-32_2.jpg'
+2025-05-17 14:01:20.008 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-34_1.jpg'
+2025-05-17 14:01:20.009 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-35.jpg'
+2025-05-17 14:01:20.009 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-43_1.jpg'
+2025-05-17 14:01:20.009 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-48_3.jpg'
+2025-05-17 14:01:20.012 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-55.jpg'
+2025-05-17 14:01:20.012 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-04-55_2.jpg'
+2025-05-17 14:01:20.012 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-06-25.jpg'
+2025-05-17 14:01:20.013 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-06-30.jpg'
+2025-05-17 14:01:20.013 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-06-31_1.jpg'
+2025-05-17 14:01:20.014 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-06-39_2.jpg'
+2025-05-17 14:01:20.014 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/PHOTO-2024-02-11-16-06-40.jpg'
+2025-05-17 14:01:20.014 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/RABBIT HILL-LANDAL.HOLLND.NOV06.jpg'
+2025-05-17 14:01:20.014 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/RACHENBERG FALLS.MERINGEN.SWITZ.2004.jpg'
+2025-05-17 14:01:20.014 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/RIVER AT LONE CREEK E.TVL.15-05-07.jpg'
+2025-05-17 14:01:20.019 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/ROCKFACE FALLS-1991.jpg'
+2025-05-17 14:01:20.019 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/SCENE FROM MURREN.2004.jpg'
+2025-05-17 14:01:20.021 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/SNOW ON HERMON-1992.jpg'
+2025-05-17 14:01:20.021 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/TANUR FALLS-1991.jpg'
+2025-05-17 14:01:20.022 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/WANDELING PARK HOLL.OCT2006 001.jpg'
+2025-05-17 14:01:20.022 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/WATERVAL BOVEN.E.TVL.S.A.1964..jpg'
+2025-05-17 14:01:20.023 | ERROR    | image_to_text:update_image_name_and_description:42 - Error updating image name and description: [Errno 2] No such file or directory: '/static/images/unsorted/WATERVALBOVEN.E.TVL.S.A..jpg'
+2025-05-17 14:03:38.512 | INFO     | image_to_text:__init__:17 - Image to text model initialized
+2025-05-17 14:03:42.495 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:03:42.496 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:44.765 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a river in the mountains
+2025-05-17 14:03:44.768 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:47.040 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:03:47.040 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:49.316 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the mountains
+2025-05-17 14:03:49.334 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:51.566 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:03:51.571 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:53.795 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:03:53.805 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:55.722 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:03:55.722 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:03:57.938 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a landscape
+2025-05-17 14:03:57.938 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:00.166 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:04:00.166 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:02.761 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a forest
+2025-05-17 14:04:02.761 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:05.032 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a castle in the mountains
+2025-05-17 14:04:05.047 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:07.558 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with a small house in the middle
+2025-05-17 14:04:07.558 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:09.468 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:04:09.468 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:11.719 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the mountains
+2025-05-17 14:04:11.729 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:13.961 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird flying over a mountain
+2025-05-17 14:04:13.976 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:16.120 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of trees in the distance
+2025-05-17 14:04:16.126 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:18.417 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a stream in the woods
+2025-05-17 14:04:18.424 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:20.468 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:04:20.477 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:24.207 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a tree
+2025-05-17 14:04:24.221 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:27.059 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a house in the countryside
+2025-05-17 14:04:27.076 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:29.763 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the mountains
+2025-05-17 14:04:29.763 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:32.139 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain road
+2025-05-17 14:04:32.155 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:35.643 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree by the water
+2025-05-17 14:04:35.664 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:39.007 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in the middle of a field
+2025-05-17 14:04:39.028 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:42.649 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a landscape with trees and mountains in the background
+2025-05-17 14:04:42.662 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:45.618 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a cactus with flowers in it
+2025-05-17 14:04:45.618 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:47.912 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:04:47.921 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:50.059 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene
+2025-05-17 14:04:50.064 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:52.939 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a forest scene
+2025-05-17 14:04:52.942 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:55.707 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:04:55.726 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:04:59.239 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with green leaves
+2025-05-17 14:04:59.250 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:01.940 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the mountains
+2025-05-17 14:05:01.940 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:04.920 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of trees in the mountains
+2025-05-17 14:05:04.938 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:07.205 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of mountains and trees
+2025-05-17 14:05:07.221 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:10.406 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a branch
+2025-05-17 14:05:10.417 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:13.219 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a stream in the woods
+2025-05-17 14:05:13.231 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:16.864 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with red leaves
+2025-05-17 14:05:16.880 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:20.194 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a flower in a vase
+2025-05-17 14:05:20.210 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:23.916 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man walking down a path
+2025-05-17 14:05:23.934 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:26.882 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of mountains and trees
+2025-05-17 14:05:26.898 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:31.991 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bridge over a river
+2025-05-17 14:05:32.002 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:36.742 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene
+2025-05-17 14:05:36.765 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:39.074 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of houses in the mountains
+2025-05-17 14:05:39.082 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:41.886 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a house in the countryside
+2025-05-17 14:05:41.898 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:45.539 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a flower with many colors
+2025-05-17 14:05:45.552 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:48.489 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a large abstracted object
+2025-05-17 14:05:48.495 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:52.001 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a flower on a white background
+2025-05-17 14:05:52.023 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:54.806 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bridge over a river
+2025-05-17 14:05:54.822 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:05:58.837 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a castle in the mountains
+2025-05-17 14:05:58.848 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:03.152 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird perched on it
+2025-05-17 14:06:03.158 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:06.599 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a waterfall
+2025-05-17 14:06:06.611 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:10.278 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a river with trees and buildings
+2025-05-17 14:06:10.292 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:14.108 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a room
+2025-05-17 14:06:14.128 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:18.140 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a building with a tree in the middle
+2025-05-17 14:06:18.162 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:21.939 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a white surface
+2025-05-17 14:06:21.949 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:25.270 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with green leaves
+2025-05-17 14:06:25.285 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:28.573 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man in a suit
+2025-05-17 14:06:28.581 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:32.064 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with green leaves
+2025-05-17 14:06:32.081 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:35.542 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a blue and yellow abstract
+2025-05-17 14:06:35.560 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:39.530 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-05-17 14:06:39.544 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:43.044 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a dog on a wall
+2025-05-17 14:06:43.059 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:48.996 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a white horse in a field
+2025-05-17 14:06:49.010 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:53.746 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a field
+2025-05-17 14:06:53.758 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:06:59.500 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the mountains
+2025-05-17 14:06:59.516 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:03.777 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:07:03.778 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:08.110 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene
+2025-05-17 14:07:08.120 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:12.620 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree on a wall
+2025-05-17 14:07:12.625 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:18.361 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a forest
+2025-05-17 14:07:18.384 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:24.153 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman in a green dress
+2025-05-17 14:07:24.171 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:29.403 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a frame
+2025-05-17 14:07:29.415 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:34.905 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a wall
+2025-05-17 14:07:34.919 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:40.259 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a cat in a frame
+2025-05-17 14:07:40.283 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:44.716 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a stream in the woods
+2025-05-17 14:07:44.726 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:49.523 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:07:49.534 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:53.505 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:07:53.524 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:07:58.730 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of mountains and trees in a frame
+2025-05-17 14:07:58.738 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:01.441 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree on a wall
+2025-05-17 14:08:01.444 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:04.806 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a landscape with trees and a river
+2025-05-17 14:08:04.812 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:08.155 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a large, circular object
+2025-05-17 14:08:08.173 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:12.051 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with leaves on it
+2025-05-17 14:08:12.060 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:16.083 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a flower on a white surface
+2025-05-17 14:08:16.092 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:19.325 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a face with many different colors
+2025-05-17 14:08:19.343 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:22.958 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a blue and white plate
+2025-05-17 14:08:22.974 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:25.724 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with many leaves
+2025-05-17 14:08:25.724 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:29.036 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a face in a bowl
+2025-05-17 14:08:29.045 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:31.300 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:08:31.308 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:34.531 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of flowers on a table
+2025-05-17 14:08:34.543 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:37.259 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man on a rock
+2025-05-17 14:08:37.259 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:40.792 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a red and black substance
+2025-05-17 14:08:40.792 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:44.180 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man with a beard and a beard
+2025-05-17 14:08:44.195 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:47.499 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of mountains and trees in the distance
+2025-05-17 14:08:47.502 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:50.706 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a river
+2025-05-17 14:08:50.722 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:54.776 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with trees
+2025-05-17 14:08:54.788 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:08:58.139 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with houses
+2025-05-17 14:08:58.156 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:01.430 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with trees
+2025-05-17 14:09:01.448 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:05.292 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bottle and a knife
+2025-05-17 14:09:05.301 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:08.358 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with water droplets
+2025-05-17 14:09:08.366 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:11.429 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a cactus with a flower
+2025-05-17 14:09:11.440 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:14.826 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in the middle of a field
+2025-05-17 14:09:14.846 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:18.377 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:09:18.385 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:21.049 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a forest scene
+2025-05-17 14:09:21.077 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:25.245 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man and a woman walking down a path
+2025-05-17 14:09:25.260 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:28.165 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a plant on a white surface
+2025-05-17 14:09:28.179 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:30.824 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a field
+2025-05-17 14:09:30.835 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:33.597 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall and a bridge
+2025-05-17 14:09:33.608 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:36.799 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-05-17 14:09:36.823 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:40.252 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-05-17 14:09:40.270 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:42.965 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a river and houses
+2025-05-17 14:09:42.965 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:46.041 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a palm tree on a beach
+2025-05-17 14:09:46.052 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:49.098 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird in a swirl
+2025-05-17 14:09:49.110 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:52.734 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of flowers in a vase on a table
+2025-05-17 14:09:52.745 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:09:57.363 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a forest with trees and a path
+2025-05-17 14:09:57.376 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:02.284 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with a sky background
+2025-05-17 14:10:02.296 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:07.744 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a road with trees in the background
+2025-05-17 14:10:07.753 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:12.332 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man in a suit
+2025-05-17 14:10:12.342 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:17.247 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man's stomach
+2025-05-17 14:10:17.247 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:20.798 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a dog
+2025-05-17 14:10:20.814 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:26.262 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a man on a horse
+2025-05-17 14:10:26.271 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:30.180 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:10:30.192 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:35.499 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a spiral design on a wall
+2025-05-17 14:10:35.515 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:40.139 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a vase and a bottle
+2025-05-17 14:10:40.153 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:44.984 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a skull on a wall
+2025-05-17 14:10:44.984 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:50.595 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man with a beard and a beard
+2025-05-17 14:10:50.610 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:10:56.734 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a river
+2025-05-17 14:10:56.749 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:00.353 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:11:00.353 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:05.681 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with many leaves
+2025-05-17 14:11:05.697 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:11.122 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a face with many different colors
+2025-05-17 14:11:11.122 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:16.257 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a face in a bowl
+2025-05-17 14:11:16.259 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:21.929 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of trees and water in a frame
+2025-05-17 14:11:21.937 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:26.515 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of trees in a field
+2025-05-17 14:11:26.515 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:31.873 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a path through the woods
+2025-05-17 14:11:31.889 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:35.931 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:11:35.947 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:41.031 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a stream in a forest
+2025-05-17 14:11:41.040 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:45.744 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-17 14:11:45.761 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:50.113 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of mountains and trees
+2025-05-17 14:11:50.141 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:52.751 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a snowy landscape
+2025-05-17 14:11:52.751 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:54.777 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-17 14:11:54.793 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:11:57.209 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man walking down a path
+2025-05-17 14:11:57.209 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:12:00.046 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in a forest
+2025-05-17 14:12:00.056 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-17 14:12:06.611 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a forest
+2025-05-17 14:12:06.614 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated

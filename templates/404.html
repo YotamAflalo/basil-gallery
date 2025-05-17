@@ -1,10 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Not Found - Basil Swimmer</title>
-  <link rel="stylesheet" href="/static/styles.css">
-  <style>
+{% extends "base.html" %}
+
+{% block title %}Not Found - Basil Swimmer{% endblock %}
+
+{% block extra_head %}
+<style>
     body {
       margin: 0;
       font-family: 'Georgia', serif;
@@ -45,14 +44,14 @@
       background-color: #6b889c;
       color: #000;
     }
-  </style>
-</head>
-<body>
-  <h1>Painting Not Found</h1>
-  <p>
+</style>
+{% endblock %}
+
+{% block content %}
+<h1>Painting Not Found</h1>
+<p>
     Sorry, the painting you're looking for could not be found in our gallery.
     It may have been moved or doesn't exist.
-  </p>
-  <a href="/" class="home-link">Return to Gallery Home</a>
-</body>
-</html>
+</p>
+<a href="/" class="home-link">Return to Gallery Home</a>
+{% endblock %}
