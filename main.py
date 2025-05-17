@@ -412,21 +412,49 @@ async def save_edit_gallery(request: Request):
         return RedirectResponse("/login", status_code=303)
     form = await request.form()
     paintings_dict = load_paintings()
-    updated_paintings = []
-    for i, painting in enumerate(paintings_dict.values()):
-        updated_paintings.append({
-            "title": form.get(f"title_{i}", painting["title"]),
-            "image_path": painting["image_path"],
-            "year": form.get(f"year_{i}", painting["year"]),
-            "country": form.get(f"country_{i}", painting["country"]),
-            "location": form.get(f"location_{i}", painting["location"]),
-            "current_location": form.get(f"current_location_{i}", painting["current_location"]),
-            "technique": form.get(f"technique_{i}", painting["technique"]),
-            "description": form.get(f"description_{i}", painting["description"])
+    
+    # Update each painting while maintaining the dictionary structure
+    for painting_id, painting in paintings_dict.items():
+        i = list(paintings_dict.keys()).index(painting_id)  # Get the index for form field names
+        
+        # Get form values with defaults for missing fields
+        title = form.get(f"title_{i}", "").strip()
+        year = form.get(f"year_{i}", "").strip()
+        country = form.get(f"country_{i}", "").strip()
+        location = form.get(f"location_{i}", "").strip()
+        current_location = form.get(f"current_location_{i}", "").strip()
+        technique = form.get(f"technique_{i}", "").strip()
+        description = form.get(f"description_{i}", "").strip()
+        
+        # Convert year to int if it's a valid number, otherwise keep as string
+        try:
+            year = int(year) if year.isdigit() else year
+        except (ValueError, AttributeError):
+            year = year
+        
+        # Update the painting with new values, keeping original image_path
+        paintings_dict[painting_id].update({
+            "title": title or "Untitled",  # Default to "Untitled" if empty
+            "image_path": painting.get("image_path", ""),  # Keep original path or empty string
+            "year": year or "Unknown",  # Default to "Unknown" if empty
+            "country": country or "Unsorted yet",  # Default to "Unsorted yet" if empty
+            "location": location or "Unknown",  # Default to "Unknown" if empty
+            "current_location": current_location or "Unknown",  # Default to "Unknown" if empty
+            "technique": technique or "Unsorted yet",  # Default to "Unsorted yet" if empty
+            "description": description or ""  # Default to empty string if empty
         })
+        
+        # If country changed, move the image to the appropriate folder
+        if country and country != "Unsorted yet":
+            new_image_path = move_image_to_country_folder(
+                paintings_dict[painting_id]["image_path"],
+                country
+            )
+            paintings_dict[painting_id]["image_path"] = new_image_path
+    
     with open(PAINTINGS_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(updated_paintings, f, indent=4, ensure_ascii=False)
-    log_manager_action("edit_gallery", {"count": len(updated_paintings)})
+        json.dump(paintings_dict, f, indent=4, ensure_ascii=False)
+    log_manager_action("edit_gallery", {"count": len(paintings_dict)})
     return RedirectResponse("/galleries/Netherlands", status_code=303)
 
 # Error tracking
