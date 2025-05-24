@@ -420,3 +420,40 @@
 2025-05-17 14:12:00.056 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
 2025-05-17 14:12:06.611 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a forest
 2025-05-17 14:12:06.614 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:34:42.786 | INFO     | image_to_text:__init__:17 - Image to text model initialized
+2025-05-24 21:34:49.576 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a house in a field
+2025-05-24 21:34:49.582 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:34:52.540 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a tree
+2025-05-24 21:34:52.553 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:34:55.693 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a river
+2025-05-24 21:34:55.699 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:34:58.913 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a forest
+2025-05-24 21:34:58.928 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:01.683 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a green and yellow abstract
+2025-05-24 21:35:01.691 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:04.410 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird in a swirl
+2025-05-24 21:35:04.418 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:06.844 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a spiral design
+2025-05-24 21:35:06.852 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:09.524 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree and a moon
+2025-05-24 21:35:09.532 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:12.241 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a road with houses and trees
+2025-05-24 21:35:12.241 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:14.968 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a windmill and a boat
+2025-05-24 21:35:14.976 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:17.896 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird with a red beak
+2025-05-24 21:35:17.901 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:21.059 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's face with colorful paint
+2025-05-24 21:35:21.063 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:23.690 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of three elephants in a field
+2025-05-24 21:35:23.698 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:26.292 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a castle in the mountains
+2025-05-24 21:35:26.301 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:28.982 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-05-24 21:35:28.990 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:32.070 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a sunset with a bright yellow sun
+2025-05-24 21:35:32.080 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:36.576 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a person in a circle
+2025-05-24 21:35:36.590 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-05-24 21:35:39.051 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
+2025-05-24 21:35:39.060 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated

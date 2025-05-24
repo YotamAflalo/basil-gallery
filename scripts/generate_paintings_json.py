@@ -47,38 +47,40 @@ for country_folder in images_dir.iterdir():
         continue
     country = country_folder.name
 
-    for img_file in country_folder.glob("*.[jp][pn]g"):  # supports .jpg, .jpeg, .png
-        filename = img_file.name
-        image_path = f"/static/images/{country}/{filename}"
-        painting_id = get_painting_id(image_path) # Use new image_path for ID
+    # Update glob pattern to include .jpeg files and be case-insensitive
+    for pattern in ["*.[jJ][pP][gG]", "*.[jJ][pP][eE][gG]", "*.[pP][nN][gG]"]:
+        for img_file in country_folder.glob(pattern):
+            filename = img_file.name
+            image_path = f"/static/images/{country}/{filename}"
+            painting_id = get_painting_id(image_path) # Use new image_path for ID
 
-        # Check if a painting with this filename already exists in the old data
-        existing_painting = existing_paintings_by_filename.get(filename)
+            # Check if a painting with this filename already exists in the old data
+            existing_painting = existing_paintings_by_filename.get(filename)
 
-        if existing_painting:
-            # If found by filename, update with new path and country, preserve other data
-            new_entry = existing_painting.copy()
-            new_entry["image_path"] = image_path
-            new_entry["country"] = country # Update country based on current folder
-            # Ensure year is correctly typed if it was previously a string
-            if isinstance(new_entry.get("year"), str) and new_entry["year"].isdigit():
-                new_entry["year"] = int(new_entry["year"])
-            new_paintings[painting_id] = new_entry
-        else:
-            # If no existing entry by filename, create a new one
-            match = re.search(r"year=(\d{4})", filename)
-            year = int(match.group(1)) if match else "unsorted yet"
+            if existing_painting:
+                # If found by filename, update with new path and country, preserve other data
+                new_entry = existing_painting.copy()
+                new_entry["image_path"] = image_path
+                new_entry["country"] = country # Update country based on current folder
+                # Ensure year is correctly typed if it was previously a string
+                if isinstance(new_entry.get("year"), str) and new_entry["year"].isdigit():
+                    new_entry["year"] = int(new_entry["year"])
+                new_paintings[painting_id] = new_entry
+            else:
+                # If no existing entry by filename, create a new one
+                match = re.search(r"year=(\\d{4})", filename)
+                year = int(match.group(1)) if match else "unsorted yet"
 
-            new_paintings[painting_id] = {
-                "title": filename.rsplit(".", 1)[0].replace("_", " "),
-                "image_path": image_path,
-                "year": year,
-                "country": country,
-                "location": "unsorted yet",
-                "current_location": "unsorted yet",
-                "technique": "unsorted yet",
-                "description": "unsorted yet"
-            }
+                new_paintings[painting_id] = {
+                    "title": filename.rsplit(".", 1)[0].replace("_", " "),
+                    "image_path": image_path,
+                    "year": year,
+                    "country": country,
+                    "location": "unsorted yet",
+                    "current_location": "unsorted yet",
+                    "technique": "unsorted yet",
+                    "description": "unsorted yet"
+                }
 
 # Write as a dict (not a list)
 with open(output_file, "w", encoding="utf-8") as f:
