@@ -5,3 +5,7 @@ python-multipart
 python-dotenv
 itsdangerous
 schedule
+requests
+Pillow
+transformers
+loguru

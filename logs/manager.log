@@ -1,3 +1,10 @@
 2025-05-15 11:50:12,791 ACTION: edit_gallery | DETAILS: {'count': 155}
 2025-05-17 16:11:23,551 ACTION: edit_gallery | DETAILS: {'count': 148}
 2025-05-17 16:38:11,597 ACTION: update_painting | DETAILS: {'image_path': '/static/images/unsorted/224408_100817796745309_1155049077_n.jpg', 'title': 'a painting of a waterfall in the mountains'}
+2025-05-17 16:57:54,971 ACTION: upload_image | DETAILS: {'filename': 'temp_468335768_2872438406249887_8920098676731104108_n.jpg'}
+2025-05-17 16:58:16,475 ACTION: add_painting | DETAILS: {'image_path': 'images/unsorted/temp_468335768_2872438406249887_8920098676731104108_n.jpg', 'title': 'unknown'}
+2025-05-17 17:01:27,113 ACTION: upload_image | DETAILS: {'filename': 'temp_468335768_2872438406249887_8920098676731104108_n.jpg'}
+2025-05-17 17:01:38,529 ACTION: add_painting | DETAILS: {'image_path': 'images/unsorted/temp_468335768_2872438406249887_8920098676731104108_n.jpg', 'title': 'unknown'}
+2025-05-17 17:09:16,665 ACTION: upload_image_success | DETAILS: {'filename': 'c550255419374911aa9b16744a5e0705.jpg', 'original_filename': '468335768_2872438406249887_89200986767.jpg'}
+2025-05-17 17:09:35,506 ACTION: add_painting | DETAILS: {'image_path': 'images/unsorted/c550255419374911aa9b16744a5e0705.jpg', 'title': 'unknown'}
+2025-05-24 16:05:19,110 ACTION: edit_gallery | DETAILS: {'count': 148}
