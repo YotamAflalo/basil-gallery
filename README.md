@@ -20,12 +20,14 @@ cd basil-gallery
 
 ### 2. Install Python Dependencies
 ```bash
-pip install -r scripts/image_preprocess/requirements.txt
+
+
+pip install -r requirements.txt
 ```
 
-### 3. Install Additional Project Dependencies
+### 3. Install Additional Project Dependencies (for pre-processing)
 ```bash
-pip install pymupdf Pillow
+pip install -r scripts/image_preprocess/requirements.txt
 ```
 
 ### 4. Environment Variables

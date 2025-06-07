@@ -457,3 +457,202 @@
 2025-05-24 21:35:36.590 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
 2025-05-24 21:35:39.051 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall
 2025-05-24 21:35:39.060 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:10:43.680 | INFO     | image_to_text:__init__:17 - Image to text model initialized
+2025-06-07 12:10:48.700 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a family walking down a country road
+2025-06-07 12:10:48.709 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:10:51.244 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a tree
+2025-06-07 12:10:51.268 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:10:54.282 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man with a hat and a cane
+2025-06-07 12:10:54.298 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:10:57.171 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a plant with red and blue leaves
+2025-06-07 12:10:57.171 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:10:59.792 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of flowers on a white surface
+2025-06-07 12:10:59.805 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:02.310 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of flowers on a white paper
+2025-06-07 12:11:02.326 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:05.386 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a light bulb on a piece of paper
+2025-06-07 12:11:05.402 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:08.501 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird with a flower in its beak
+2025-06-07 12:11:08.523 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:11.199 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a flower on a white paper
+2025-06-07 12:11:11.215 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:16.596 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a person holding a sword
+2025-06-07 12:11:16.628 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:21.679 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with a large head
+2025-06-07 12:11:21.703 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:27.612 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bunch of flowers on a piece of paper
+2025-06-07 12:11:27.636 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:32.723 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a painting with different colors
+2025-06-07 12:11:32.752 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:39.105 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's face with colored pencils
+2025-06-07 12:11:39.133 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:45.912 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a face with a green and blue circle
+2025-06-07 12:11:45.939 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:51.189 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man on a bike
+2025-06-07 12:11:51.217 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:11:56.500 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with a hat
+2025-06-07 12:11:56.523 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:02.384 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with a blue face
+2025-06-07 12:12:02.415 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:08.708 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree and a painting of a bird
+2025-06-07 12:12:08.738 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:14.271 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a forest
+2025-06-07 12:12:14.305 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:19.884 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a plant on a table
+2025-06-07 12:12:19.909 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:23.934 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a sky
+2025-06-07 12:12:23.966 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:29.344 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a house in a field
+2025-06-07 12:12:29.376 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:35.526 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a dog with a flower in its mouth
+2025-06-07 12:12:35.551 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:41.326 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bear with a bunch of berries
+2025-06-07 12:12:41.358 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:47.615 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a lot of green leaves
+2025-06-07 12:12:47.638 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:53.615 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a flower on a piece of paper
+2025-06-07 12:12:53.647 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:12:59.362 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a person walking down a street
+2025-06-07 12:12:59.394 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:13:05.049 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a drawing
+2025-06-07 12:13:05.081 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:13:10.071 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a house in a field
+2025-06-07 12:13:10.113 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:13:22.980 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of trees in the woods
+2025-06-07 12:13:23.076 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:13:35.201 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a road with a house in the distance
+2025-06-07 12:13:35.275 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:13:46.238 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman sitting on a rock
+2025-06-07 12:13:46.364 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:13:56.418 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a lot of leaves
+2025-06-07 12:13:56.454 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:02.709 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's torso
+2025-06-07 12:14:02.741 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:11.129 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with a flower in her hair
+2025-06-07 12:14:11.154 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:14.896 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a city
+2025-06-07 12:14:14.931 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:18.758 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a piece of paper
+2025-06-07 12:14:18.782 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:22.980 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-06-07 12:14:23.006 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:27.083 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man with a hat and a book
+2025-06-07 12:14:27.116 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:31.401 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a horse on a piece of paper
+2025-06-07 12:14:31.443 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:37.197 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a white and blue circle
+2025-06-07 12:14:37.234 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:42.037 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain road with trees and mountains in the background
+2025-06-07 12:14:42.063 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:45.342 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with red leaves
+2025-06-07 12:14:45.368 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:48.703 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in the woods
+2025-06-07 12:14:48.739 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:51.917 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a field
+2025-06-07 12:14:51.940 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:55.432 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a purple sky
+2025-06-07 12:14:55.454 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:14:58.483 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a cactus with flowers on it
+2025-06-07 12:14:58.519 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:02.380 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's face with a green background
+2025-06-07 12:15:02.402 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:06.102 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a sky and clouds
+2025-06-07 12:15:06.133 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:09.873 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with a sky in the background
+2025-06-07 12:15:09.902 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:13.068 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree in a field
+2025-06-07 12:15:13.091 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:16.874 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-06-07 12:15:16.897 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:20.182 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a tree
+2025-06-07 12:15:20.206 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:23.659 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with a waterfall
+2025-06-07 12:15:23.685 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:27.652 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird flying over a tree
+2025-06-07 12:15:27.690 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:31.203 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a city with a tree
+2025-06-07 12:15:31.226 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:34.385 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with many leaves
+2025-06-07 12:15:34.404 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:38.019 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-06-07 12:15:38.046 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:42.045 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a cactus with flowers in it
+2025-06-07 12:15:42.066 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:45.294 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a clock on a table
+2025-06-07 12:15:45.316 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:48.912 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain scene with a waterfall
+2025-06-07 12:15:48.945 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:52.962 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a house in the background
+2025-06-07 12:15:52.992 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:15:56.239 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a forest with trees and bushes
+2025-06-07 12:15:56.257 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:00.175 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a book
+2025-06-07 12:16:00.201 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:03.395 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-06-07 12:16:03.419 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:06.648 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a forest scene with a bird
+2025-06-07 12:16:06.669 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:10.333 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a piece of paper
+2025-06-07 12:16:10.356 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:13.839 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a bird on a piece of paper
+2025-06-07 12:16:13.863 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:17.826 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's face on a piece of paper
+2025-06-07 12:16:17.850 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:21.378 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman sitting on a chair
+2025-06-07 12:16:21.402 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:24.508 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with long hair
+2025-06-07 12:16:24.541 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:27.404 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with trees
+2025-06-07 12:16:27.420 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:30.793 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a lot of leaves
+2025-06-07 12:16:30.818 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:34.026 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with trees and bushes
+2025-06-07 12:16:34.044 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:37.602 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a landscape with trees and a road
+2025-06-07 12:16:37.623 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:41.199 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with no leaves
+2025-06-07 12:16:41.225 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:44.459 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with a knife
+2025-06-07 12:16:44.488 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:48.083 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman with a red and yellow hair
+2025-06-07 12:16:48.102 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:51.604 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of flowers on a piece of paper
+2025-06-07 12:16:51.628 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:54.565 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with many leaves
+2025-06-07 12:16:54.587 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:16:57.960 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a large, blue and yellow abstract
+2025-06-07 12:16:57.978 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:01.846 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree branch with a bird on it
+2025-06-07 12:17:01.871 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:05.431 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a bird on it
+2025-06-07 12:17:05.455 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:08.937 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a man on a cliff
+2025-06-07 12:17:08.966 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:12.489 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a vase with flowers in it
+2025-06-07 12:17:12.523 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:16.047 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a landscape with a lot of different colors
+2025-06-07 12:17:16.071 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:19.124 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in a forest
+2025-06-07 12:17:19.153 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:22.811 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a face with a large grin on it
+2025-06-07 12:17:22.831 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:26.306 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the middle of a painting
+2025-06-07 12:17:26.338 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:29.504 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's face
+2025-06-07 12:17:29.530 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:32.713 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a mountain with a waterfall
+2025-06-07 12:17:32.733 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:35.391 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a green mountain
+2025-06-07 12:17:35.418 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:38.341 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree and a bird
+2025-06-07 12:17:38.364 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:41.498 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a waterfall in the woods
+2025-06-07 12:17:41.515 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:44.532 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of trees in the desert
+2025-06-07 12:17:44.564 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:47.400 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a woman's torso
+2025-06-07 12:17:47.436 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:50.923 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a white circle with a red dot
+2025-06-07 12:17:50.950 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated
+2025-06-07 12:17:54.537 | INFO     | image_to_text:image_to_text:38 - Generated caption: a painting of a tree with a rock in the background
+2025-06-07 12:17:54.572 | INFO     | image_to_text:update_paintings_json:60 - Paintings json updated

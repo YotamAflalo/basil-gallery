@@ -69,6 +69,36 @@
         "technique": "Watercolor",
         "description": "A detailed watercolor painting of a Dutch harbor, capturing the maritime heritage and coastal atmosphere of the Netherlands."
     },
+    "736ed19b-5106-5bfe-a972-88e1f2318702": {
+        "title": "a painting of a family walking down a country road",
+        "image_path": "/static/images/Netherlands/home_art.jpg",
+        "year": "unsorted yet",
+        "country": "Netherlands",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a family walking down a country road"
+    },
+    "760c7e30-de4b-55ec-b6b7-bac7ad8c45c0": {
+        "title": "a painting of a path through the woods",
+        "image_path": "/static/images/Netherlands/RABBIT HILL-LANDAL.HOLLND.NOV06.jpg",
+        "year": "Unknown",
+        "country": "Netherlands",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a path through the woods"
+    },
+    "8c7c0940-0b9d-5f86-8ec2-35f23884ce87": {
+        "title": "a painting of a Phillis walking down a path",
+        "image_path": "/static/images/Netherlands/WANDELING PARK HOLL.OCT2006 001.jpg",
+        "year": "Unknown",
+        "country": "Netherlands",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a Phillis walking down a path"
+    },
     "0be42b7c-fb44-5e90-b997-6f80b194d9ce": {
         "title": "Traditional Dutch Windmill",
         "image_path": "/static/images/Netherlands/windmillyear=2008.jpg",
@@ -78,6 +108,36 @@
         "current_location": "Unknown",
         "technique": "Watercolor",
         "description": "A classic watercolor painting of a traditional Dutch windmill, set against the characteristic flat landscape of the Netherlands."
+    },
+    "e0203d87-715e-5432-bba6-3b5d298b2f8c": {
+        "title": "a painting of a river with trees and buildings",
+        "image_path": "/static/images/South Africa/DSCF1476.JPG",
+        "year": "Unknown",
+        "country": "South Africa",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a river with trees and buildings"
+    },
+    "fcce1ae6-6afb-51a0-b6a2-87ee084f6d7a": {
+        "title": "a painting of a waterfall in a forest",
+        "image_path": "/static/images/South Africa/WATERVAL BOVEN.E.TVL.S.A.1964..jpg",
+        "year": "Unknown",
+        "country": "South Africa",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a waterfall in a forest"
+    },
+    "a232b04d-7015-5303-b357-cd24288e6a85": {
+        "title": "a painting of a waterfall in the middle of a river",
+        "image_path": "/static/images/South Africa/WhatsApp Image 2025-05-24 at 21.20.21 (1).jpeg",
+        "year": "unsorted yet",
+        "country": "South Africa",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in the middle of a river"
     },
     "3873de03-5459-526d-ab83-d92f48bf158d": {
         "title": "a painting of a house in a field",
@@ -189,15 +249,65 @@
         "technique": "Unsorted yet",
         "description": "a painting of a waterfall in the mountains"
     },
-    "9334d6df-f703-588f-b530-b3a6a8cb48f8": {
-        "title": "a painting of a house in the countryside",
-        "image_path": "/static/images/Switzerland/A VIEW FROM KATARINA'S WINDOW,AESCHI,SWITZ..5-11-07.jpg",
+    "4ae4498a-10f4-5433-bb84-01a85f019cf0": {
+        "title": "a painting of a bridge over a river",
+        "image_path": "/static/images/Switzerland/BRIDGE.OBERLAND,SWITZ.24-12-07.jpg",
         "year": "Unknown",
         "country": "Switzerland",
         "location": "Unknown",
         "current_location": "Unknown",
         "technique": "Unsorted yet",
-        "description": "a painting of a house in the countryside"
+        "description": "a painting of a bridge over a river"
+    },
+    "eb534820-53a6-503e-8bbd-72471a05b5fe": {
+        "title": "a painting of a castle in the mountains",
+        "image_path": "/static/images/Switzerland/CASTLE AT SPITZ. SWITZRLND.12-01-07. 001.jpg",
+        "year": "Unknown",
+        "country": "Switzerland",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a castle in the mountains"
+    },
+    "abbe6ab8-dbc8-513a-846b-1c3993657c4e": {
+        "title": "a painting of a waterfall in the mountains",
+        "image_path": "/static/images/Switzerland/ENGSTLIGEN FALLS.ADELBODEN.SWITZLND.5-10-07.jpg",
+        "year": "Unknown",
+        "country": "Switzerland",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a waterfall in the mountains"
+    },
+    "7a5b6473-903b-5ceb-b483-ab7edffaf2d6": {
+        "title": "a painting of a waterfall",
+        "image_path": "/static/images/Switzerland/FALLS NEAR MERINGEN.SWITZ.2007.jpg",
+        "year": "Unknown",
+        "country": "Switzerland",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a waterfall"
+    },
+    "426a970f-1e43-5670-a47d-9085cac18b84": {
+        "title": "a painting of a waterfall",
+        "image_path": "/static/images/Switzerland/MERINGEN FALLS SWITZ.22-01-07.jpg",
+        "year": "Unknown",
+        "country": "Switzerland",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a waterfall"
+    },
+    "a7d4623d-73f3-5d5c-b795-c1f28d07f632": {
+        "title": "a painting of a waterfall",
+        "image_path": "/static/images/Switzerland/RACHENBERG FALLS.MERINGEN.SWITZ.2004.jpg",
+        "year": "Unknown",
+        "country": "Switzerland",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a waterfall"
     },
     "d46b18ff-810a-5e66-bf36-a400fdf8bde7": {
         "title": "a painting of a bird on a branch",
@@ -229,6 +339,16 @@
         "technique": "Unsorted yet",
         "description": "a painting of a flower in a vase"
     },
+    "686408d0-e147-55b2-a4f2-d50a2f27f10a": {
+        "title": "a painting of a flower with many colors",
+        "image_path": "/static/images/ubstract/ABSTRACT.PLANTS.1983.jpg",
+        "year": "Unknown",
+        "country": "ubstract",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a flower with many colors"
+    },
     "7c341a9f-3a94-545d-b8b8-112a3a8ee60e": {
         "title": "a painting of a large abstracted object",
         "image_path": "/static/images/ubstract/ABSTRACTION-1983.jpg",
@@ -239,15 +359,15 @@
         "technique": "Unsorted yet",
         "description": "a painting of a large abstracted object"
     },
-    "ec304c8b-e765-5577-b0de-073bd7764734": {
-        "title": "a painting of a blue and yellow abstract",
-        "image_path": "/static/images/ubstract/DSCF1541.JPG",
+    "7741617b-4f80-528a-b86c-203bb8c20055": {
+        "title": "a painting of a flower on a white background",
+        "image_path": "/static/images/ubstract/ABSTRACTION-PLANTS.1983.jpg",
         "year": "Unknown",
         "country": "ubstract",
         "location": "Unknown",
         "current_location": "Unknown",
         "technique": "Unsorted yet",
-        "description": "a painting of a blue and yellow abstract"
+        "description": "a painting of a flower on a white background"
     },
     "72b12aac-0836-5933-9a5b-6a1b768ca42e": {
         "title": "a painting of a bird on a wall",
@@ -279,16 +399,6 @@
         "technique": "Unsorted yet",
         "description": "a painting of a tree with water droplets"
     },
-    "0f8cd82f-3127-53cd-83e6-04b2027d57f1": {
-        "title": "a painting of a bird in a swirl",
-        "image_path": "/static/images/ubstract/PHOTO-2024-02-11-16-04-10.jpg",
-        "year": "Unknown",
-        "country": "ubstract",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a bird in a swirl"
-    },
     "df677ebe-7540-5bb1-8e91-c36fad1ed3be": {
         "title": "a painting of a man's stomach",
         "image_path": "/static/images/ubstract/PHOTO-2024-02-11-16-04-26_1.jpg",
@@ -308,6 +418,16 @@
         "current_location": "Unknown",
         "technique": "Unsorted yet",
         "description": "a painting of a spiral design on a wall"
+    },
+    "33189ddd-ddcb-5b1c-bf11-519f365df82a": {
+        "title": "a painting of a vase and a bottle",
+        "image_path": "/static/images/ubstract/PHOTO-2024-02-11-16-04-35.jpg",
+        "year": "Unknown",
+        "country": "ubstract",
+        "location": "Unknown",
+        "current_location": "Unknown",
+        "technique": "Unsorted yet",
+        "description": "a painting of a vase and a bottle"
     },
     "b6e2357b-7c54-5229-ab2c-44f59dea99c6": {
         "title": "a painting of a tree with many leaves",
@@ -338,6 +458,236 @@
         "current_location": "Unknown",
         "technique": "Unsorted yet",
         "description": "a painting of a face in a bowl"
+    },
+    "58621ff9-b0be-54fc-ad0f-a18fc5b6b7f0": {
+        "title": "a painting of a bird on a tree",
+        "image_path": "/static/images/ubstract/PXL_20250606_175509615.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird on a tree"
+    },
+    "559858df-0224-59ed-b9e8-dd908f982433": {
+        "title": "a painting of a man with a hat and a cane",
+        "image_path": "/static/images/ubstract/PXL_20250606_175803637.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a man with a hat and a cane"
+    },
+    "107c2d53-d72b-575b-892a-05453c29e28a": {
+        "title": "a painting of a plant with red and blue leaves",
+        "image_path": "/static/images/ubstract/PXL_20250606_175924704.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a plant with red and blue leaves"
+    },
+    "1cd9ca5f-0f43-54ca-a919-ac4ddb6459f7": {
+        "title": "a painting of flowers on a white surface",
+        "image_path": "/static/images/ubstract/PXL_20250606_175948224.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of flowers on a white surface"
+    },
+    "ddea8aaa-8213-5018-8126-eaff6a26e4fc": {
+        "title": "a painting of flowers on a white paper",
+        "image_path": "/static/images/ubstract/PXL_20250606_180026660.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of flowers on a white paper"
+    },
+    "c8c2f628-906c-5794-84d0-a7f9b4a2843e": {
+        "title": "a painting of a light bulb on a piece of paper",
+        "image_path": "/static/images/ubstract/PXL_20250606_180100177.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a light bulb on a piece of paper"
+    },
+    "9b1934cf-d799-5c9d-930d-29aee8d578aa": {
+        "title": "a painting of a bird with a flower in its beak",
+        "image_path": "/static/images/ubstract/PXL_20250606_180238502.MP.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird with a flower in its beak"
+    },
+    "2ec8aab5-5824-571d-a982-9ba72da68b08": {
+        "title": "a painting of a flower on a white paper",
+        "image_path": "/static/images/ubstract/PXL_20250606_180329017.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a flower on a white paper"
+    },
+    "7ce8b615-af4e-5d59-a6f9-f8c15bf0af96": {
+        "title": "a painting of a person holding a sword",
+        "image_path": "/static/images/ubstract/PXL_20250606_181200717.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a person holding a sword"
+    },
+    "a4e0201b-e53f-5a25-b2a6-cf2e9f91f99b": {
+        "title": "a painting of a woman with a large head",
+        "image_path": "/static/images/ubstract/PXL_20250606_181621488.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with a large head"
+    },
+    "8d4f6653-ec72-5e3a-884e-f53c3ac43cdd": {
+        "title": "a painting of a bunch of flowers on a piece of paper",
+        "image_path": "/static/images/ubstract/PXL_20250606_181742987.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bunch of flowers on a piece of paper"
+    },
+    "472684a9-8e5a-501c-a05d-9c8e50247816": {
+        "title": "a painting of a painting with different colors",
+        "image_path": "/static/images/ubstract/PXL_20250606_181814808.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a painting with different colors"
+    },
+    "c514616b-6ec6-5d9c-bf3b-7c68f9ef46db": {
+        "title": "a painting of a woman's face with colored pencils",
+        "image_path": "/static/images/ubstract/PXL_20250606_181847328.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's face with colored pencils"
+    },
+    "97045b1e-2ab1-5fa0-84e4-f1a697832db6": {
+        "title": "a painting of a face with a green and blue circle",
+        "image_path": "/static/images/ubstract/PXL_20250606_181859188.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a face with a green and blue circle"
+    },
+    "1f6728f4-f366-52b3-a23a-40a33c4bd662": {
+        "title": "a painting of a man on a bike",
+        "image_path": "/static/images/ubstract/PXL_20250606_181942703.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a man on a bike"
+    },
+    "6ce29068-cf39-5713-8abe-e237e64115b4": {
+        "title": "a painting of a woman with a hat",
+        "image_path": "/static/images/ubstract/PXL_20250606_182032463.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with a hat"
+    },
+    "960473a9-c8d1-5c04-825a-1dc2ce729896": {
+        "title": "a painting of a woman with a blue face",
+        "image_path": "/static/images/ubstract/PXL_20250606_182414431.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with a blue face"
+    },
+    "c4a65cd4-0aae-5656-8aa9-afdcf7271c2f": {
+        "title": "a painting of a tree and a painting of a bird",
+        "image_path": "/static/images/ubstract/PXL_20250606_182451318.jpg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree and a painting of a bird"
+    },
+    "7aeaa07a-8adc-581f-8ff7-3edce99e9941": {
+        "title": "a painting of a spiral design",
+        "image_path": "/static/images/ubstract/WhatsApp Image 2025-05-24 at 21.20.23 (2).jpeg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a spiral design"
+    },
+    "52163adb-d4e0-5a2d-8637-9267a34c6013": {
+        "title": "a painting of a bird with a red beak",
+        "image_path": "/static/images/ubstract/WhatsApp Image 2025-05-24 at 21.20.24 (2).jpeg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird with a red beak"
+    },
+    "35a5aebd-df10-5ed7-9da9-82a2b92ef74b": {
+        "title": "a painting of a woman's face with colorful paint",
+        "image_path": "/static/images/ubstract/WhatsApp Image 2025-05-24 at 21.20.24 (3).jpeg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's face with colorful paint"
+    },
+    "5f5435fa-50b3-575c-b92a-2a70a80bca5a": {
+        "title": "a painting of a sunset with a bright yellow sun",
+        "image_path": "/static/images/ubstract/WhatsApp Image 2025-05-24 at 21.20.25.jpeg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a sunset with a bright yellow sun"
+    },
+    "01eef011-3bbd-5c7e-a502-2ec794bea459": {
+        "title": "a painting of a person in a circle",
+        "image_path": "/static/images/ubstract/WhatsApp Image 2025-05-24 at 21.20.26 (1).jpeg",
+        "year": "unsorted yet",
+        "country": "ubstract",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a person in a circle"
     },
     "215ba558-a700-52e8-aefb-6e01880cf884": {
         "title": "a painting of a waterfall in the woods",
@@ -649,46 +999,6 @@
         "technique": "Unsorted yet",
         "description": "a painting of houses in the mountains"
     },
-    "efcf23e6-f58a-53d6-a557-b0351b04ac52": {
-        "title": "a painting of a flower with many colors",
-        "image_path": "/static/images/unsorted/ABSTRACT.PLANTS.1983.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a flower with many colors"
-    },
-    "31d9ac1a-7540-5bc7-9300-462f5cae39c5": {
-        "title": "a painting of a flower on a white background",
-        "image_path": "/static/images/unsorted/ABSTRACTION-PLANTS.1983.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a flower on a white background"
-    },
-    "ddd73224-b4e4-53d2-ac30-14c6ef4f6a17": {
-        "title": "a painting of a bridge over a river",
-        "image_path": "/static/images/unsorted/BRIDGE.OBERLAND,SWITZ.24-12-07.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a bridge over a river"
-    },
-    "9fcf9cbb-0d54-5cc3-a63b-b2e81f351c6f": {
-        "title": "a painting of a castle in the mountains",
-        "image_path": "/static/images/unsorted/CASTLE AT SPITZ. SWITZRLND.12-01-07. 001.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a castle in the mountains"
-    },
     "24820e2d-a0c4-554f-80b0-bc035918d6d4": {
         "title": "a painting of a tree with a bird perched on it",
         "image_path": "/static/images/unsorted/DSCF1464.JPG",
@@ -708,16 +1018,6 @@
         "current_location": "Unknown",
         "technique": "Unsorted yet",
         "description": "a painting of a mountain scene with a waterfall"
-    },
-    "f0bd6189-7c41-5223-b6bd-160dbf90eaa3": {
-        "title": "a painting of a river with trees and buildings",
-        "image_path": "/static/images/unsorted/DSCF1476.JPG",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a river with trees and buildings"
     },
     "0e4703aa-1df2-5a22-959f-84e2004fd2cd": {
         "title": "a painting of a tree in a room",
@@ -819,26 +1119,6 @@
         "technique": "Unsorted yet",
         "description": "a painting of a tree in a field"
     },
-    "024eec4d-d4a9-56df-b9b9-8523d0b00925": {
-        "title": "a painting of a waterfall in the mountains",
-        "image_path": "/static/images/unsorted/ENGSTLIGEN FALLS.ADELBODEN.SWITZLND.5-10-07.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a waterfall in the mountains"
-    },
-    "b2c9dec4-6934-5ed1-a298-a9391ad86755": {
-        "title": "a painting of a waterfall",
-        "image_path": "/static/images/unsorted/FALLS NEAR MERINGEN.SWITZ.2007.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a waterfall"
-    },
     "f7b022bc-ced5-5a3f-8f28-b1fde87ac340": {
         "title": "a painting of a mountain scene",
         "image_path": "/static/images/unsorted/HEMELSVLUGT SWITZ 23-02-07 004.jpg",
@@ -918,16 +1198,6 @@
         "current_location": "Unknown",
         "technique": "Unsorted yet",
         "description": "a painting of a waterfall in the woods"
-    },
-    "5b845a84-e1a4-5c5a-b4b5-a8bac0b1bd57": {
-        "title": "a painting of a waterfall",
-        "image_path": "/static/images/unsorted/MERINGEN FALLS SWITZ.22-01-07.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a waterfall"
     },
     "7be75d7f-1947-5aae-a0ce-eaff9d01a7ab": {
         "title": "a painting of mountains and trees in a frame",
@@ -1329,16 +1599,6 @@
         "technique": "Unsorted yet",
         "description": "a painting of a waterfall"
     },
-    "cbec4558-76a6-553d-914c-0c7c7e89ce4a": {
-        "title": "a painting of a vase and a bottle",
-        "image_path": "/static/images/unsorted/PHOTO-2024-02-11-16-04-35.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a vase and a bottle"
-    },
     "23049f54-f283-5e00-a24a-a7170247b431": {
         "title": "a painting of a man with a beard and a beard",
         "image_path": "/static/images/unsorted/PHOTO-2024-02-11-16-04-48_3.jpg",
@@ -1389,25 +1649,805 @@
         "technique": "Unsorted yet",
         "description": "a painting of trees in a field"
     },
-    "e780a0ad-5153-5cef-82b0-ec74dc05cea6": {
-        "title": "a painting of a path through the woods",
-        "image_path": "/static/images/unsorted/RABBIT HILL-LANDAL.HOLLND.NOV06.jpg",
-        "year": "Unknown",
+    "58ecdbb2-7b6a-587d-967a-7b5f0833256f": {
+        "title": "a painting of a tree in a forest",
+        "image_path": "/static/images/unsorted/PXL_20250606_175435649.MP.jpg",
+        "year": "unsorted yet",
         "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a path through the woods"
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree in a forest"
     },
-    "8a6c8909-4d7d-55c1-8988-b351d9a16db9": {
-        "title": "a painting of a waterfall",
-        "image_path": "/static/images/unsorted/RACHENBERG FALLS.MERINGEN.SWITZ.2004.jpg",
-        "year": "Unknown",
+    "0b2c6935-9f7d-5af4-ab5a-5936c99b5f83": {
+        "title": "a painting of a plant on a table",
+        "image_path": "/static/images/unsorted/PXL_20250606_175538994.jpg",
+        "year": "unsorted yet",
         "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a waterfall"
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a plant on a table"
+    },
+    "33832b84-b58f-53a4-81ff-1cb120d397ad": {
+        "title": "a painting of a sky",
+        "image_path": "/static/images/unsorted/PXL_20250606_175550438.MP.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a sky"
+    },
+    "3854696d-d2d7-5ba2-a8da-5f25d40b203b": {
+        "title": "a painting of a house in a field",
+        "image_path": "/static/images/unsorted/PXL_20250606_175627291.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a house in a field"
+    },
+    "89758cb3-b871-5bcf-94b7-28cc9a9ec82d": {
+        "title": "a painting of a dog with a flower in its mouth",
+        "image_path": "/static/images/unsorted/PXL_20250606_175644836.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a dog with a flower in its mouth"
+    },
+    "5624ce7e-e119-59b3-98fe-5f1cbff665b6": {
+        "title": "a painting of a bear with a bunch of berries",
+        "image_path": "/static/images/unsorted/PXL_20250606_175731187.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bear with a bunch of berries"
+    },
+    "cd553252-7c18-5ef2-90ad-79568687ef71": {
+        "title": "a painting of a tree with a lot of green leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_175848226.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a lot of green leaves"
+    },
+    "fb16ab11-1451-5741-9ba7-d9a61e251a2b": {
+        "title": "a painting of a flower on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_180151700.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a flower on a piece of paper"
+    },
+    "e4f3ffd5-9d9f-5d39-ae05-9d2c533f7f14": {
+        "title": "a painting of a person walking down a street",
+        "image_path": "/static/images/unsorted/PXL_20250606_180215087.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a person walking down a street"
+    },
+    "f1a54124-cc41-5afb-8f73-402d88b503b9": {
+        "title": "a painting of a waterfall in the middle of a drawing",
+        "image_path": "/static/images/unsorted/PXL_20250606_180309849.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in the middle of a drawing"
+    },
+    "09d47b6d-7e71-5481-83bc-1c4c7f41e0b3": {
+        "title": "a painting of a house in a field",
+        "image_path": "/static/images/unsorted/PXL_20250606_180353615.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a house in a field"
+    },
+    "bce55260-d7d5-5f36-a4f1-bbac35e9df9b": {
+        "title": "a painting of trees in the woods",
+        "image_path": "/static/images/unsorted/PXL_20250606_180427643.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of trees in the woods"
+    },
+    "507e97fb-3f65-566e-a7d9-005a44645461": {
+        "title": "a painting of a road with a house in the distance",
+        "image_path": "/static/images/unsorted/PXL_20250606_180450668.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a road with a house in the distance"
+    },
+    "8a261007-9462-5999-8a5c-f3b038d86bac": {
+        "title": "a painting of a woman sitting on a rock",
+        "image_path": "/static/images/unsorted/PXL_20250606_180511342.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman sitting on a rock"
+    },
+    "53182aed-59a5-5264-bd7b-c56728e76ba8": {
+        "title": "a painting of a tree with a lot of leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_180534285.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a lot of leaves"
+    },
+    "cb71640b-22d9-5879-9b86-b07b79906924": {
+        "title": "a painting of a woman's torso",
+        "image_path": "/static/images/unsorted/PXL_20250606_180601227.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's torso"
+    },
+    "ec5d4626-3d5a-5667-ac91-b2d259ced1b2": {
+        "title": "a painting of a woman with a flower in her hair",
+        "image_path": "/static/images/unsorted/PXL_20250606_180621573.MP.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with a flower in her hair"
+    },
+    "3ea0431b-f8b8-5a49-a22c-73dda3ab24e5": {
+        "title": "a painting of a tree in a city",
+        "image_path": "/static/images/unsorted/PXL_20250606_180646089.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree in a city"
+    },
+    "461b249a-4457-56fd-8bcb-a7f934c5cf3e": {
+        "title": "a painting of a bird on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_180704131.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird on a piece of paper"
+    },
+    "879eec7e-903c-50e9-95c6-cb41ed4dde73": {
+        "title": "a painting of a tree with a bird on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_180716791.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a bird on it"
+    },
+    "770e62c0-e415-5f13-a242-6633ba0b172c": {
+        "title": "a painting of a man with a hat and a book",
+        "image_path": "/static/images/unsorted/PXL_20250606_180733249.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a man with a hat and a book"
+    },
+    "4b568e8c-97cd-59a8-b66b-9221bd7f18df": {
+        "title": "a painting of a horse on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_180747336.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a horse on a piece of paper"
+    },
+    "aab269c1-ccc1-59ab-b415-a34e5a2526fb": {
+        "title": "a painting of a white and blue circle",
+        "image_path": "/static/images/unsorted/PXL_20250606_180809930.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a white and blue circle"
+    },
+    "61ec607f-9d58-542a-9345-9e8f4410b77f": {
+        "title": "a painting of a mountain road with trees and mountains in the background",
+        "image_path": "/static/images/unsorted/PXL_20250606_180822588.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain road with trees and mountains in the background"
+    },
+    "2977fd35-1329-5d6b-86ee-d33e5e2af21d": {
+        "title": "a painting of a tree with red leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_180837687.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with red leaves"
+    },
+    "56104ea6-374a-5792-9e51-03d1d7670f1a": {
+        "title": "a painting of a tree in the woods",
+        "image_path": "/static/images/unsorted/PXL_20250606_180913542.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree in the woods"
+    },
+    "12a3893b-5d39-59a5-8d59-630bca7972ca": {
+        "title": "a painting of a tree in a field",
+        "image_path": "/static/images/unsorted/PXL_20250606_180941430.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree in a field"
+    },
+    "0e64c497-edd8-59e5-9555-2fc5ae81d3cc": {
+        "title": "a painting of a mountain scene with a purple sky",
+        "image_path": "/static/images/unsorted/PXL_20250606_181004360.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain scene with a purple sky"
+    },
+    "eecd9006-ca8b-5fef-bbba-71dc9977312a": {
+        "title": "a painting of a cactus with flowers on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_181013870.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a cactus with flowers on it"
+    },
+    "fadf24a3-a0f0-5e50-a513-7d9d7da256ae": {
+        "title": "a painting of a woman's face with a green background",
+        "image_path": "/static/images/unsorted/PXL_20250606_181036105.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's face with a green background"
+    },
+    "fb8d42a7-a878-596c-bbe3-0352c73cb4b2": {
+        "title": "a painting of a mountain scene with a sky and clouds",
+        "image_path": "/static/images/unsorted/PXL_20250606_181050991.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain scene with a sky and clouds"
+    },
+    "badd45cb-35ba-5f15-8a48-0511873e1dbb": {
+        "title": "a painting of a mountain with a sky in the background",
+        "image_path": "/static/images/unsorted/PXL_20250606_181107299.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain with a sky in the background"
+    },
+    "d49441b8-f03a-56aa-828c-60b9c9eb25c3": {
+        "title": "a painting of a tree in a field",
+        "image_path": "/static/images/unsorted/PXL_20250606_181122363.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree in a field"
+    },
+    "031ee859-b2b5-55d1-9b47-c9084b67e154": {
+        "title": "a painting of a tree with a bird on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_181223350.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a bird on it"
+    },
+    "0858e2c5-1de4-58f3-831f-8cd76149d51f": {
+        "title": "a painting of a bird on a tree",
+        "image_path": "/static/images/unsorted/PXL_20250606_181239373.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird on a tree"
+    },
+    "54ff2b97-593c-548c-bfc4-2bf7fa151b33": {
+        "title": "a painting of a mountain with a waterfall",
+        "image_path": "/static/images/unsorted/PXL_20250606_181305460.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain with a waterfall"
+    },
+    "33bf8d54-2ae6-50e0-9506-761b3ebd85f4": {
+        "title": "a painting of a bird flying over a tree",
+        "image_path": "/static/images/unsorted/PXL_20250606_181319994.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird flying over a tree"
+    },
+    "c37f8855-1fe9-59e4-9348-f2534273d3a9": {
+        "title": "a painting of a city with a tree",
+        "image_path": "/static/images/unsorted/PXL_20250606_181337085.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a city with a tree"
+    },
+    "5ecdf163-74f3-5273-ade8-8a1ca262f44e": {
+        "title": "a painting of a tree with many leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_181355671.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with many leaves"
+    },
+    "226f4d5f-be14-575d-83b7-b8f325894f7c": {
+        "title": "a painting of a tree with a bird on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_181420147.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a bird on it"
+    },
+    "dd9778b9-d64e-587d-8cf7-140d2734d8da": {
+        "title": "a painting of a cactus with flowers in it",
+        "image_path": "/static/images/unsorted/PXL_20250606_181445017.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a cactus with flowers in it"
+    },
+    "1bcaa665-21c9-50e7-b16d-f9f581d753c0": {
+        "title": "a painting of a clock on a table",
+        "image_path": "/static/images/unsorted/PXL_20250606_181506039.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a clock on a table"
+    },
+    "902415b7-5001-522d-8ad6-cf974f360ced": {
+        "title": "a painting of a mountain scene with a waterfall",
+        "image_path": "/static/images/unsorted/PXL_20250606_181520463.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain scene with a waterfall"
+    },
+    "f6973a3b-4485-5a6b-b180-8b65aba77d25": {
+        "title": "a painting of a tree with a house in the background",
+        "image_path": "/static/images/unsorted/PXL_20250606_181529930.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a house in the background"
+    },
+    "51871b46-fe4f-56cd-8745-f21d2d224361": {
+        "title": "a painting of a forest with trees and bushes",
+        "image_path": "/static/images/unsorted/PXL_20250606_181558909.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a forest with trees and bushes"
+    },
+    "c36c583e-ce5e-58c7-8b96-1853c209f03f": {
+        "title": "a painting of a waterfall in the middle of a book",
+        "image_path": "/static/images/unsorted/PXL_20250606_181633238.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in the middle of a book"
+    },
+    "4b35f418-55fb-5301-9aed-3f35527c2b23": {
+        "title": "a painting of a waterfall in the woods",
+        "image_path": "/static/images/unsorted/PXL_20250606_181653163.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in the woods"
+    },
+    "869b2800-8384-582c-9d52-2911e99044ae": {
+        "title": "a painting of a forest scene with a bird",
+        "image_path": "/static/images/unsorted/PXL_20250606_181707853.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a forest scene with a bird"
+    },
+    "0c081962-10c4-5471-ba92-e1ad7309c673": {
+        "title": "a painting of a bird on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_181724065.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird on a piece of paper"
+    },
+    "0a6f184b-de73-57c8-8196-b6a85dd7fba3": {
+        "title": "a painting of a bird on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_181754439.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a bird on a piece of paper"
+    },
+    "e7e2239d-721f-5dcf-9ab2-838a38fd3410": {
+        "title": "a painting of a woman's face on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_181805035.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's face on a piece of paper"
+    },
+    "779f89a0-6a02-59d7-8abf-47320402d3d1": {
+        "title": "a painting of a woman sitting on a chair",
+        "image_path": "/static/images/unsorted/PXL_20250606_181926039.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman sitting on a chair"
+    },
+    "af49099d-509a-527c-a6a2-f4f9a37aad1c": {
+        "title": "a painting of a woman with long hair",
+        "image_path": "/static/images/unsorted/PXL_20250606_182014257.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with long hair"
+    },
+    "2ae72c1a-debb-57a1-91e3-1c501fcea4c8": {
+        "title": "a painting of a mountain with trees",
+        "image_path": "/static/images/unsorted/PXL_20250606_182042685.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain with trees"
+    },
+    "d06021dd-22a5-5965-b41e-1776ecbcd47d": {
+        "title": "a painting of a tree with a lot of leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_182053170.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a lot of leaves"
+    },
+    "5bd9705d-5891-55cc-89e5-787e507c5549": {
+        "title": "a painting of a mountain with trees and bushes",
+        "image_path": "/static/images/unsorted/PXL_20250606_182107955.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain with trees and bushes"
+    },
+    "a75cf13d-9d11-550a-a3ca-44954cebac2d": {
+        "title": "a painting of a landscape with trees and a road",
+        "image_path": "/static/images/unsorted/PXL_20250606_182122619.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a landscape with trees and a road"
+    },
+    "d262f25d-6700-5adf-9871-efb50d3efb1e": {
+        "title": "a painting of a tree with no leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_182136655.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with no leaves"
+    },
+    "1d69d475-6206-522d-8e94-7356906b3a78": {
+        "title": "a painting of a woman with a knife",
+        "image_path": "/static/images/unsorted/PXL_20250606_182159971.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with a knife"
+    },
+    "c0b3978c-36f3-58ec-99ea-394198cbcdf6": {
+        "title": "a painting of a woman with a red and yellow hair",
+        "image_path": "/static/images/unsorted/PXL_20250606_182214666.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman with a red and yellow hair"
+    },
+    "52acb3d1-bbb1-5fad-9e00-8f5eb3c16836": {
+        "title": "a painting of flowers on a piece of paper",
+        "image_path": "/static/images/unsorted/PXL_20250606_182225795.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of flowers on a piece of paper"
+    },
+    "1828e583-2c01-53d3-bf06-b7311a08c494": {
+        "title": "a painting of a tree with many leaves",
+        "image_path": "/static/images/unsorted/PXL_20250606_182248722.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with many leaves"
+    },
+    "0bb24f82-3ca0-5243-947a-7344ea64355b": {
+        "title": "a painting of a large, blue and yellow abstract",
+        "image_path": "/static/images/unsorted/PXL_20250606_182314115.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a large, blue and yellow abstract"
+    },
+    "f577d980-7419-547e-8073-35c5c54e63bd": {
+        "title": "a painting of a tree branch with a bird on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_182323993.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree branch with a bird on it"
+    },
+    "f2c44fd3-578d-51bb-915e-5371426ac508": {
+        "title": "a painting of a tree with a bird on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_182334673.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a bird on it"
+    },
+    "218930ea-a3b4-52a7-b055-ba507d3e8227": {
+        "title": "a painting of a man on a cliff",
+        "image_path": "/static/images/unsorted/PXL_20250606_182347289.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a man on a cliff"
+    },
+    "fffa0075-4fe3-5a9a-aaf9-b3e15d403716": {
+        "title": "a painting of a vase with flowers in it",
+        "image_path": "/static/images/unsorted/PXL_20250606_182400072.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a vase with flowers in it"
+    },
+    "be448310-ff09-5822-9c14-282113ccd0df": {
+        "title": "a painting of a landscape with a lot of different colors",
+        "image_path": "/static/images/unsorted/PXL_20250606_182437992.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a landscape with a lot of different colors"
+    },
+    "cd905d78-3c91-5b26-865c-971bacee67c8": {
+        "title": "a painting of a waterfall in a forest",
+        "image_path": "/static/images/unsorted/PXL_20250606_182508916.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in a forest"
+    },
+    "b1ab767d-9304-5049-9790-783bd389b6c6": {
+        "title": "a painting of a face with a large grin on it",
+        "image_path": "/static/images/unsorted/PXL_20250606_182523899.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a face with a large grin on it"
+    },
+    "bf68e33f-b55d-54d7-9008-d8de3b9e4843": {
+        "title": "a painting of a waterfall in the middle of a painting",
+        "image_path": "/static/images/unsorted/PXL_20250606_182536908.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in the middle of a painting"
+    },
+    "0d0166fc-897b-5317-a07c-3394399ee83c": {
+        "title": "a painting of a woman's face",
+        "image_path": "/static/images/unsorted/PXL_20250606_182603382.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's face"
+    },
+    "6c468deb-dfdd-5873-bed9-9b95961f84d7": {
+        "title": "a painting of a mountain with a waterfall",
+        "image_path": "/static/images/unsorted/PXL_20250606_182620323.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a mountain with a waterfall"
+    },
+    "cced73c4-02ad-5280-a662-c95d469aa5ec": {
+        "title": "a painting of a green mountain",
+        "image_path": "/static/images/unsorted/PXL_20250606_182627381.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a green mountain"
+    },
+    "edf107fa-04a3-5219-8369-aced23ed5388": {
+        "title": "a painting of a tree and a bird",
+        "image_path": "/static/images/unsorted/PXL_20250606_182634593.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree and a bird"
+    },
+    "f91540ef-d445-5549-b4a3-45be80e83032": {
+        "title": "a painting of a waterfall in the woods",
+        "image_path": "/static/images/unsorted/PXL_20250606_182646934.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a waterfall in the woods"
+    },
+    "fddce96a-2ea3-5888-81d4-d1ec24e2e58d": {
+        "title": "a painting of trees in the desert",
+        "image_path": "/static/images/unsorted/PXL_20250606_182658198.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of trees in the desert"
+    },
+    "ea3b1b8c-3cfd-5c98-9573-a0e75a0eee93": {
+        "title": "a painting of a woman's torso",
+        "image_path": "/static/images/unsorted/PXL_20250606_182713005.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a woman's torso"
+    },
+    "aa209ea7-5e3c-5f19-857c-ceb398e7b94f": {
+        "title": "a painting of a white circle with a red dot",
+        "image_path": "/static/images/unsorted/PXL_20250606_182722826.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a white circle with a red dot"
+    },
+    "d2761335-0d7b-5a06-b95a-98ab237ea85e": {
+        "title": "a painting of a tree with a rock in the background",
+        "image_path": "/static/images/unsorted/PXL_20250606_182739116.jpg",
+        "year": "unsorted yet",
+        "country": "unsorted",
+        "location": "unsorted yet",
+        "current_location": "unsorted yet",
+        "technique": "unsorted yet",
+        "description": "a painting of a tree with a rock in the background"
     },
     "0004be18-114e-5d93-8677-bccc90b75a7c": {
         "title": "a painting of a stream in a forest",
@@ -1459,46 +2499,6 @@
         "technique": "Unsorted yet",
         "description": "a painting of a waterfall"
     },
-    "ce5b2ee6-4289-5021-87da-3c20ae1d93a6": {
-        "title": "a painting of a Phillis walking down a path",
-        "image_path": "/static/images/unsorted/WANDELING PARK HOLL.OCT2006 001.jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a Phillis walking down a path"
-    },
-    "543f1a19-f7af-5e81-b5d9-1bf6c208ad4a": {
-        "title": "a painting of a waterfall in a forest",
-        "image_path": "/static/images/unsorted/WATERVAL BOVEN.E.TVL.S.A.1964..jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a waterfall in a forest"
-    },
-    "95dde0ba-b66b-5c90-b186-e1228144adcd": {
-        "title": "a painting of a waterfall in the middle of a forest",
-        "image_path": "/static/images/unsorted/WATERVALBOVEN.E.TVL.S.A..jpg",
-        "year": "Unknown",
-        "country": "unsorted",
-        "location": "Unknown",
-        "current_location": "Unknown",
-        "technique": "Unsorted yet",
-        "description": "a painting of a waterfall in the middle of a forest"
-    },
-    "0645300a-7a4e-5310-b3ef-b8caae9f8a9d": {
-        "title": "a painting of a waterfall in the middle of a river",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.21 (1).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a waterfall in the middle of a river"
-    },
     "743a347d-b9ac-5e11-8d27-0ec93f3aa91a": {
         "title": "a painting of a waterfall in the middle of a forest",
         "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.22 (1).jpeg",
@@ -1519,26 +2519,6 @@
         "technique": "unsorted yet",
         "description": "a painting of a green and yellow abstract"
     },
-    "87b18898-afaf-5f53-bf15-bc8650b9d98b": {
-        "title": "a painting of a bird in a swirl",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.23 (1).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a bird in a swirl"
-    },
-    "2ac8ec55-69db-59b6-b42d-26f48346e2a3": {
-        "title": "a painting of a spiral design",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.23 (2).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a spiral design"
-    },
     "ad324ad2-9e49-51f5-8ed2-68d957570cea": {
         "title": "a painting of a tree and a moon",
         "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.23 (3).jpeg",
@@ -1558,36 +2538,6 @@
         "current_location": "unsorted yet",
         "technique": "unsorted yet",
         "description": "a painting of a road with houses and trees"
-    },
-    "cbec4e77-30a6-5746-bb26-90957a25e916": {
-        "title": "a painting of a windmill and a boat",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.24 (1).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a windmill and a boat"
-    },
-    "ba9ec3c9-418f-5708-b4fe-332f01e1523b": {
-        "title": "a painting of a bird with a red beak",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.24 (2).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a bird with a red beak"
-    },
-    "be79870e-869f-5dd5-bc6b-f7059a9087e2": {
-        "title": "a painting of a woman's face with colorful paint",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.24 (3).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a woman's face with colorful paint"
     },
     "42df8343-4e15-53d7-bd1a-ea785ab2f05c": {
         "title": "a painting of three elephants in a field",
@@ -1618,26 +2568,6 @@
         "current_location": "unsorted yet",
         "technique": "unsorted yet",
         "description": "a painting of a waterfall in the woods"
-    },
-    "227e4939-55af-51ce-b5b1-c286ea0f1fc7": {
-        "title": "a painting of a sunset with a bright yellow sun",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.25.jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a sunset with a bright yellow sun"
-    },
-    "94793e78-71ce-549c-a337-633887c57795": {
-        "title": "a painting of a person in a circle",
-        "image_path": "/static/images/unsorted/WhatsApp Image 2025-05-24 at 21.20.26 (1).jpeg",
-        "year": "unsorted yet",
-        "country": "unsorted",
-        "location": "unsorted yet",
-        "current_location": "unsorted yet",
-        "technique": "unsorted yet",
-        "description": "a painting of a person in a circle"
     },
     "48f3ffb6-317d-5b23-a1e2-3e6915a2a812": {
         "title": "a painting of a waterfall",
