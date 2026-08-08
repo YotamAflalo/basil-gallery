@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { PaintingImage } from "@/components/painting-image";
+import { WallpaperSheet } from "@/components/wallpaper-sheet";
 import { lqipUrl } from "@/lib/ik-url";
 import type { Painting } from "@/lib/schema";
 import { slug } from "@/lib/schema";
@@ -227,6 +228,7 @@ function Viewer({
     containScroll: "trimSnaps",
   });
   const [index, setIndex] = useState(startIndex);
+  const [wallpaperFor, setWallpaperFor] = useState<Painting | null>(null);
 
   const onSelect = useCallback(() => {
     if (embla) setIndex(embla.selectedScrollSnap());
@@ -314,18 +316,37 @@ function Viewer({
 
       {current && (
         <div className="pad-safe-b border-t border-[#E5E5E5] px-4 py-4">
-          <p className="text-[15px] leading-snug">
-            <span className="italic">{current.title}</span>
-            {current.year && <span>, {current.year}</span>}
-          </p>
-          {(current.place ?? current.country ?? current.technique) && (
-            <p className="mt-1 text-[13px] text-[#707070]">
-              {[current.place ?? current.country, current.technique]
-                .filter(Boolean)
-                .join(", ")}
-            </p>
-          )}
+          <div className="flex items-start justify-between gap-4">
+            <div className="min-w-0">
+              <p className="text-[15px] leading-snug">
+                <span className="italic">{current.title}</span>
+                {current.year && <span>, {current.year}</span>}
+              </p>
+              {(current.place ?? current.country ?? current.technique) && (
+                <p className="mt-1 text-[13px] text-[#707070]">
+                  {[current.place ?? current.country, current.technique]
+                    .filter(Boolean)
+                    .join(", ")}
+                </p>
+              )}
+            </div>
+
+            <button
+              type="button"
+              onClick={() => setWallpaperFor(current)}
+              className="min-h-11 shrink-0 border border-black px-3 text-[13px]"
+            >
+              Wallpaper
+            </button>
+          </div>
         </div>
+      )}
+
+      {wallpaperFor && (
+        <WallpaperSheet
+          painting={wallpaperFor}
+          onClose={() => setWallpaperFor(null)}
+        />
       )}
     </div>
   );

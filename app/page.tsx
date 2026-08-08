@@ -38,7 +38,8 @@ export default async function Home() {
         <h1 className="text-[28px] leading-tight font-medium tracking-tight">
           {BIO.name}
         </h1>
-        <p className="mt-2 text-[13px] tracking-[0.08em] text-[#707070] uppercase">
+        <p className="mt-2 text-[13px] text-[#707070]">{BIO.standing}</p>
+        <p className="mt-1 text-[11px] tracking-[0.08em] text-[#707070] uppercase">
           Oil · Watercolour · Acrylic · Chalk
         </p>
       </header>

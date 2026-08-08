@@ -28,31 +28,36 @@ export function lqipUrl(path: string): string {
   return ikUrl(path, "w-40,bl-30,q-20,f-auto");
 }
 
-/** Phone wallpaper presets. */
-export const WALLPAPER_SIZES = {
-  "iphone-pro-max": { w: 1290, h: 2796, label: "iPhone Pro Max" },
-  iphone: { w: 1179, h: 2556, label: "iPhone" },
-  android: { w: 1440, h: 3120, label: "Android" },
-  tablet: { w: 2048, h: 2732, label: "Tablet" },
-} as const;
-
-export type WallpaperSize = keyof typeof WALLPAPER_SIZES;
+/** Common phone and tablet screens, in real pixels. */
+export const WALLPAPER_PRESETS = [
+  { id: "iphone-pro-max", label: "iPhone Pro Max", width: 1290, height: 2796 },
+  { id: "iphone", label: "iPhone", width: 1179, height: 2556 },
+  { id: "android", label: "Android", width: 1440, height: 3120 },
+  { id: "ipad", label: "iPad", width: 2048, height: 2732 },
+] as const;
 
 /**
- * Wallpaper download URL.
+ * How the painting meets a screen that is a different shape.
  *
- * `fit: "crop"` fills the screen and trims the edges of the painting;
- * `fit: "whole"` pads instead, so nothing the artist painted is cut off.
+ * "fill"  — smart-crops to the screen. Fills it edge to edge, but trims the
+ *           sides of the painting, which for a landscape work is most of it.
+ * "whole" — pads instead, so nothing Basil painted is cut off. The gap is
+ *           filled with a blur of the painting itself.
  */
+export type WallpaperFit = "fill" | "whole";
+
 export function wallpaperUrl(
   path: string,
-  size: WallpaperSize,
-  fit: "crop" | "whole" = "crop",
+  { width, height, fit }: { width: number; height: number; fit: WallpaperFit },
 ): string {
-  const { w, h } = WALLPAPER_SIZES[size];
+  const size = `w-${Math.round(width)},h-${Math.round(height)}`;
   const tr =
-    fit === "crop"
-      ? `w-${w},h-${h},fo-auto,q-90,f-jpg`
-      : `w-${w},h-${h},cm-pad_resize,bg-blurred,q-90,f-jpg`;
+    fit === "fill"
+      ? `${size},fo-auto,q-90,f-jpg`
+      : `${size},cm-pad_resize,bg-blurred,q-90,f-jpg`;
+
+  // ik-attachment makes the browser save the file rather than navigate to it,
+  // which is the difference between "downloaded a wallpaper" and "opened a
+  // picture in a new tab".
   return url(path, [`tr=${tr}`, "ik-attachment=true"]);
 }
