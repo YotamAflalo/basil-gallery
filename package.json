@@ -11,7 +11,8 @@
     "schema:setup": "tsx scripts/setup-metadata-schema.ts",
     "migrate": "tsx scripts/migrate-to-imagekit.ts",
     "metadata:export": "tsx scripts/export-metadata.ts",
-    "metadata:import": "tsx scripts/import-metadata.ts"
+    "metadata:import": "tsx scripts/import-metadata.ts",
+    "verify:live": "tsx scripts/verify-live-update.ts"
   },
   "dependencies": {
     "@imagekit/nodejs": "^7.10.0",

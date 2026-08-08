@@ -1,6 +1,7 @@
 "use client";
 
 import useEmblaCarousel from "embla-carousel-react";
+import Link from "next/link";
 import { useCallback, useEffect, useMemo, useState } from "react";
 
 import { PaintingImage } from "@/components/painting-image";
@@ -101,9 +102,9 @@ function Header() {
   return (
     <header className="pad-safe-t sticky top-0 z-20 border-b border-[#E5E5E5] bg-white/95 backdrop-blur">
       <div className="flex items-baseline justify-between px-4 pt-3 pb-3">
-        <h1 className="text-[15px] font-medium tracking-tight">
+        <Link href="/" className="text-[15px] font-medium tracking-tight">
           Basil Andrew Swimmer
-        </h1>
+        </Link>
         <p className="text-[11px] tracking-[0.08em] text-[#707070] uppercase">
           Paintings
         </p>
@@ -233,10 +234,13 @@ function Viewer({
 
   useEffect(() => {
     if (!embla) return;
-    onSelect();
+    // No initial sync call: `startIndex` already seeds the counter, and
+    // Embla emits "reInit" if it has to clamp that index.
     embla.on("select", onSelect);
+    embla.on("reInit", onSelect);
     return () => {
       embla.off("select", onSelect);
+      embla.off("reInit", onSelect);
     };
   }, [embla, onSelect]);
 
