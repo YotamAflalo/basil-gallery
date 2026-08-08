@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+jinja2
+python-multipart
+python-dotenv
+itsdangerous
+schedule
+requests
+Pillow
+imagekitio>=5,<6
+transformers
+loguru

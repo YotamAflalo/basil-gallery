@@ -1,0 +1,4267 @@
+{
+  "exportedAt": "2026-08-08T08:59:02.128Z",
+  "urlEndpoint": "https://ik.imagekit.io/yotam",
+  "folder": "/paintings",
+  "count": 258,
+  "paintings": [
+    {
+      "fileId": "6a76eef75c7cd75eb83a6116",
+      "filePath": "/paintings/Abstract/563917_101422753351480_1512781489_n.jpg",
+      "name": "563917_101422753351480_1512781489_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/563917_101422753351480_1512781489_n.jpg?updatedAt=1786179320211",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a bird on a branch",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a branch"
+      }
+    },
+    {
+      "fileId": "6a76eef85c7cd75eb83a62ea",
+      "filePath": "/paintings/Abstract/564102_101422550018167_1011096357_n.jpg",
+      "name": "564102_101422550018167_1011096357_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/564102_101422550018167_1011096357_n.jpg?updatedAt=1786179320771",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a tree with red leaves",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with red leaves"
+      }
+    },
+    {
+      "fileId": "6a76eef85c7cd75eb83a6329",
+      "filePath": "/paintings/Abstract/577248_100817056745383_677676156_n.jpg",
+      "name": "577248_100817056745383_677676156_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/577248_100817056745383_677676156_n.jpg?updatedAt=1786179320866",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a flower in a vase",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a flower in a vase"
+      }
+    },
+    {
+      "fileId": "6a76eef85c7cd75eb83a6362",
+      "filePath": "/paintings/Abstract/ABSTRACT.PLANTS.1983.jpg",
+      "name": "ABSTRACT.PLANTS.1983.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/ABSTRACT.PLANTS.1983.jpg?updatedAt=1786179320977",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a flower with many colors",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a flower with many colors"
+      }
+    },
+    {
+      "fileId": "6a76eef85c7cd75eb83a637a",
+      "filePath": "/paintings/Abstract/ABSTRACTION-1983.jpg",
+      "name": "ABSTRACTION-1983.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/ABSTRACTION-1983.jpg?updatedAt=1786179321039",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a large abstracted object",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a large abstracted object"
+      }
+    },
+    {
+      "fileId": "6a76eef95c7cd75eb83a64d6",
+      "filePath": "/paintings/Abstract/ABSTRACTION-PLANTS.1983.jpg",
+      "name": "ABSTRACTION-PLANTS.1983.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/ABSTRACTION-PLANTS.1983.jpg?updatedAt=1786179321521",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a flower on a white background",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a flower on a white background"
+      }
+    },
+    {
+      "fileId": "6a76eef95c7cd75eb83a67f9",
+      "filePath": "/paintings/Abstract/IMG_6579.jpg",
+      "name": "IMG_6579.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/IMG_6579.jpg?updatedAt=1786179321984",
+      "width": 4032,
+      "height": 3024,
+      "description": "a painting of a bird on a wall",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a wall"
+      }
+    },
+    {
+      "fileId": "6a76eef95c7cd75eb83a66e8",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-00-33_2.jpg",
+      "name": "PHOTO-2024-02-11-16-00-33_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-00-33_2.jpg?updatedAt=1786179321806",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree with water droplets",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with water droplets"
+      }
+    },
+    {
+      "fileId": "6a76eef95c7cd75eb83a6667",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-00-33.jpg",
+      "name": "PHOTO-2024-02-11-16-00-33.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-00-33.jpg?updatedAt=1786179321720",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a bottle and a knife",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bottle and a knife"
+      }
+    },
+    {
+      "fileId": "6a76eef95c7cd75eb83a6a34",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-04-26_1.jpg",
+      "name": "PHOTO-2024-02-11-16-04-26_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-04-26_1.jpg?updatedAt=1786179322200",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a man's stomach",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man's stomach"
+      }
+    },
+    {
+      "fileId": "6a76eefa5c7cd75eb83a6b60",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-04-34_1.jpg",
+      "name": "PHOTO-2024-02-11-16-04-34_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-04-34_1.jpg?updatedAt=1786179322411",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a spiral design on a wall",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a spiral design on a wall"
+      }
+    },
+    {
+      "fileId": "6a76eefa5c7cd75eb83a6c63",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-04-35.jpg",
+      "name": "PHOTO-2024-02-11-16-04-35.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-04-35.jpg?updatedAt=1786179322487",
+      "width": 856,
+      "height": 1160,
+      "description": "a painting of a vase and a bottle",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a vase and a bottle"
+      }
+    },
+    {
+      "fileId": "6a76eefa5c7cd75eb83a6d8e",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-06-25.jpg",
+      "name": "PHOTO-2024-02-11-16-06-25.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-06-25.jpg?updatedAt=1786179322688",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree with many leaves",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with many leaves"
+      }
+    },
+    {
+      "fileId": "6a76eefa5c7cd75eb83a6e5f",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-06-30.jpg",
+      "name": "PHOTO-2024-02-11-16-06-30.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-06-30.jpg?updatedAt=1786179322892",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a face with many different colors",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a face with many different colors"
+      }
+    },
+    {
+      "fileId": "6a76eefa5c7cd75eb83a70ee",
+      "filePath": "/paintings/Abstract/PHOTO-2024-02-11-16-06-31_1.jpg",
+      "name": "PHOTO-2024-02-11-16-06-31_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PHOTO-2024-02-11-16-06-31_1.jpg?updatedAt=1786179323090",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a face in a bowl",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a face in a bowl"
+      }
+    },
+    {
+      "fileId": "6a76eefb5c7cd75eb83a7346",
+      "filePath": "/paintings/Abstract/PXL_20250606_175509615.jpg",
+      "name": "PXL_20250606_175509615.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_175509615.jpg?updatedAt=1786179323982",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bird on a tree",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a tree"
+      }
+    },
+    {
+      "fileId": "6a76eefc5c7cd75eb83a7570",
+      "filePath": "/paintings/Abstract/PXL_20250606_175803637.jpg",
+      "name": "PXL_20250606_175803637.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_175803637.jpg?updatedAt=1786179324541",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a man with a hat and a cane",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man with a hat and a cane"
+      }
+    },
+    {
+      "fileId": "6a76eefc5c7cd75eb83a77b6",
+      "filePath": "/paintings/Abstract/PXL_20250606_175924704.jpg",
+      "name": "PXL_20250606_175924704.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_175924704.jpg?updatedAt=1786179325016",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a plant with red and blue leaves",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a plant with red and blue leaves"
+      }
+    },
+    {
+      "fileId": "6a76eefc5c7cd75eb83a7894",
+      "filePath": "/paintings/Abstract/PXL_20250606_175948224.jpg",
+      "name": "PXL_20250606_175948224.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_175948224.jpg?updatedAt=1786179325085",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of flowers on a white surface",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of flowers on a white surface"
+      }
+    },
+    {
+      "fileId": "6a76eefd5c7cd75eb83a79f6",
+      "filePath": "/paintings/Abstract/PXL_20250606_180026660.jpg",
+      "name": "PXL_20250606_180026660.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_180026660.jpg?updatedAt=1786179325440",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of flowers on a white paper",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of flowers on a white paper"
+      }
+    },
+    {
+      "fileId": "6a76eefd5c7cd75eb83a7ada",
+      "filePath": "/paintings/Abstract/PXL_20250606_180100177.jpg",
+      "name": "PXL_20250606_180100177.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_180100177.jpg?updatedAt=1786179325800",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a light bulb on a piece of paper",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a light bulb on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76eeff5c7cd75eb83a8417",
+      "filePath": "/paintings/Abstract/PXL_20250606_180238502.MP.jpg",
+      "name": "PXL_20250606_180238502.MP.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_180238502.MP.jpg?updatedAt=1786179327694",
+      "width": 4624,
+      "height": 3472,
+      "description": "a painting of a bird with a flower in its beak",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird with a flower in its beak"
+      }
+    },
+    {
+      "fileId": "6a76eefe5c7cd75eb83a80df",
+      "filePath": "/paintings/Abstract/PXL_20250606_180329017.jpg",
+      "name": "PXL_20250606_180329017.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_180329017.jpg?updatedAt=1786179326921",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a flower on a white paper",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a flower on a white paper"
+      }
+    },
+    {
+      "fileId": "6a76eeff5c7cd75eb83a8439",
+      "filePath": "/paintings/Abstract/PXL_20250606_181200717.jpg",
+      "name": "PXL_20250606_181200717.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181200717.jpg?updatedAt=1786179327702",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a person holding a sword",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a person holding a sword"
+      }
+    },
+    {
+      "fileId": "6a76eeff5c7cd75eb83a8509",
+      "filePath": "/paintings/Abstract/PXL_20250606_181621488.jpg",
+      "name": "PXL_20250606_181621488.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181621488.jpg?updatedAt=1786179328022",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with a large head",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with a large head"
+      }
+    },
+    {
+      "fileId": "6a76ef005c7cd75eb83a861b",
+      "filePath": "/paintings/Abstract/PXL_20250606_181742987.jpg",
+      "name": "PXL_20250606_181742987.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181742987.jpg?updatedAt=1786179328420",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bunch of flowers on a piece of paper",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bunch of flowers on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef015c7cd75eb83a951d",
+      "filePath": "/paintings/Abstract/PXL_20250606_181814808.jpg",
+      "name": "PXL_20250606_181814808.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181814808.jpg?updatedAt=1786179330061",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a painting with different colors",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a painting with different colors"
+      }
+    },
+    {
+      "fileId": "6a76ef015c7cd75eb83a93a5",
+      "filePath": "/paintings/Abstract/PXL_20250606_181847328.jpg",
+      "name": "PXL_20250606_181847328.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181847328.jpg?updatedAt=1786179329782",
+      "width": 4624,
+      "height": 3472,
+      "description": "a painting of a woman's face with colored pencils",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's face with colored pencils"
+      }
+    },
+    {
+      "fileId": "6a76ef025c7cd75eb83a9bf3",
+      "filePath": "/paintings/Abstract/PXL_20250606_181859188.jpg",
+      "name": "PXL_20250606_181859188.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181859188.jpg?updatedAt=1786179331143",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a face with a green and blue circle",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a face with a green and blue circle"
+      }
+    },
+    {
+      "fileId": "6a76ef015c7cd75eb83a96c5",
+      "filePath": "/paintings/Abstract/PXL_20250606_181942703.jpg",
+      "name": "PXL_20250606_181942703.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_181942703.jpg?updatedAt=1786179330352",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a man on a bike",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man on a bike"
+      }
+    },
+    {
+      "fileId": "6a76ef035c7cd75eb83a9f78",
+      "filePath": "/paintings/Abstract/PXL_20250606_182032463.jpg",
+      "name": "PXL_20250606_182032463.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_182032463.jpg?updatedAt=1786179331519",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with a hat",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with a hat"
+      }
+    },
+    {
+      "fileId": "6a76ef035c7cd75eb83aa0c7",
+      "filePath": "/paintings/Abstract/PXL_20250606_182414431.jpg",
+      "name": "PXL_20250606_182414431.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_182414431.jpg?updatedAt=1786179331819",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with a blue face",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with a blue face"
+      }
+    },
+    {
+      "fileId": "6a76ef035c7cd75eb83aa0b8",
+      "filePath": "/paintings/Abstract/PXL_20250606_182451318.jpg",
+      "name": "PXL_20250606_182451318.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/PXL_20250606_182451318.jpg?updatedAt=1786179331802",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree and a painting of a bird",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree and a painting of a bird"
+      }
+    },
+    {
+      "fileId": "6a76ef035c7cd75eb83aa0e5",
+      "filePath": "/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.23__2_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.23__2_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.23__2_.jpeg?updatedAt=1786179331829",
+      "width": 965,
+      "height": 1344,
+      "description": "a painting of a spiral design",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a spiral design"
+      }
+    },
+    {
+      "fileId": "6a76ef035c7cd75eb83aa1e9",
+      "filePath": "/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.24__2_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.24__2_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.24__2_.jpeg?updatedAt=1786179332212",
+      "width": 1600,
+      "height": 1199,
+      "description": "a painting of a bird with a red beak",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird with a red beak"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa2ae",
+      "filePath": "/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.24__3_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.24__3_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.24__3_.jpeg?updatedAt=1786179332496",
+      "width": 1297,
+      "height": 1042,
+      "description": "a painting of a woman's face with colorful paint",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's face with colorful paint"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa2b2",
+      "filePath": "/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.25.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.25.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.25.jpeg?updatedAt=1786179332499",
+      "width": 1287,
+      "height": 881,
+      "description": "a painting of a sunset with a bright yellow sun",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a sunset with a bright yellow sun"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa2cd",
+      "filePath": "/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.26__1_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.26__1_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Abstract/WhatsApp_Image_2025-05-24_at_21.20.26__1_.jpeg?updatedAt=1786179332524",
+      "width": 1600,
+      "height": 1199,
+      "description": "a painting of a person in a circle",
+      "tags": [
+        "abstract"
+      ],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a person in a circle"
+      }
+    },
+    {
+      "fileId": "6a76ee8f5c7cd75eb838d95f",
+      "filePath": "/paintings/Netherlands/490181602_2992410944252632_3473814032084073021_n.jpg",
+      "name": "490181602_2992410944252632_3473814032084073021_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490181602_2992410944252632_3473814032084073021_n.jpg?updatedAt=1786179215306",
+      "width": 960,
+      "height": 720,
+      "description": "A serene watercolor painting capturing the essence of Amsterdam's iconic canals, with traditional Dutch architecture reflected in the calm waters.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Canal Scene",
+        "country": "Netherlands",
+        "place": "Amsterdam Canal",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef35c7cd75eb83a466c",
+      "filePath": "/paintings/Netherlands/490345659_2992410704252656_2361460038649804973_n.jpg",
+      "name": "490345659_2992410704252656_2361460038649804973_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490345659_2992410704252656_2361460038649804973_n.jpg?updatedAt=1786179315792",
+      "width": 960,
+      "height": 720,
+      "description": "A peaceful watercolor depiction of a rural Dutch stream, surrounded by lush vegetation and characteristic Dutch landscape elements.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Countryside Stream",
+        "country": "Netherlands",
+        "place": "Dutch Countryside",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef35c7cd75eb83a45fe",
+      "filePath": "/paintings/Netherlands/490572499_2992244367602623_8650726156780937360_n.jpg",
+      "name": "490572499_2992244367602623_8650726156780937360_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490572499_2992244367602623_8650726156780937360_n.jpg?updatedAt=1786179315735",
+      "width": 960,
+      "height": 720,
+      "description": "A charming watercolor painting of a traditional Dutch village street, showcasing the unique architecture and atmosphere of rural Netherlands.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Village Street",
+        "country": "Netherlands",
+        "place": "Dutch Village",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef35c7cd75eb83a4893",
+      "filePath": "/paintings/Netherlands/490587693_2992409760919417_2553179504019128149_n.jpg",
+      "name": "490587693_2992409760919417_2553179504019128149_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490587693_2992409760919417_2553179504019128149_n.jpg?updatedAt=1786179316070",
+      "width": 960,
+      "height": 720,
+      "description": "A detailed watercolor painting of traditional Dutch houses along a river, capturing the characteristic Dutch architectural style and waterfront living.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Riverside Houses",
+        "country": "Netherlands",
+        "place": "Dutch Waterfront",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef35c7cd75eb83a48a8",
+      "filePath": "/paintings/Netherlands/490595958_2992410950919298_8658593828181424837_n.jpg",
+      "name": "490595958_2992410950919298_8658593828181424837_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490595958_2992410950919298_8658593828181424837_n.jpg?updatedAt=1786179316093",
+      "width": 960,
+      "height": 720,
+      "description": "A vibrant watercolor painting of a traditional Dutch market square, depicting the lively atmosphere and historic buildings typical of Dutch towns.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Market Square",
+        "country": "Netherlands",
+        "place": "Dutch Market",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef45c7cd75eb83a49af",
+      "filePath": "/paintings/Netherlands/490741999_2992239147603145_5968185705421010636_n.jpg",
+      "name": "490741999_2992239147603145_5968185705421010636_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490741999_2992239147603145_5968185705421010636_n.jpg?updatedAt=1786179316483",
+      "width": 960,
+      "height": 720,
+      "description": "A picturesque watercolor painting featuring a traditional Dutch windmill in the countryside, symbolizing the iconic Dutch landscape.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Windmill Scene",
+        "year": 2013,
+        "country": "Netherlands",
+        "place": "Dutch Countryside",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef45c7cd75eb83a49ab",
+      "filePath": "/paintings/Netherlands/490742052_2991212597705800_5465045115878650160_n.jpg",
+      "name": "490742052_2991212597705800_5465045115878650160_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/490742052_2991212597705800_5465045115878650160_n.jpg?updatedAt=1786179316478",
+      "width": 960,
+      "height": 720,
+      "description": "A detailed watercolor painting of a Dutch harbor, capturing the maritime heritage and coastal atmosphere of the Netherlands.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Dutch Harbor View",
+        "year": 2012,
+        "country": "Netherlands",
+        "place": "Dutch Harbor",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef45c7cd75eb83a4a88",
+      "filePath": "/paintings/Netherlands/home_art.jpg",
+      "name": "home_art.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/home_art.jpg?updatedAt=1786179316766",
+      "width": 206,
+      "height": 206,
+      "description": "a painting of a family walking down a country road",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a family walking down a country road",
+        "country": "Netherlands"
+      }
+    },
+    {
+      "fileId": "6a76eef45c7cd75eb83a4b3a",
+      "filePath": "/paintings/Netherlands/RABBIT_HILL-LANDAL.HOLLND.NOV06.jpg",
+      "name": "RABBIT_HILL-LANDAL.HOLLND.NOV06.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/RABBIT_HILL-LANDAL.HOLLND.NOV06.jpg?updatedAt=1786179317006",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a path through the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a path through the woods",
+        "country": "Netherlands"
+      }
+    },
+    {
+      "fileId": "6a76eef55c7cd75eb83a4c2d",
+      "filePath": "/paintings/Netherlands/WANDELING_PARK_HOLL.OCT2006_001.jpg",
+      "name": "WANDELING_PARK_HOLL.OCT2006_001.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/WANDELING_PARK_HOLL.OCT2006_001.jpg?updatedAt=1786179317335",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of a Phillis walking down a path",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a Phillis walking down a path",
+        "country": "Netherlands"
+      }
+    },
+    {
+      "fileId": "6a76eef45c7cd75eb83a4bba",
+      "filePath": "/paintings/Netherlands/windmillyear_2008.jpg",
+      "name": "windmillyear_2008.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Netherlands/windmillyear_2008.jpg?updatedAt=1786179317162",
+      "width": 960,
+      "height": 720,
+      "description": "A classic watercolor painting of a traditional Dutch windmill, set against the characteristic flat landscape of the Netherlands.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "Traditional Dutch Windmill",
+        "year": 2008,
+        "country": "Netherlands",
+        "place": "Dutch Countryside",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76ef8a5c7cd75eb83c8f9c",
+      "filePath": "/paintings/South-Africa/DSCF1476.JPG",
+      "name": "DSCF1476.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/South-Africa/DSCF1476.JPG?updatedAt=1786179466737",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a river with trees and buildings",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a river with trees and buildings",
+        "country": "South Africa"
+      }
+    },
+    {
+      "fileId": "6a76ef8a5c7cd75eb83c9068",
+      "filePath": "/paintings/South-Africa/WATERVAL_BOVEN.E.TVL.S.A.1964..jpg",
+      "name": "WATERVAL_BOVEN.E.TVL.S.A.1964..jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/South-Africa/WATERVAL_BOVEN.E.TVL.S.A.1964..jpg?updatedAt=1786179467066",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a waterfall in a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in a forest",
+        "country": "South Africa"
+      }
+    },
+    {
+      "fileId": "6a76ef8a5c7cd75eb83c90ad",
+      "filePath": "/paintings/South-Africa/WhatsApp_Image_2025-05-24_at_21.20.21__1_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.21__1_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/South-Africa/WhatsApp_Image_2025-05-24_at_21.20.21__1_.jpeg?updatedAt=1786179467168",
+      "width": 1295,
+      "height": 968,
+      "description": "a painting of a waterfall in the middle of a river",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a river",
+        "country": "South Africa"
+      }
+    },
+    {
+      "fileId": "6a76ef8a5c7cd75eb83c90c7",
+      "filePath": "/paintings/South-Africa/WhatsApp_Image_2025-05-24_at_21.20.21.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.21.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/South-Africa/WhatsApp_Image_2025-05-24_at_21.20.21.jpeg?updatedAt=1786179467205",
+      "width": 1550,
+      "height": 882,
+      "description": "a painting of a house in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a house in a field",
+        "country": "South Africa"
+      }
+    },
+    {
+      "fileId": "6a76ef8b5c7cd75eb83c917b",
+      "filePath": "/paintings/South-Africa/WhatsApp_Image_2025-05-24_at_21.20.22.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.22.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/South-Africa/WhatsApp_Image_2025-05-24_at_21.20.22.jpeg?updatedAt=1786179467410",
+      "width": 1501,
+      "height": 913,
+      "description": "a painting of a mountain scene with a tree",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a tree",
+        "country": "South Africa"
+      }
+    },
+    {
+      "fileId": "6a76eef55c7cd75eb83a50d2",
+      "filePath": "/paintings/Switzerland/190241_101423083351447_668202023_n.jpg",
+      "name": "190241_101423083351447_668202023_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/190241_101423083351447_668202023_n.jpg?updatedAt=1786179317907",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods",
+        "country": "Switzerland",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76eef55c7cd75eb83a5147",
+      "filePath": "/paintings/Switzerland/224408_100817796745309_1155049077_n.jpg",
+      "name": "224408_100817796745309_1155049077_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/224408_100817796745309_1155049077_n.jpg?updatedAt=1786179317962",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the mountains.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the mountains",
+        "country": "Switzerland",
+        "place": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef55c7cd75eb83a5163",
+      "filePath": "/paintings/Switzerland/227425_100832936743795_490879877_n.jpg",
+      "name": "227425_100832936743795_490879877_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/227425_100832936743795_490879877_n.jpg?updatedAt=1786179318007",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods",
+        "country": "Switzerland",
+        "place": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef55c7cd75eb83a517d",
+      "filePath": "/paintings/Switzerland/229466_100817720078650_1758497928_n.jpg",
+      "name": "229466_100817720078650_1758497928_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/229466_100817720078650_1758497928_n.jpg?updatedAt=1786179318037",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef65c7cd75eb83a5482",
+      "filePath": "/paintings/Switzerland/23938_100814156745673_949479244_n.jpg",
+      "name": "23938_100814156745673_949479244_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/23938_100814156745673_949479244_n.jpg?updatedAt=1786179318625",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef65c7cd75eb83a5490",
+      "filePath": "/paintings/Switzerland/30975_100811360079286_506948413_n.jpg",
+      "name": "30975_100811360079286_506948413_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/30975_100811360079286_506948413_n.jpg?updatedAt=1786179318649",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the mountains",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef65c7cd75eb83a54ba",
+      "filePath": "/paintings/Switzerland/431590_100807910079631_741870341_n.jpg",
+      "name": "431590_100807910079631_741870341_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/431590_100807910079631_741870341_n.jpg?updatedAt=1786179318715",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a house in the countryside",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a house in the countryside",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef65c7cd75eb83a54dd",
+      "filePath": "/paintings/Switzerland/47237_100816836745405_143320572_n.jpg",
+      "name": "47237_100816836745405_143320572_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/47237_100816836745405_143320572_n.jpg?updatedAt=1786179318727",
+      "width": 360,
+      "height": 480,
+      "description": "a painting of a waterfall in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the mountains",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a5aae",
+      "filePath": "/paintings/Switzerland/554038_100840036743085_753691066_n.jpg",
+      "name": "554038_100840036743085_753691066_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/554038_100840036743085_753691066_n.jpg?updatedAt=1786179319313",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the mountains",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a5ab8",
+      "filePath": "/paintings/Switzerland/BRIDGE.OBERLAND_SWITZ.24-12-07.jpg",
+      "name": "BRIDGE.OBERLAND_SWITZ.24-12-07.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/BRIDGE.OBERLAND_SWITZ.24-12-07.jpg?updatedAt=1786179319338",
+      "width": 360,
+      "height": 480,
+      "description": "a painting of a bridge over a river",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bridge over a river",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a5c45",
+      "filePath": "/paintings/Switzerland/CASTLE_AT_SPITZ._SWITZRLND.12-01-07._001.jpg",
+      "name": "CASTLE_AT_SPITZ._SWITZRLND.12-01-07._001.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/CASTLE_AT_SPITZ._SWITZRLND.12-01-07._001.jpg?updatedAt=1786179319489",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a castle in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a castle in the mountains",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a5b93",
+      "filePath": "/paintings/Switzerland/ENGSTLIGEN_FALLS.ADELBODEN.SWITZLND.5-10-07.jpg",
+      "name": "ENGSTLIGEN_FALLS.ADELBODEN.SWITZLND.5-10-07.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/ENGSTLIGEN_FALLS.ADELBODEN.SWITZLND.5-10-07.jpg?updatedAt=1786179319390",
+      "width": 360,
+      "height": 480,
+      "description": "a painting of a waterfall in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the mountains",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a60a2",
+      "filePath": "/paintings/Switzerland/FALLS_NEAR_MERINGEN.SWITZ.2007.jpg",
+      "name": "FALLS_NEAR_MERINGEN.SWITZ.2007.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/FALLS_NEAR_MERINGEN.SWITZ.2007.jpg?updatedAt=1786179320085",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a60f4",
+      "filePath": "/paintings/Switzerland/MERINGEN_FALLS_SWITZ.22-01-07.jpg",
+      "name": "MERINGEN_FALLS_SWITZ.22-01-07.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/MERINGEN_FALLS_SWITZ.22-01-07.jpg?updatedAt=1786179320204",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76eef75c7cd75eb83a60dd",
+      "filePath": "/paintings/Switzerland/RACHENBERG_FALLS.MERINGEN.SWITZ.2004.jpg",
+      "name": "RACHENBERG_FALLS.MERINGEN.SWITZ.2004.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Switzerland/RACHENBERG_FALLS.MERINGEN.SWITZ.2004.jpg?updatedAt=1786179320186",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall",
+        "country": "Switzerland"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa41e",
+      "filePath": "/paintings/Unsorted/12742_100840093409746_132562522_n.jpg",
+      "name": "12742_100840093409746_132562522_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/12742_100840093409746_132562522_n.jpg?updatedAt=1786179332933",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the woods.",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa4c0",
+      "filePath": "/paintings/Unsorted/1653533_258190944341326_95250998_n.jpg",
+      "name": "1653533_258190944341326_95250998_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/1653533_258190944341326_95250998_n.jpg?updatedAt=1786179333208",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a river in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a river in the mountains",
+        "technique": "Watercolour"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa4c4",
+      "filePath": "/paintings/Unsorted/250533_100826083411147_867563481_n.jpg",
+      "name": "250533_100826083411147_867563481_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/250533_100826083411147_867563481_n.jpg?updatedAt=1786179333192",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a tree in a landscape",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a landscape"
+      }
+    },
+    {
+      "fileId": "6a76ef045c7cd75eb83aa4cc",
+      "filePath": "/paintings/Unsorted/255423_100811380079284_1913402430_n.jpg",
+      "name": "255423_100811380079284_1913402430_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/255423_100811380079284_1913402430_n.jpg?updatedAt=1786179333220",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef055c7cd75eb83aa5dc",
+      "filePath": "/paintings/Unsorted/255497_100826243411131_376355613_n.jpg",
+      "name": "255497_100826243411131_376355613_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/255497_100826243411131_376355613_n.jpg?updatedAt=1786179333626",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the middle of a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a forest"
+      }
+    },
+    {
+      "fileId": "6a76ef055c7cd75eb83aa646",
+      "filePath": "/paintings/Unsorted/283502_100814373412318_311004557_n.jpg",
+      "name": "283502_100814373412318_311004557_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/283502_100814373412318_311004557_n.jpg?updatedAt=1786179333854",
+      "width": 360,
+      "height": 480,
+      "description": "a painting of a castle in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a castle in the mountains"
+      }
+    },
+    {
+      "fileId": "6a76ef055c7cd75eb83aa653",
+      "filePath": "/paintings/Unsorted/299401_101422500018172_23585620_n.jpg",
+      "name": "299401_101422500018172_23585620_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/299401_101422500018172_23585620_n.jpg?updatedAt=1786179333920",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a mountain with a small house in the middle",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with a small house in the middle"
+      }
+    },
+    {
+      "fileId": "6a76ef055c7cd75eb83aa664",
+      "filePath": "/paintings/Unsorted/306704_116424091851346_705666573_n.jpg",
+      "name": "306704_116424091851346_705666573_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/306704_116424091851346_705666573_n.jpg?updatedAt=1786179333906",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef065c7cd75eb83aa736",
+      "filePath": "/paintings/Unsorted/320326_101003326726756_1922572811_n.jpg",
+      "name": "320326_101003326726756_1922572811_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/320326_101003326726756_1922572811_n.jpg?updatedAt=1786179334370",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a bird flying over a mountain",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird flying over a mountain"
+      }
+    },
+    {
+      "fileId": "6a76ef065c7cd75eb83aa7b1",
+      "filePath": "/paintings/Unsorted/400863_100840110076411_1729772591_n.jpg",
+      "name": "400863_100840110076411_1729772591_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/400863_100840110076411_1729772591_n.jpg?updatedAt=1786179334594",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of trees in the distance",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of trees in the distance"
+      }
+    },
+    {
+      "fileId": "6a76ef065c7cd75eb83aa7d5",
+      "filePath": "/paintings/Unsorted/420422_100826056744483_604677425_n.jpg",
+      "name": "420422_100826056744483_604677425_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/420422_100826056744483_604677425_n.jpg?updatedAt=1786179334639",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a stream in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a stream in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef065c7cd75eb83aa7e8",
+      "filePath": "/paintings/Unsorted/420965_100814193412336_1747432503_n.jpg",
+      "name": "420965_100814193412336_1747432503_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/420965_100814193412336_1747432503_n.jpg?updatedAt=1786179334676",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef065c7cd75eb83aad63",
+      "filePath": "/paintings/Unsorted/427846_100834056743683_1527430621_n.jpg",
+      "name": "427846_100834056743683_1527430621_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/427846_100834056743683_1527430621_n.jpg?updatedAt=1786179335206",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a mountain scene with a tree",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a tree"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83aaee2",
+      "filePath": "/paintings/Unsorted/480333_101422683351487_299653461_n.jpg",
+      "name": "480333_101422683351487_299653461_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/480333_101422683351487_299653461_n.jpg?updatedAt=1786179335313",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a mountain road",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain road"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83aaf68",
+      "filePath": "/paintings/Unsorted/481078_100833486743740_1730748657_n.jpg",
+      "name": "481078_100833486743740_1730748657_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/481078_100833486743740_1730748657_n.jpg?updatedAt=1786179335415",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a tree by the water",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree by the water"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83aafb2",
+      "filePath": "/paintings/Unsorted/488014_101363513357404_1515000450_n.jpg",
+      "name": "488014_101363513357404_1515000450_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/488014_101363513357404_1515000450_n.jpg?updatedAt=1786179335473",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a tree in the middle of a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in the middle of a field"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83ab157",
+      "filePath": "/paintings/Unsorted/523128_101423060018116_472930056_n.jpg",
+      "name": "523128_101423060018116_472930056_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/523128_101423060018116_472930056_n.jpg?updatedAt=1786179335933",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a landscape with trees and mountains in the background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a landscape with trees and mountains in the background"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83ab17f",
+      "filePath": "/paintings/Unsorted/523150_100817013412054_601671940_n.jpg",
+      "name": "523150_100817013412054_601671940_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/523150_100817013412054_601671940_n.jpg?updatedAt=1786179336039",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a cactus with flowers in it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a cactus with flowers in it"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83ab1b3",
+      "filePath": "/paintings/Unsorted/523769_100814350078987_1135238043_n.jpg",
+      "name": "523769_100814350078987_1135238043_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/523769_100814350078987_1135238043_n.jpg?updatedAt=1786179336169",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef075c7cd75eb83ab1be",
+      "filePath": "/paintings/Unsorted/523850_101422216684867_2127895294_n.jpg",
+      "name": "523850_101422216684867_2127895294_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/523850_101422216684867_2127895294_n.jpg?updatedAt=1786179336202",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a mountain scene",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene"
+      }
+    },
+    {
+      "fileId": "6a76ef085c7cd75eb83ab2af",
+      "filePath": "/paintings/Unsorted/526048_100833153410440_789032929_n.jpg",
+      "name": "526048_100833153410440_789032929_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/526048_100833153410440_789032929_n.jpg?updatedAt=1786179336736",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a forest scene",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a forest scene"
+      }
+    },
+    {
+      "fileId": "6a76ef085c7cd75eb83ab2ce",
+      "filePath": "/paintings/Unsorted/533888_114353592058396_1130543579_n.jpg",
+      "name": "533888_114353592058396_1130543579_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/533888_114353592058396_1130543579_n.jpg?updatedAt=1786179336824",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef085c7cd75eb83ab314",
+      "filePath": "/paintings/Unsorted/548021_100833580077064_370817236_n.jpg",
+      "name": "548021_100833580077064_370817236_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/548021_100833580077064_370817236_n.jpg?updatedAt=1786179336906",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a tree with green leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with green leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef085c7cd75eb83ab33c",
+      "filePath": "/paintings/Unsorted/556260_100826160077806_426458978_n.jpg",
+      "name": "556260_100826160077806_426458978_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/556260_100826160077806_426458978_n.jpg?updatedAt=1786179336952",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of trees in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of trees in the mountains"
+      }
+    },
+    {
+      "fileId": "6a76ef095c7cd75eb83ab484",
+      "filePath": "/paintings/Unsorted/560324_100814320078990_2022128722_n.jpg",
+      "name": "560324_100814320078990_2022128722_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/560324_100814320078990_2022128722_n.jpg?updatedAt=1786179337444",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of mountains and trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of mountains and trees"
+      }
+    },
+    {
+      "fileId": "6a76ef095c7cd75eb83ab4b5",
+      "filePath": "/paintings/Unsorted/564039_100840550076367_1478379455_n.jpg",
+      "name": "564039_100840550076367_1478379455_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/564039_100840550076367_1478379455_n.jpg?updatedAt=1786179337570",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a stream in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a stream in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef095c7cd75eb83ab4d6",
+      "filePath": "/paintings/Unsorted/579720_100833170077105_1628981485_n.jpg",
+      "name": "579720_100833170077105_1628981485_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/579720_100833170077105_1628981485_n.jpg?updatedAt=1786179337655",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a Phillis walking down a path",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a Phillis walking down a path"
+      }
+    },
+    {
+      "fileId": "6a76ef095c7cd75eb83ab4e8",
+      "filePath": "/paintings/Unsorted/60114_100832976743791_693671608_n.jpg",
+      "name": "60114_100832976743791_693671608_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/60114_100832976743791_693671608_n.jpg?updatedAt=1786179337659",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of mountains and trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of mountains and trees"
+      }
+    },
+    {
+      "fileId": "6a76ef095c7cd75eb83ab608",
+      "filePath": "/paintings/Unsorted/644482_100822330078189_637177803_n.jpg",
+      "name": "644482_100822330078189_637177803_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/644482_100822330078189_637177803_n.jpg?updatedAt=1786179338174",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a bridge over a river",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bridge over a river"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab674",
+      "filePath": "/paintings/Unsorted/68430_100817766745312_518493507_n.jpg",
+      "name": "68430_100817766745312_518493507_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/68430_100817766745312_518493507_n.jpg?updatedAt=1786179338291",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of a mountain scene",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab69d",
+      "filePath": "/paintings/Unsorted/76876_100816853412070_1104283866_n.jpg",
+      "name": "76876_100816853412070_1104283866_n.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/76876_100816853412070_1104283866_n.jpg?updatedAt=1786179338356",
+      "width": 720,
+      "height": 960,
+      "description": "a painting of houses in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of houses in the mountains"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab6de",
+      "filePath": "/paintings/Unsorted/DSCF1464.JPG",
+      "name": "DSCF1464.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1464.JPG?updatedAt=1786179338453",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a tree with a bird perched on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird perched on it"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab819",
+      "filePath": "/paintings/Unsorted/DSCF1469.JPG",
+      "name": "DSCF1469.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1469.JPG?updatedAt=1786179339015",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a mountain scene with a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab827",
+      "filePath": "/paintings/Unsorted/DSCF1495.JPG",
+      "name": "DSCF1495.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1495.JPG?updatedAt=1786179339050",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a tree in a room",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a room"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab854",
+      "filePath": "/paintings/Unsorted/DSCF1496.JPG",
+      "name": "DSCF1496.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1496.JPG?updatedAt=1786179339130",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a building with a tree in the middle",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a building with a tree in the middle"
+      }
+    },
+    {
+      "fileId": "6a76ef0a5c7cd75eb83ab881",
+      "filePath": "/paintings/Unsorted/DSCF1497.JPG",
+      "name": "DSCF1497.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1497.JPG?updatedAt=1786179339219",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a bird on a white surface",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a white surface"
+      }
+    },
+    {
+      "fileId": "6a76ef0b5c7cd75eb83ab9a1",
+      "filePath": "/paintings/Unsorted/DSCF1499.JPG",
+      "name": "DSCF1499.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1499.JPG?updatedAt=1786179339810",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a tree with green leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with green leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef0b5c7cd75eb83ab9c2",
+      "filePath": "/paintings/Unsorted/DSCF1536.JPG",
+      "name": "DSCF1536.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1536.JPG?updatedAt=1786179339888",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a man in a suit",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man in a suit"
+      }
+    },
+    {
+      "fileId": "6a76ef0b5c7cd75eb83ab9eb",
+      "filePath": "/paintings/Unsorted/DSCF1537.JPG",
+      "name": "DSCF1537.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1537.JPG?updatedAt=1786179339957",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a tree with green leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with green leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef0b5c7cd75eb83aba29",
+      "filePath": "/paintings/Unsorted/DSCF1543.JPG",
+      "name": "DSCF1543.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1543.JPG?updatedAt=1786179340021",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef0c5c7cd75eb83abb94",
+      "filePath": "/paintings/Unsorted/DSCF1547.JPG",
+      "name": "DSCF1547.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1547.JPG?updatedAt=1786179340551",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a dog on a wall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a dog on a wall"
+      }
+    },
+    {
+      "fileId": "6a76ef0c5c7cd75eb83abbbb",
+      "filePath": "/paintings/Unsorted/DSCF1559.JPG",
+      "name": "DSCF1559.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/DSCF1559.JPG?updatedAt=1786179340642",
+      "width": 2304,
+      "height": 1728,
+      "description": "a painting of a white horse in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a white horse in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef0c5c7cd75eb83abc0e",
+      "filePath": "/paintings/Unsorted/E.TVL.S.A.-1981.jpg",
+      "name": "E.TVL.S.A.-1981.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/E.TVL.S.A.-1981.jpg?updatedAt=1786179340779",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a tree in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef0c5c7cd75eb83abc30",
+      "filePath": "/paintings/Unsorted/HEMELSVLUGT_SWITZ_23-02-07_004.jpg",
+      "name": "HEMELSVLUGT_SWITZ_23-02-07_004.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/HEMELSVLUGT_SWITZ_23-02-07_004.jpg?updatedAt=1786179340844",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a mountain scene",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene"
+      }
+    },
+    {
+      "fileId": "6a76ef0d5c7cd75eb83abd42",
+      "filePath": "/paintings/Unsorted/IMG_0025.JPG",
+      "name": "IMG_0025.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/IMG_0025.JPG?updatedAt=1786179341336",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a tree on a wall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree on a wall"
+      }
+    },
+    {
+      "fileId": "6a76ef0d5c7cd75eb83abd6e",
+      "filePath": "/paintings/Unsorted/IMG_0029.JPG",
+      "name": "IMG_0029.JPG",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/IMG_0029.JPG?updatedAt=1786179341387",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of a waterfall in the middle of a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a forest"
+      }
+    },
+    {
+      "fileId": "6a76ef0e5c7cd75eb83ac1ad",
+      "filePath": "/paintings/Unsorted/IMG_6577.jpg",
+      "name": "IMG_6577.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/IMG_6577.jpg?updatedAt=1786179343071",
+      "width": 4032,
+      "height": 3024,
+      "description": "a painting of a woman in a green dress",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman in a green dress"
+      }
+    },
+    {
+      "fileId": "6a76ef0e5c7cd75eb83abf92",
+      "filePath": "/paintings/Unsorted/IMG_6578.jpg",
+      "name": "IMG_6578.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/IMG_6578.jpg?updatedAt=1786179342351",
+      "width": 4032,
+      "height": 3024,
+      "description": "a painting of a tree in a frame",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a frame"
+      }
+    },
+    {
+      "fileId": "6a76ef0f5c7cd75eb83ac21e",
+      "filePath": "/paintings/Unsorted/IMG_6580.jpg",
+      "name": "IMG_6580.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/IMG_6580.jpg?updatedAt=1786179343287",
+      "width": 4032,
+      "height": 3024,
+      "description": "a painting of a cat in a frame",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a cat in a frame"
+      }
+    },
+    {
+      "fileId": "6a76ef0e5c7cd75eb83ac19f",
+      "filePath": "/paintings/Unsorted/LONE_CREEK._E.TVL._S.A.2007.jpg",
+      "name": "LONE_CREEK._E.TVL._S.A.2007.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/LONE_CREEK._E.TVL._S.A.2007.jpg?updatedAt=1786179343041",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a stream in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a stream in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef0e5c7cd75eb83ac1fc",
+      "filePath": "/paintings/Unsorted/MAC-MAC_FALLS_S.A._OCT.2006_002.jpg",
+      "name": "MAC-MAC_FALLS_S.A._OCT.2006_002.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/MAC-MAC_FALLS_S.A._OCT.2006_002.jpg?updatedAt=1786179343214",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef0f5c7cd75eb83ac3bb",
+      "filePath": "/paintings/Unsorted/MURREN.SWITZ.2004.jpg",
+      "name": "MURREN.SWITZ.2004.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/MURREN.SWITZ.2004.jpg?updatedAt=1786179343998",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of mountains and trees in a frame",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of mountains and trees in a frame"
+      }
+    },
+    {
+      "fileId": "6a76ef0f5c7cd75eb83ac3d9",
+      "filePath": "/paintings/Unsorted/NEAR_ECHO_CAVES.OHRIGSTADT.N.TVL.1966.jpg",
+      "name": "NEAR_ECHO_CAVES.OHRIGSTADT.N.TVL.1966.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/NEAR_ECHO_CAVES.OHRIGSTADT.N.TVL.1966.jpg?updatedAt=1786179344047",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a tree on a wall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree on a wall"
+      }
+    },
+    {
+      "fileId": "6a76ef0f5c7cd75eb83ac41a",
+      "filePath": "/paintings/Unsorted/NEAR_PALMACHIM-1982.jpg",
+      "name": "NEAR_PALMACHIM-1982.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/NEAR_PALMACHIM-1982.jpg?updatedAt=1786179344139",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a landscape with trees and a river",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a landscape with trees and a river"
+      }
+    },
+    {
+      "fileId": "6a76ef0f5c7cd75eb83ac41b",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-07.jpg",
+      "name": "PHOTO-2024-02-11-15-57-07.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-07.jpg?updatedAt=1786179344144",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a large, circular object",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a large, circular object"
+      }
+    },
+    {
+      "fileId": "6a76ef105c7cd75eb83ac5e4",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-46.jpg",
+      "name": "PHOTO-2024-02-11-15-57-46.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-46.jpg?updatedAt=1786179344896",
+      "width": 563,
+      "height": 751,
+      "description": "a painting of a tree with leaves on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with leaves on it"
+      }
+    },
+    {
+      "fileId": "6a76ef105c7cd75eb83ac5e8",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-48_2.jpg",
+      "name": "PHOTO-2024-02-11-15-57-48_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-48_2.jpg?updatedAt=1786179344897",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a flower on a white surface",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a flower on a white surface"
+      }
+    },
+    {
+      "fileId": "6a76ef105c7cd75eb83ac5fc",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-49.jpg",
+      "name": "PHOTO-2024-02-11-15-57-49.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-49.jpg?updatedAt=1786179344915",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a face with many different colors",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a face with many different colors"
+      }
+    },
+    {
+      "fileId": "6a76ef105c7cd75eb83ac60a",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-50_1.jpg",
+      "name": "PHOTO-2024-02-11-15-57-50_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-50_1.jpg?updatedAt=1786179344923",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a blue and white plate",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a blue and white plate"
+      }
+    },
+    {
+      "fileId": "6a76ef115c7cd75eb83ac7dd",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-50_2.jpg",
+      "name": "PHOTO-2024-02-11-15-57-50_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-50_2.jpg?updatedAt=1786179345619",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree with many leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with many leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef115c7cd75eb83ac7ea",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-54_1.jpg",
+      "name": "PHOTO-2024-02-11-15-57-54_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-54_1.jpg?updatedAt=1786179345651",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a face in a bowl",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a face in a bowl"
+      }
+    },
+    {
+      "fileId": "6a76ef115c7cd75eb83ac7f9",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-57-56_1.jpg",
+      "name": "PHOTO-2024-02-11-15-57-56_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-57-56_1.jpg?updatedAt=1786179345687",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef115c7cd75eb83ac7fd",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-58-01_1.jpg",
+      "name": "PHOTO-2024-02-11-15-58-01_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-58-01_1.jpg?updatedAt=1786179345697",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of flowers on a table",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of flowers on a table"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83ac99d",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-58-01_2.jpg",
+      "name": "PHOTO-2024-02-11-15-58-01_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-58-01_2.jpg?updatedAt=1786179346363",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a man on a rock",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man on a rock"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83ac9a4",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-58-01_3.jpg",
+      "name": "PHOTO-2024-02-11-15-58-01_3.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-58-01_3.jpg?updatedAt=1786179346375",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a red and black substance",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a red and black substance"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83ac9ae",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-58-03_1.jpg",
+      "name": "PHOTO-2024-02-11-15-58-03_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-58-03_1.jpg?updatedAt=1786179346383",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a man with a beard and a beard",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man with a beard and a beard"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83ac9b6",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-59-53.jpg",
+      "name": "PHOTO-2024-02-11-15-59-53.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-59-53.jpg?updatedAt=1786179346399",
+      "width": 889,
+      "height": 1185,
+      "description": "a painting of mountains and trees in the distance",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of mountains and trees in the distance"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83acb51",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-59-56.jpg",
+      "name": "PHOTO-2024-02-11-15-59-56.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-59-56.jpg?updatedAt=1786179347074",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a waterfall in the middle of a river",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a river"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83acb57",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-15-59-58.jpg",
+      "name": "PHOTO-2024-02-11-15-59-58.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-15-59-58.jpg?updatedAt=1786179347080",
+      "width": 857,
+      "height": 1143,
+      "description": "a painting of a mountain scene with trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with trees"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83acb60",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-20_3.jpg",
+      "name": "PHOTO-2024-02-11-16-00-20_3.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-20_3.jpg?updatedAt=1786179347115",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a mountain scene with houses",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with houses"
+      }
+    },
+    {
+      "fileId": "6a76ef125c7cd75eb83acb6c",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-23.jpg",
+      "name": "PHOTO-2024-02-11-16-00-23.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-23.jpg?updatedAt=1786179347120",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a mountain scene with trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with trees"
+      }
+    },
+    {
+      "fileId": "6a76ef135c7cd75eb83accfd",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-46_1.jpg",
+      "name": "PHOTO-2024-02-11-16-00-46_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-46_1.jpg?updatedAt=1786179347749",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a cactus with a flower",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a cactus with a flower"
+      }
+    },
+    {
+      "fileId": "6a76ef135c7cd75eb83acd0e",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-47.jpg",
+      "name": "PHOTO-2024-02-11-16-00-47.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-47.jpg?updatedAt=1786179347776",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree in the middle of a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in the middle of a field"
+      }
+    },
+    {
+      "fileId": "6a76ef135c7cd75eb83acd1a",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-55_2.jpg",
+      "name": "PHOTO-2024-02-11-16-00-55_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-55_2.jpg?updatedAt=1786179347803",
+      "width": 960,
+      "height": 1136,
+      "description": "a painting of a forest scene",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a forest scene"
+      }
+    },
+    {
+      "fileId": "6a76ef135c7cd75eb83acd20",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-55.jpg",
+      "name": "PHOTO-2024-02-11-16-00-55.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-55.jpg?updatedAt=1786179347838",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83aceb3",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-56.jpg",
+      "name": "PHOTO-2024-02-11-16-00-56.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-56.jpg?updatedAt=1786179348437",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a man and a woman walking down a path",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man and a woman walking down a path"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83acef8",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-00-59.jpg",
+      "name": "PHOTO-2024-02-11-16-00-59.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-00-59.jpg?updatedAt=1786179348547",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a plant on a white surface",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a plant on a white surface"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83acee3",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-01-03_2.jpg",
+      "name": "PHOTO-2024-02-11-16-01-03_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-01-03_2.jpg?updatedAt=1786179348506",
+      "width": 920,
+      "height": 1276,
+      "description": "a painting of a waterfall and a bridge",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall and a bridge"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83acedf",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-01-03.jpg",
+      "name": "PHOTO-2024-02-11-16-01-03.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-01-03.jpg?updatedAt=1786179348517",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83ad097",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-01-04_2.jpg",
+      "name": "PHOTO-2024-02-11-16-01-04_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-01-04_2.jpg?updatedAt=1786179349210",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83ad073",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-01-04.jpg",
+      "name": "PHOTO-2024-02-11-16-01-04.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-01-04.jpg?updatedAt=1786179349136",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83ad0a1",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-03-58.jpg",
+      "name": "PHOTO-2024-02-11-16-03-58.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-03-58.jpg?updatedAt=1786179349216",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a river and houses",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a river and houses"
+      }
+    },
+    {
+      "fileId": "6a76ef145c7cd75eb83ad0c0",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-00.jpg",
+      "name": "PHOTO-2024-02-11-16-04-00.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-00.jpg?updatedAt=1786179349242",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a palm tree on a beach",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a palm tree on a beach"
+      }
+    },
+    {
+      "fileId": "6a76ef155c7cd75eb83ad231",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-11_2.jpg",
+      "name": "PHOTO-2024-02-11-16-04-11_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-11_2.jpg?updatedAt=1786179349849",
+      "width": 944,
+      "height": 1228,
+      "description": "a painting of flowers in a vase on a table",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of flowers in a vase on a table"
+      }
+    },
+    {
+      "fileId": "6a76ef155c7cd75eb83ad287",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-14.jpg",
+      "name": "PHOTO-2024-02-11-16-04-14.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-14.jpg?updatedAt=1786179349950",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a forest with trees and a path",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a forest with trees and a path"
+      }
+    },
+    {
+      "fileId": "6a76ef155c7cd75eb83ad299",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-22.jpg",
+      "name": "PHOTO-2024-02-11-16-04-22.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-22.jpg?updatedAt=1786179349957",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a mountain with a sky background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with a sky background"
+      }
+    },
+    {
+      "fileId": "6a76ef155c7cd75eb83ad29e",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-25_1.jpg",
+      "name": "PHOTO-2024-02-11-16-04-25_1.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-25_1.jpg?updatedAt=1786179349989",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a road with trees in the background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a road with trees in the background"
+      }
+    },
+    {
+      "fileId": "6a76ef165c7cd75eb83ad4c2",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-26.jpg",
+      "name": "PHOTO-2024-02-11-16-04-26.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-26.jpg?updatedAt=1786179350562",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a man in a suit",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man in a suit"
+      }
+    },
+    {
+      "fileId": "6a76ef165c7cd75eb83ad731",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-27.jpg",
+      "name": "PHOTO-2024-02-11-16-04-27.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-27.jpg?updatedAt=1786179350666",
+      "width": 912,
+      "height": 1232,
+      "description": "a painting of a dog",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a dog"
+      }
+    },
+    {
+      "fileId": "6a76ef165c7cd75eb83ad72e",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-29.jpg",
+      "name": "PHOTO-2024-02-11-16-04-29.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-29.jpg?updatedAt=1786179350678",
+      "width": 940,
+      "height": 1220,
+      "description": "a painting of a mountain scene with a man on a horse",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a man on a horse"
+      }
+    },
+    {
+      "fileId": "6a76ef165c7cd75eb83ad75e",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-32_2.jpg",
+      "name": "PHOTO-2024-02-11-16-04-32_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-32_2.jpg?updatedAt=1786179350684",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef175c7cd75eb83adcc7",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-48_3.jpg",
+      "name": "PHOTO-2024-02-11-16-04-48_3.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-48_3.jpg?updatedAt=1786179351273",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a man with a beard and a beard",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man with a beard and a beard"
+      }
+    },
+    {
+      "fileId": "6a76ef175c7cd75eb83add35",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-55_2.jpg",
+      "name": "PHOTO-2024-02-11-16-04-55_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-55_2.jpg?updatedAt=1786179351359",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef175c7cd75eb83add2e",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-04-55.jpg",
+      "name": "PHOTO-2024-02-11-16-04-55.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-04-55.jpg?updatedAt=1786179351358",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of a waterfall in the middle of a river",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a river"
+      }
+    },
+    {
+      "fileId": "6a76ef175c7cd75eb83add4c",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-06-39_2.jpg",
+      "name": "PHOTO-2024-02-11-16-06-39_2.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-06-39_2.jpg?updatedAt=1786179351387",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of trees and water in a frame",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of trees and water in a frame"
+      }
+    },
+    {
+      "fileId": "6a76ef175c7cd75eb83adf03",
+      "filePath": "/paintings/Unsorted/PHOTO-2024-02-11-16-06-40.jpg",
+      "name": "PHOTO-2024-02-11-16-06-40.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PHOTO-2024-02-11-16-06-40.jpg?updatedAt=1786179352019",
+      "width": 960,
+      "height": 1280,
+      "description": "a painting of trees in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of trees in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef1c5c7cd75eb83ae924",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175435649.MP.jpg",
+      "name": "PXL_20250606_175435649.MP.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175435649.MP.jpg?updatedAt=1786179356753",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree in a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a forest"
+      }
+    },
+    {
+      "fileId": "6a76ef1c5c7cd75eb83aea1c",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175538994.jpg",
+      "name": "PXL_20250606_175538994.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175538994.jpg?updatedAt=1786179356995",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a plant on a table",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a plant on a table"
+      }
+    },
+    {
+      "fileId": "6a76ef1b5c7cd75eb83ae6f9",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175550438.MP.jpg",
+      "name": "PXL_20250606_175550438.MP.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175550438.MP.jpg?updatedAt=1786179355636",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a sky",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a sky"
+      }
+    },
+    {
+      "fileId": "6a76ef1b5c7cd75eb83ae7f4",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175627291.jpg",
+      "name": "PXL_20250606_175627291.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175627291.jpg?updatedAt=1786179356046",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a house in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a house in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef1d5c7cd75eb83aeba5",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175644836.jpg",
+      "name": "PXL_20250606_175644836.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175644836.jpg?updatedAt=1786179357648",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a dog with a flower in its mouth",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a dog with a flower in its mouth"
+      }
+    },
+    {
+      "fileId": "6a76ef225c7cd75eb83af630",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175731187.jpg",
+      "name": "PXL_20250606_175731187.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175731187.jpg?updatedAt=1786179362309",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bear with a bunch of berries",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bear with a bunch of berries"
+      }
+    },
+    {
+      "fileId": "6a76ef1f5c7cd75eb83aefe4",
+      "filePath": "/paintings/Unsorted/PXL_20250606_175848226.jpg",
+      "name": "PXL_20250606_175848226.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_175848226.jpg?updatedAt=1786179359643",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a lot of green leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a lot of green leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef215c7cd75eb83af60b",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180151700.jpg",
+      "name": "PXL_20250606_180151700.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180151700.jpg?updatedAt=1786179362256",
+      "width": 4624,
+      "height": 3472,
+      "description": "a painting of a flower on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a flower on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef1f5c7cd75eb83af01c",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180215087.jpg",
+      "name": "PXL_20250606_180215087.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180215087.jpg?updatedAt=1786179359694",
+      "width": 4624,
+      "height": 3472,
+      "description": "a painting of a person walking down a street",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a person walking down a street"
+      }
+    },
+    {
+      "fileId": "6a76ef215c7cd75eb83af5ef",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180309849.jpg",
+      "name": "PXL_20250606_180309849.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180309849.jpg?updatedAt=1786179362227",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a waterfall in the middle of a drawing",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a drawing"
+      }
+    },
+    {
+      "fileId": "6a76ef215c7cd75eb83af581",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180353615.jpg",
+      "name": "PXL_20250606_180353615.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180353615.jpg?updatedAt=1786179362006",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a house in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a house in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef235c7cd75eb83afae3",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180427643.jpg",
+      "name": "PXL_20250606_180427643.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180427643.jpg?updatedAt=1786179364017",
+      "width": 4624,
+      "height": 3472,
+      "description": "a painting of trees in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of trees in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef275c7cd75eb83b0d38",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180450668.jpg",
+      "name": "PXL_20250606_180450668.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180450668.jpg?updatedAt=1786179367363",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a road with a house in the distance",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a road with a house in the distance"
+      }
+    },
+    {
+      "fileId": "6a76ef275c7cd75eb83b0da9",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180511342.jpg",
+      "name": "PXL_20250606_180511342.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180511342.jpg?updatedAt=1786179367625",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman sitting on a rock",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman sitting on a rock"
+      }
+    },
+    {
+      "fileId": "6a76ef255c7cd75eb83afeba",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180534285.jpg",
+      "name": "PXL_20250606_180534285.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180534285.jpg?updatedAt=1786179365459",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a lot of leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a lot of leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef255c7cd75eb83b0150",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180601227.jpg",
+      "name": "PXL_20250606_180601227.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180601227.jpg?updatedAt=1786179365788",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman's torso",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's torso"
+      }
+    },
+    {
+      "fileId": "6a76ef295c7cd75eb83b1ef1",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180621573.MP.jpg",
+      "name": "PXL_20250606_180621573.MP.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180621573.MP.jpg?updatedAt=1786179370540",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with a flower in her hair",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with a flower in her hair"
+      }
+    },
+    {
+      "fileId": "6a76ef275c7cd75eb83b0fd2",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180646089.jpg",
+      "name": "PXL_20250606_180646089.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180646089.jpg?updatedAt=1786179367780",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree in a city",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a city"
+      }
+    },
+    {
+      "fileId": "6a76ef2a5c7cd75eb83b264a",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180704131.jpg",
+      "name": "PXL_20250606_180704131.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180704131.jpg?updatedAt=1786179370911",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bird on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef2a5c7cd75eb83b267a",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180716791.jpg",
+      "name": "PXL_20250606_180716791.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180716791.jpg?updatedAt=1786179371022",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef295c7cd75eb83b1f13",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180733249.jpg",
+      "name": "PXL_20250606_180733249.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180733249.jpg?updatedAt=1786179370317",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a man with a hat and a book",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man with a hat and a book"
+      }
+    },
+    {
+      "fileId": "6a76ef2d5c7cd75eb83b318a",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180747336.jpg",
+      "name": "PXL_20250606_180747336.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180747336.jpg?updatedAt=1786179373422",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a horse on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a horse on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef2c5c7cd75eb83b2f70",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180809930.jpg",
+      "name": "PXL_20250606_180809930.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180809930.jpg?updatedAt=1786179372654",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a white and blue circle",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a white and blue circle"
+      }
+    },
+    {
+      "fileId": "6a76ef2d5c7cd75eb83b3325",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180822588.jpg",
+      "name": "PXL_20250606_180822588.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180822588.jpg?updatedAt=1786179374123",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain road with trees and mountains in the background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain road with trees and mountains in the background"
+      }
+    },
+    {
+      "fileId": "6a76ef2e5c7cd75eb83b33b4",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180837687.jpg",
+      "name": "PXL_20250606_180837687.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180837687.jpg?updatedAt=1786179374428",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with red leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with red leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef2e5c7cd75eb83b3635",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180913542.jpg",
+      "name": "PXL_20250606_180913542.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180913542.jpg?updatedAt=1786179374729",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef2f5c7cd75eb83b3ac1",
+      "filePath": "/paintings/Unsorted/PXL_20250606_180941430.jpg",
+      "name": "PXL_20250606_180941430.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_180941430.jpg?updatedAt=1786179375508",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef2f5c7cd75eb83b3bed",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181004360.jpg",
+      "name": "PXL_20250606_181004360.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181004360.jpg?updatedAt=1786179376039",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain scene with a purple sky",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a purple sky"
+      }
+    },
+    {
+      "fileId": "6a76ef305c7cd75eb83b3e82",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181013870.jpg",
+      "name": "PXL_20250606_181013870.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181013870.jpg?updatedAt=1786179376439",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a cactus with flowers on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a cactus with flowers on it"
+      }
+    },
+    {
+      "fileId": "6a76ef305c7cd75eb83b3f45",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181036105.jpg",
+      "name": "PXL_20250606_181036105.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181036105.jpg?updatedAt=1786179376730",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman's face with a green background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's face with a green background"
+      }
+    },
+    {
+      "fileId": "6a76ef315c7cd75eb83b425f",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181050991.jpg",
+      "name": "PXL_20250606_181050991.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181050991.jpg?updatedAt=1786179377988",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain scene with a sky and clouds",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a sky and clouds"
+      }
+    },
+    {
+      "fileId": "6a76ef315c7cd75eb83b4329",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181107299.jpg",
+      "name": "PXL_20250606_181107299.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181107299.jpg?updatedAt=1786179378228",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain with a sky in the background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with a sky in the background"
+      }
+    },
+    {
+      "fileId": "6a76ef325c7cd75eb83b43f6",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181122363.jpg",
+      "name": "PXL_20250606_181122363.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181122363.jpg?updatedAt=1786179378543",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef325c7cd75eb83b447e",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181223350.jpg",
+      "name": "PXL_20250606_181223350.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181223350.jpg?updatedAt=1786179378687",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef345c7cd75eb83b4fc6",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181239373.jpg",
+      "name": "PXL_20250606_181239373.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181239373.jpg?updatedAt=1786179380439",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bird on a tree",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a tree"
+      }
+    },
+    {
+      "fileId": "6a76ef335c7cd75eb83b4e6d",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181305460.jpg",
+      "name": "PXL_20250606_181305460.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181305460.jpg?updatedAt=1786179380263",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain with a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef345c7cd75eb83b51f6",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181319994.jpg",
+      "name": "PXL_20250606_181319994.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181319994.jpg?updatedAt=1786179380558",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bird flying over a tree",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird flying over a tree"
+      }
+    },
+    {
+      "fileId": "6a76ef345c7cd75eb83b530f",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181337085.jpg",
+      "name": "PXL_20250606_181337085.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181337085.jpg?updatedAt=1786179381008",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a city with a tree",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a city with a tree"
+      }
+    },
+    {
+      "fileId": "6a76ef355c7cd75eb83b57e6",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181355671.jpg",
+      "name": "PXL_20250606_181355671.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181355671.jpg?updatedAt=1786179382283",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with many leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with many leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef365c7cd75eb83b5b9e",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181420147.jpg",
+      "name": "PXL_20250606_181420147.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181420147.jpg?updatedAt=1786179382675",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef365c7cd75eb83b59c0",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181445017.jpg",
+      "name": "PXL_20250606_181445017.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181445017.jpg?updatedAt=1786179382511",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a cactus with flowers in it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a cactus with flowers in it"
+      }
+    },
+    {
+      "fileId": "6a76ef375c7cd75eb83b5fc3",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181506039.jpg",
+      "name": "PXL_20250606_181506039.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181506039.jpg?updatedAt=1786179383297",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a clock on a table",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a clock on a table"
+      }
+    },
+    {
+      "fileId": "6a76ef375c7cd75eb83b619e",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181520463.jpg",
+      "name": "PXL_20250606_181520463.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181520463.jpg?updatedAt=1786179384175",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain scene with a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain scene with a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef385c7cd75eb83b62d4",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181529930.jpg",
+      "name": "PXL_20250606_181529930.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181529930.jpg?updatedAt=1786179384823",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a house in the background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a house in the background"
+      }
+    },
+    {
+      "fileId": "6a76ef385c7cd75eb83b6357",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181558909.jpg",
+      "name": "PXL_20250606_181558909.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181558909.jpg?updatedAt=1786179384922",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a forest with trees and bushes",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a forest with trees and bushes"
+      }
+    },
+    {
+      "fileId": "6a76ef395c7cd75eb83b6559",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181633238.jpg",
+      "name": "PXL_20250606_181633238.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181633238.jpg?updatedAt=1786179385497",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a waterfall in the middle of a book",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a book"
+      }
+    },
+    {
+      "fileId": "6a76ef395c7cd75eb83b65bf",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181653163.jpg",
+      "name": "PXL_20250606_181653163.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181653163.jpg?updatedAt=1786179385701",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef3a5c7cd75eb83b67a8",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181707853.jpg",
+      "name": "PXL_20250606_181707853.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181707853.jpg?updatedAt=1786179386536",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a forest scene with a bird",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a forest scene with a bird"
+      }
+    },
+    {
+      "fileId": "6a76ef3a5c7cd75eb83b68d4",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181724065.jpg",
+      "name": "PXL_20250606_181724065.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181724065.jpg?updatedAt=1786179386939",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bird on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef3b5c7cd75eb83b6a33",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181754439.jpg",
+      "name": "PXL_20250606_181754439.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181754439.jpg?updatedAt=1786179387504",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a bird on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a bird on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef3b5c7cd75eb83b69ee",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181805035.jpg",
+      "name": "PXL_20250606_181805035.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181805035.jpg?updatedAt=1786179387370",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman's face on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's face on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef3b5c7cd75eb83b6aca",
+      "filePath": "/paintings/Unsorted/PXL_20250606_181926039.jpg",
+      "name": "PXL_20250606_181926039.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_181926039.jpg?updatedAt=1786179387801",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman sitting on a chair",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman sitting on a chair"
+      }
+    },
+    {
+      "fileId": "6a76ef3c5c7cd75eb83b6c0a",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182014257.jpg",
+      "name": "PXL_20250606_182014257.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182014257.jpg?updatedAt=1786179388515",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with long hair",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with long hair"
+      }
+    },
+    {
+      "fileId": "6a76ef3c5c7cd75eb83b6db3",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182042685.jpg",
+      "name": "PXL_20250606_182042685.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182042685.jpg?updatedAt=1786179389225",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain with trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with trees"
+      }
+    },
+    {
+      "fileId": "6a76ef3d5c7cd75eb83b6f6a",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182053170.jpg",
+      "name": "PXL_20250606_182053170.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182053170.jpg?updatedAt=1786179389845",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a lot of leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a lot of leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef3d5c7cd75eb83b6f19",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182107955.jpg",
+      "name": "PXL_20250606_182107955.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182107955.jpg?updatedAt=1786179389694",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain with trees and bushes",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with trees and bushes"
+      }
+    },
+    {
+      "fileId": "6a76ef3e5c7cd75eb83b7071",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182122619.jpg",
+      "name": "PXL_20250606_182122619.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182122619.jpg?updatedAt=1786179390300",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a landscape with trees and a road",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a landscape with trees and a road"
+      }
+    },
+    {
+      "fileId": "6a76ef3e5c7cd75eb83b7162",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182136655.jpg",
+      "name": "PXL_20250606_182136655.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182136655.jpg?updatedAt=1786179390655",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with no leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with no leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef3e5c7cd75eb83b72b1",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182159971.jpg",
+      "name": "PXL_20250606_182159971.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182159971.jpg?updatedAt=1786179391259",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with a knife",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with a knife"
+      }
+    },
+    {
+      "fileId": "6a76ef3f5c7cd75eb83b743f",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182214666.jpg",
+      "name": "PXL_20250606_182214666.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182214666.jpg?updatedAt=1786179392002",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman with a red and yellow hair",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman with a red and yellow hair"
+      }
+    },
+    {
+      "fileId": "6a76ef405c7cd75eb83b7524",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182225795.jpg",
+      "name": "PXL_20250606_182225795.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182225795.jpg?updatedAt=1786179392339",
+      "width": 4624,
+      "height": 3472,
+      "description": "a painting of flowers on a piece of paper",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of flowers on a piece of paper"
+      }
+    },
+    {
+      "fileId": "6a76ef405c7cd75eb83b759d",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182248722.jpg",
+      "name": "PXL_20250606_182248722.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182248722.jpg?updatedAt=1786179392515",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with many leaves",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with many leaves"
+      }
+    },
+    {
+      "fileId": "6a76ef405c7cd75eb83b76a6",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182314115.jpg",
+      "name": "PXL_20250606_182314115.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182314115.jpg?updatedAt=1786179392882",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a large, blue and yellow abstract",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a large, blue and yellow abstract"
+      }
+    },
+    {
+      "fileId": "6a76ef415c7cd75eb83b79f3",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182323993.jpg",
+      "name": "PXL_20250606_182323993.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182323993.jpg?updatedAt=1786179394260",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree branch with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree branch with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef425c7cd75eb83b7ab9",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182334673.jpg",
+      "name": "PXL_20250606_182334673.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182334673.jpg?updatedAt=1786179394575",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a bird on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a bird on it"
+      }
+    },
+    {
+      "fileId": "6a76ef425c7cd75eb83b7ad2",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182347289.jpg",
+      "name": "PXL_20250606_182347289.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182347289.jpg?updatedAt=1786179394609",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a man on a cliff",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a man on a cliff"
+      }
+    },
+    {
+      "fileId": "6a76ef425c7cd75eb83b7baf",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182400072.jpg",
+      "name": "PXL_20250606_182400072.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182400072.jpg?updatedAt=1786179394812",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a vase with flowers in it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a vase with flowers in it"
+      }
+    },
+    {
+      "fileId": "6a76ef445c7cd75eb83b7fea",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182437992.jpg",
+      "name": "PXL_20250606_182437992.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182437992.jpg?updatedAt=1786179396559",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a landscape with a lot of different colors",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a landscape with a lot of different colors"
+      }
+    },
+    {
+      "fileId": "6a76ef445c7cd75eb83b8192",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182508916.jpg",
+      "name": "PXL_20250606_182508916.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182508916.jpg?updatedAt=1786179397141",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a waterfall in a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in a forest"
+      }
+    },
+    {
+      "fileId": "6a76ef445c7cd75eb83b80da",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182523899.jpg",
+      "name": "PXL_20250606_182523899.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182523899.jpg?updatedAt=1786179396911",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a face with a large grin on it",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a face with a large grin on it"
+      }
+    },
+    {
+      "fileId": "6a76ef445c7cd75eb83b8144",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182536908.jpg",
+      "name": "PXL_20250606_182536908.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182536908.jpg?updatedAt=1786179397030",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a waterfall in the middle of a painting",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a painting"
+      }
+    },
+    {
+      "fileId": "6a76ef465c7cd75eb83b89eb",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182603382.jpg",
+      "name": "PXL_20250606_182603382.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182603382.jpg?updatedAt=1786179398573",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman's face",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's face"
+      }
+    },
+    {
+      "fileId": "6a76ef475c7cd75eb83b8cc3",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182620323.jpg",
+      "name": "PXL_20250606_182620323.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182620323.jpg?updatedAt=1786179399283",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a mountain with a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a mountain with a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef475c7cd75eb83b8d16",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182627381.jpg",
+      "name": "PXL_20250606_182627381.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182627381.jpg?updatedAt=1786179399426",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a green mountain",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a green mountain"
+      }
+    },
+    {
+      "fileId": "6a76ef465c7cd75eb83b8c81",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182634593.jpg",
+      "name": "PXL_20250606_182634593.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182634593.jpg?updatedAt=1786179399205",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree and a bird",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree and a bird"
+      }
+    },
+    {
+      "fileId": "6a76ef475c7cd75eb83b8ec7",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182646934.jpg",
+      "name": "PXL_20250606_182646934.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182646934.jpg?updatedAt=1786179400136",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef485c7cd75eb83b9195",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182658198.jpg",
+      "name": "PXL_20250606_182658198.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182658198.jpg?updatedAt=1786179401114",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of trees in the desert",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of trees in the desert"
+      }
+    },
+    {
+      "fileId": "6a76ef495c7cd75eb83b92e4",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182713005.jpg",
+      "name": "PXL_20250606_182713005.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182713005.jpg?updatedAt=1786179401543",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a woman's torso",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a woman's torso"
+      }
+    },
+    {
+      "fileId": "6a76ef495c7cd75eb83b92a0",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182722826.jpg",
+      "name": "PXL_20250606_182722826.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182722826.jpg?updatedAt=1786179401465",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a white circle with a red dot",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a white circle with a red dot"
+      }
+    },
+    {
+      "fileId": "6a76ef495c7cd75eb83b96ff",
+      "filePath": "/paintings/Unsorted/PXL_20250606_182739116.jpg",
+      "name": "PXL_20250606_182739116.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/PXL_20250606_182739116.jpg?updatedAt=1786179401779",
+      "width": 3472,
+      "height": 4624,
+      "description": "a painting of a tree with a rock in the background",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree with a rock in the background"
+      }
+    },
+    {
+      "fileId": "6a76ef495c7cd75eb83b9895",
+      "filePath": "/paintings/Unsorted/RIVER_AT_LONE_CREEK_E.TVL.15-05-07.jpg",
+      "name": "RIVER_AT_LONE_CREEK_E.TVL.15-05-07.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/RIVER_AT_LONE_CREEK_E.TVL.15-05-07.jpg?updatedAt=1786179401864",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a stream in a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a stream in a forest"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba145",
+      "filePath": "/paintings/Unsorted/ROCKFACE_FALLS-1991.jpg",
+      "name": "ROCKFACE_FALLS-1991.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/ROCKFACE_FALLS-1991.jpg?updatedAt=1786179402312",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba1bc",
+      "filePath": "/paintings/Unsorted/SCENE_FROM_MURREN.2004.jpg",
+      "name": "SCENE_FROM_MURREN.2004.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/SCENE_FROM_MURREN.2004.jpg?updatedAt=1786179402319",
+      "width": 1704,
+      "height": 2272,
+      "description": "a painting of mountains and trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of mountains and trees"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba5cd",
+      "filePath": "/paintings/Unsorted/SNOW_ON_HERMON-1992.jpg",
+      "name": "SNOW_ON_HERMON-1992.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/SNOW_ON_HERMON-1992.jpg?updatedAt=1786179402557",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a tree in a snowy landscape",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree in a snowy landscape"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba5f3",
+      "filePath": "/paintings/Unsorted/TANUR_FALLS-1991.jpg",
+      "name": "TANUR_FALLS-1991.jpg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/TANUR_FALLS-1991.jpg?updatedAt=1786179402619",
+      "width": 1200,
+      "height": 1600,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba70f",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.22__1_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.22__1_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.22__1_.jpeg?updatedAt=1786179403024",
+      "width": 1358,
+      "height": 1600,
+      "description": "a painting of a waterfall in the middle of a forest",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the middle of a forest"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba718",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.22__2_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.22__2_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.22__2_.jpeg?updatedAt=1786179403037",
+      "width": 1457,
+      "height": 1042,
+      "description": "a painting of a green and yellow abstract",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a green and yellow abstract"
+      }
+    },
+    {
+      "fileId": "6a76ef4a5c7cd75eb83ba798",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.23__3_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.23__3_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.23__3_.jpeg?updatedAt=1786179403236",
+      "width": 1311,
+      "height": 928,
+      "description": "a painting of a tree and a moon",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a tree and a moon"
+      }
+    },
+    {
+      "fileId": "6a76ef4b5c7cd75eb83ba7df",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.23.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.23.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.23.jpeg?updatedAt=1786179403323",
+      "width": 1245,
+      "height": 1600,
+      "description": "a painting of a road with houses and trees",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a road with houses and trees"
+      }
+    },
+    {
+      "fileId": "6a76ef4b5c7cd75eb83ba948",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.24.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.24.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.24.jpeg?updatedAt=1786179403720",
+      "width": 1600,
+      "height": 1191,
+      "description": "a painting of three elephants in a field",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of three elephants in a field"
+      }
+    },
+    {
+      "fileId": "6a76ef4b5c7cd75eb83ba95f",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.25__1_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.25__1_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.25__1_.jpeg?updatedAt=1786179403757",
+      "width": 1042,
+      "height": 1286,
+      "description": "a painting of a castle in the mountains",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a castle in the mountains"
+      }
+    },
+    {
+      "fileId": "6a76ef4b5c7cd75eb83ba9c4",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.25__2_.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.25__2_.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.25__2_.jpeg?updatedAt=1786179403932",
+      "width": 1379,
+      "height": 1600,
+      "description": "a painting of a waterfall in the woods",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall in the woods"
+      }
+    },
+    {
+      "fileId": "6a76ef4b5c7cd75eb83ba9ff",
+      "filePath": "/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.26.jpeg",
+      "name": "WhatsApp_Image_2025-05-24_at_21.20.26.jpeg",
+      "url": "https://ik.imagekit.io/yotam/paintings/Unsorted/WhatsApp_Image_2025-05-24_at_21.20.26.jpeg?updatedAt=1786179404010",
+      "width": 1600,
+      "height": 911,
+      "description": "a painting of a waterfall",
+      "tags": [],
+      "customMetadata": {
+        "curated": false,
+        "published": true,
+        "sortOrder": 0,
+        "title": "a painting of a waterfall"
+      }
+    }
+  ]
+}

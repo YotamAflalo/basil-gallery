@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+@theme {
+  /* Each design direction defines its own palette; these are only the
+     neutrals the chooser and admin screens use. */
+  --color-paper: #f6f4ef;
+  --color-ink: #16171a;
+}
+
+@layer base {
+  html {
+    /* Stop iOS inflating type in landscape without disabling user zoom. */
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    /* The app is a series of full-height panels; never bounce the document. */
+    overscroll-behavior-y: none;
+  }
+
+  /* Visible focus for keyboard users, invisible for pointer users. */
+  :focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}
+
+@utility pad-safe {
+  padding-top: env(safe-area-inset-top);
+  padding-bottom: env(safe-area-inset-bottom);
+  padding-left: env(safe-area-inset-left);
+  padding-right: env(safe-area-inset-right);
+}
+
+@utility pad-safe-b {
+  padding-bottom: max(env(safe-area-inset-bottom), 0.75rem);
+}
+
+@utility pad-safe-t {
+  padding-top: max(env(safe-area-inset-top), 0.75rem);
+}
+
+/* A horizontal pager that must not hand the gesture to the browser's
+   back-swipe. Used only inside the fullscreen viewer. */
+@utility pager-x {
+  overscroll-behavior-x: contain;
+  touch-action: pan-x pinch-zoom;
+}
