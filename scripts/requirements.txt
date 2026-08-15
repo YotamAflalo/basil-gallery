@@ -1,0 +1,11 @@
+# For scripts/detect_orientation.py only. Nothing the site itself runs on
+# depends on any of this, and nothing here is installed on Vercel — the
+# detector is a local tool that writes its findings to ImageKit.
+#
+#   pip install -r scripts/requirements.txt
+#
+# The CPU build of torch is plenty: the whole collection is 258 previews at
+# 384px, four turns each.
+torch>=2.2
+transformers>=4.40
+pillow>=10.0

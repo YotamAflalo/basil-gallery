@@ -3,9 +3,14 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import { PaintingImage } from "@/components/painting-image";
-import { COUNTRIES, TECHNIQUES, type Painting } from "@/lib/schema";
+import {
+  COUNTRIES,
+  TECHNIQUES,
+  normaliseRotation,
+  type Painting,
+} from "@/lib/schema";
 
-import { savePainting, type PaintingEdit } from "./actions";
+import { rotatePainting, savePainting, type PaintingEdit } from "./actions";
 
 /**
  * One painting at a time, driven from the keyboard.
@@ -109,6 +114,43 @@ export function Curator({ paintings }: { paintings: Painting[] }) {
     setDraft((d) => (d ? { ...d, ...carried } : d));
   }, [carried]);
 
+  /**
+   * Turn the painting a quarter at a time.
+   *
+   * Saved on its own rather than with the form, because straightening a
+   * sideways painting is the one edit worth making without also committing a
+   * title — and because it has to survive being skipped past. Custom metadata
+   * merges, so the two writes cannot tread on each other.
+   *
+   * Optimistic: the correction only changes the URL ImageKit is asked for, so
+   * the preview can turn immediately and the round trip is just persistence.
+   */
+  const rotate = useCallback(
+    async (quarterTurns: number) => {
+      if (!current) return;
+      const next = normaliseRotation(current.rotation + quarterTurns * 90);
+      const before = current;
+      // A quarter turn transposes the delivered image; the grid and this
+      // preview both size themselves from these.
+      const turned: Painting = {
+        ...current,
+        rotation: next,
+        width: quarterTurns % 2 === 0 ? current.width : current.height,
+        height: quarterTurns % 2 === 0 ? current.height : current.width,
+      };
+
+      setAll((list) => list.map((p) => (p.id === before.id ? turned : p)));
+
+      const result = await rotatePainting(before.id, next);
+      if (!result.ok) {
+        setAll((list) => list.map((p) => (p.id === before.id ? before : p)));
+        setStatus("error");
+        setError(result.error);
+      }
+    },
+    [current],
+  );
+
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const mod = e.metaKey || e.ctrlKey;
@@ -118,6 +160,12 @@ export function Curator({ paintings }: { paintings: Painting[] }) {
       } else if (mod && e.key.toLowerCase() === "d") {
         e.preventDefault();
         ditto();
+      } else if (e.altKey && e.code === "KeyR") {
+        // Alt rather than a bare key, because the title field is autofocused
+        // and an unmodified shortcut would only ever type a letter into it.
+        // And e.code, not e.key: Option+R on a Mac reports "®".
+        e.preventDefault();
+        void rotate(e.shiftKey ? -1 : 1);
       } else if (e.altKey && e.key === "ArrowRight") {
         e.preventDefault();
         move(1);
@@ -128,7 +176,7 @@ export function Curator({ paintings }: { paintings: Painting[] }) {
     };
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
-  }, [save, ditto, move]);
+  }, [save, ditto, move, rotate]);
 
   if (!current || !draft) {
     return (
@@ -170,15 +218,34 @@ export function Curator({ paintings }: { paintings: Painting[] }) {
 
       <div className="grid gap-6 md:grid-cols-[minmax(0,1fr)_22rem]">
         <div>
+          {/* No key on the rotation: keeping the element lets the browser hold
+              the old orientation on screen until the turned one has decoded,
+              rather than flashing back through the blurred placeholder. */}
           <PaintingImage
             path={current.path}
             alt={current.title}
             width={current.width}
             height={current.height}
+            orientation={current}
             sizes="(max-width: 768px) 92vw, 640px"
             priority
             className="max-h-[52dvh] w-full"
           />
+
+          <div className="flex items-center gap-2 pt-2">
+            <RotateButton onClick={() => void rotate(-1)} label="Rotate left">
+              ⟲
+            </RotateButton>
+            <RotateButton onClick={() => void rotate(1)} label="Rotate right">
+              ⟳
+            </RotateButton>
+            <p className="text-[11px] text-[#707070] tabular-nums">
+              {current.rotation === 0
+                ? "as uploaded"
+                : `turned ${current.rotation}°`}
+            </p>
+          </div>
+
           <p className="pt-2 font-mono text-[11px] break-all text-[#707070]">
             {current.path}
           </p>
@@ -313,6 +380,28 @@ export function Curator({ paintings }: { paintings: Painting[] }) {
 const inputClass =
   "min-h-11 w-full border border-[#E5E5E5] px-3 text-[15px] focus:border-black focus:outline-none";
 
+function RotateButton({
+  onClick,
+  label,
+  children,
+}: {
+  onClick: () => void;
+  label: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      title={label}
+      aria-label={label}
+      className="flex min-h-11 min-w-11 items-center justify-center border border-[#E5E5E5] text-[17px] active:bg-black active:text-white"
+    >
+      {children}
+    </button>
+  );
+}
+
 function Field({ label, children }: { label: string; children: React.ReactNode }) {
   return (
     <label className="block">
@@ -374,6 +463,8 @@ function Shortcuts() {
       <dd>Save and next</dd>
       <dt className="font-mono">⌘/Ctrl D</dt>
       <dd>Same as previous</dd>
+      <dt className="font-mono">Alt R</dt>
+      <dd>Rotate right, with Shift for left</dd>
       <dt className="font-mono">Alt → ←</dt>
       <dd>Skip without saving</dd>
     </dl>

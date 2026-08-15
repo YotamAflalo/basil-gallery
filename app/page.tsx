@@ -2,7 +2,7 @@ import Link from "next/link";
 import { connection } from "next/server";
 
 import { PaintingImage } from "@/components/painting-image";
-import { getPublishedPaintings } from "@/lib/paintings";
+import { getFeaturedPaintings, getPublishedPaintings } from "@/lib/paintings";
 import { BIO, SITE_IMAGES } from "@/lib/site";
 
 /** Per request, for the reason documented in app/gallery/page.tsx. */
@@ -10,13 +10,10 @@ export const instant = false;
 
 export default async function Home() {
   await connection();
-  const paintings = await getPublishedPaintings();
-  // A handful of works to preview, spread across the collection rather than
-  // taken off the top so the strip is not four versions of one subject.
-  const stride = Math.max(1, Math.floor(paintings.length / 6));
-  const preview = Array.from({ length: 6 }, (_, i) => paintings[i * stride]).filter(
-    Boolean,
-  );
+  const [paintings, featured] = await Promise.all([
+    getPublishedPaintings(),
+    getFeaturedPaintings(6),
+  ]);
 
   return (
     <main className="mx-auto max-w-2xl">
@@ -79,14 +76,16 @@ export default async function Home() {
 
       <section className="pt-12">
         <div className="flex items-baseline justify-between px-5">
-          <h2 className="text-[15px] font-medium">From the collection</h2>
+          <h2 className="text-[15px] font-medium">
+            {featured.country ? `From ${featured.country}` : "From the collection"}
+          </h2>
           <Link href="/gallery" className="py-2 text-[13px] text-[#707070] underline">
             See all {paintings.length}
           </Link>
         </div>
 
         <div className="pager-x mt-4 flex gap-3 overflow-x-auto px-5 pb-2">
-          {preview.map((p) => (
+          {featured.paintings.map((p) => (
             <Link
               key={p.id}
               href="/gallery"
@@ -97,6 +96,7 @@ export default async function Home() {
                 alt={p.title}
                 width={p.width}
                 height={p.height}
+                orientation={p}
                 sizes="(max-width: 672px) 46vw, 220px"
                 fit="cover"
                 className="aspect-square w-full"
