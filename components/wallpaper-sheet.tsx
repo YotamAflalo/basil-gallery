@@ -85,7 +85,11 @@ export function WallpaperSheet({
         <div className="mt-5 space-y-2 pb-5">
           {screen && (
             <DownloadLink
-              href={wallpaperUrl(painting.path, { ...screen, fit })}
+              href={wallpaperUrl(painting.path, {
+                ...screen,
+                fit,
+                orientation: painting,
+              })}
               filename={filename}
               label="This phone"
               detail={`${screen.width} × ${screen.height}`}
@@ -100,6 +104,7 @@ export function WallpaperSheet({
                 width: preset.width,
                 height: preset.height,
                 fit,
+                orientation: painting,
               })}
               filename={filename}
               label={preset.label}

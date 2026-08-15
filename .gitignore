@@ -51,3 +51,9 @@ next-env.d.ts
 
 # Allow the documented template through the .env* rule above.
 !.env.example
+
+# Preview thumbnails the orientation detector caches, and the review sheet it
+# writes beside the manifest. Both are re-derivable and the sheet is megabytes
+# of inlined JPEG.
+/backups/.previews/
+/backups/*.html

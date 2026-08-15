@@ -39,6 +39,42 @@ of them:
 `⌘/Ctrl D` is the one that saves time: a batch of paintings from one trip
 shares a place and year, so tag the first and repeat it down the run.
 
+### Straighten a painting that is on its side
+
+Open `/admin` and use the **⟲ ⟳** buttons under the picture, or `Alt R` (hold
+Shift to go the other way). It saves on its own, and the change is live in ten
+seconds.
+
+Nothing is re-encoded — the turn is a number stored against the file, applied
+by the CDN when the image is served. So it costs no storage, loses no quality,
+and rotating back to "as uploaded" gives you the original exactly.
+
+A lot of the collection is sideways, so there is a detector for finding them
+rather than clicking through 258 works:
+
+```bash
+pip install -r scripts/requirements.txt        # once; ~2 GB, all local
+npm run orientation:scan                       # -> backups/orientation-<date>.json
+python scripts/detect_orientation.py backups/orientation-<date>.json --skip /paintings/Abstract
+```
+
+That writes a review sheet, `backups/orientation-<date>.html`, showing each
+painting as it looks now beside how it would look. **Open it and look**, then:
+
+```bash
+npm run orientation:apply -- backups/orientation-<date>.json --dry   # preview
+npm run orientation:apply -- backups/orientation-<date>.json
+```
+
+The model is a shortlist, not an authority — `python scripts/detect_orientation.py
+<file> --selftest` measures how often it is right. Anything it gets wrong is one
+click in `/admin`, and applying is reversible.
+
+### Change which paintings the front page shows
+
+The strip under the biography comes from one country. Edit `FEATURED_COUNTRY`
+in `lib/site.ts` — it is currently Switzerland. Anything in `COUNTRIES` works.
+
 ### Hide a painting
 
 Untick **Show on the site** in `/admin`. It stays in ImageKit; visitors do not
@@ -104,6 +140,9 @@ and `file.deleted`, then put the `whsec_…` it gives you into
 | `npm run schema:setup` | Create the custom metadata fields in ImageKit. Idempotent |
 | `npm run migrate` | One-off upload of `static/images`. Already done; idempotent |
 | `npm run verify:live` | Checks an edit reaches the running site. Server must be up |
+| `npm run orientation:scan` | List every painting and how it is currently turned |
+| `python scripts/detect_orientation.py <file>` | Find the sideways ones. `--selftest` measures it |
+| `npm run orientation:apply -- <file>` | Save the turns it found. `--dry` previews |
 
 `npm run verify:live` is the regression test for the promise this whole design
 rests on. It renames a real painting, checks the site, and puts the title
@@ -115,7 +154,7 @@ back. Run it after touching anything in `lib/paintings.ts`.
 app/            pages: / (about Basil), /gallery, /admin
 components/     gallery grid, fullscreen viewer, wallpaper sheet
 lib/            schema.ts is the single definition of a painting
-scripts/        migration, backup, restore, verification
+scripts/        migration, backup, restore, verification, the orientation tools
 legacy/         the previous FastAPI site, kept for reference
 static/images/  the original files, no longer tracked in git
 ```

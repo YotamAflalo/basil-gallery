@@ -12,7 +12,9 @@
     "migrate": "tsx scripts/migrate-to-imagekit.ts",
     "metadata:export": "tsx scripts/export-metadata.ts",
     "metadata:import": "tsx scripts/import-metadata.ts",
-    "verify:live": "tsx scripts/verify-live-update.ts"
+    "verify:live": "tsx scripts/verify-live-update.ts",
+    "orientation:scan": "tsx scripts/scan-orientation.ts",
+    "orientation:apply": "tsx scripts/apply-orientation.ts"
   },
   "dependencies": {
     "@imagekit/nodejs": "^7.10.0",

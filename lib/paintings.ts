@@ -8,6 +8,7 @@ import {
   slug,
   toPainting,
 } from "./schema";
+import { FEATURED_COUNTRY } from "./site";
 
 /**
  * Read layer for painting data.
@@ -136,6 +137,49 @@ export async function getPublishedPaintings(): Promise<Painting[]> {
 export async function getPainting(id: string): Promise<Painting | undefined> {
   const all = await getPaintings();
   return all.find((p) => p.id === id);
+}
+
+/**
+ * Does this work belong to a country?
+ *
+ * The tagged answer wins. Falling back to the folder matters because 227 of
+ * 258 works are untagged: a painting dropped into /paintings/Switzerland
+ * belongs on the home page straight away, before anyone has been through
+ * /admin. Folder names cannot contain spaces, so "South Africa" is the folder
+ * "South-Africa".
+ */
+function inCountry(p: Painting, country: string): boolean {
+  if (p.country) return p.country === country;
+  const folder = `${PAINTINGS_FOLDER}/${country.replace(/\s+/g, "-")}/`;
+  return p.path.toLowerCase().startsWith(folder.toLowerCase());
+}
+
+/**
+ * The handful of works the home page previews, taken from FEATURED_COUNTRY.
+ *
+ * Spread across that set with a stride rather than taken off the top, so the
+ * strip is not four versions of one subject. If the featured country has
+ * nothing published — someone renamed it, or unticked the last one — this
+ * falls back to the whole collection: an empty strip on the front page is a
+ * worse failure than an unthemed one. `country` reports which of the two
+ * happened, so the heading can say where the works are from without risking
+ * claiming Switzerland for six paintings that are not.
+ */
+export async function getFeaturedPaintings(
+  limit = 6,
+): Promise<{ country: string | null; paintings: Painting[] }> {
+  const published = await getPublishedPaintings();
+  const featured = published.filter((p) => inCountry(p, FEATURED_COUNTRY));
+  const fellBack = featured.length === 0;
+  const pool = fellBack ? published : featured;
+
+  const stride = Math.max(1, Math.floor(pool.length / limit));
+  return {
+    country: fellBack ? null : FEATURED_COUNTRY,
+    paintings: Array.from({ length: limit }, (_, i) => pool[i * stride]).filter(
+      Boolean,
+    ),
+  };
 }
 
 export type Gallery = {

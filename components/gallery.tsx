@@ -79,6 +79,7 @@ export function Gallery({ paintings }: { paintings: Painting[] }) {
               alt={p.title}
               width={p.width}
               height={p.height}
+              orientation={p}
               sizes="(max-width: 768px) 46vw, (max-width: 1024px) 30vw, 22vw"
               priority={i < 4}
               className="w-full"
@@ -296,7 +297,7 @@ function Viewer({
               <div
                 className="max-h-full w-full bg-center bg-no-repeat"
                 style={{
-                  backgroundImage: `url(${lqipUrl(p.path)})`,
+                  backgroundImage: `url(${lqipUrl(p.path, p)})`,
                   backgroundSize: "contain",
                 }}
               >
@@ -305,6 +306,7 @@ function Viewer({
                   alt={p.title}
                   width={p.width}
                   height={p.height}
+                  orientation={p}
                   sizes="100vw"
                   className="max-h-[68dvh] w-full"
                 />

@@ -132,11 +132,75 @@ Each of these was found by hitting it:
   becomes `_`, so `WhatsApp Image (1).jpeg` lands as `WhatsApp_Image__1_.jpeg`.
   `scripts/migrate-to-imagekit.ts` mirrors that rule; without it the
   "already uploaded?" check misses and every re-run re-uploads everything.
-- **`SingleSelect` rejects values outside its list**, including `""`. To leave
-  one unset, omit the key entirely rather than sending an empty string — see
-  `savePainting` in `app/admin/actions.ts`.
-- **`files.update` replaces custom metadata wholesale.** A partial update
-  blanks the fields it omits, so `bulkApply` reads each file first and merges.
+- **No custom metadata field accepts `""`.** `SingleSelect` rejects values
+  outside its list, and `Text` rejects the empty string too — *"must be non
+  empty string with at least one non-space character"*. The whole update fails,
+  not just that field, so clearing Place in `/admin` used to 400 the save. Send
+  `null`; see `savePainting` in `app/admin/actions.ts`.
+- **`files.update` merges custom metadata; `null` is how you clear a field.**
+  Omitting a key leaves its stored value alone — measured, against the comment
+  this file used to carry. So a partial update is safe, which is what lets the
+  rotate buttons write `rotation` on its own without touching a title. To
+  actually unset a field, send `null`: omitting it does nothing and `""` is a
+  400.
+- **Delivery already applies EXIF orientation.** `width` and `height` from the
+  API are the *stored* size, so for the 18 files whose EXIF asks for a quarter
+  turn they are the wrong way round. `toPainting` transposes them; without that
+  a portrait painting sits in a landscape box with air above and below.
+
+## Which way up
+
+Roughly a quarter of the collection is sideways or upside down. Two different
+causes, and only one of them fixes itself:
+
+- 18 files carry an EXIF orientation tag, and ImageKit honours it unasked.
+- The rest are simply stored rotated, with nothing to say so. Most are phone
+  photographs of paintings; there is no signal in the file to act on.
+
+So the correction is `rotation` in custom metadata — 0, 90, 180 or 270 — which
+becomes an `rt-` step on the delivery URL. Metadata rather than re-encoded
+pixels because it is free, lossless, reversible, and lands through the same
+path as every other edit: `/admin`, no deploy, live in ten seconds.
+
+`turn()` in `lib/ik-url.ts` is the whole of it, and three ImageKit behaviours
+decide its shape. Each was established by asking the CDN:
+
+| Asked for | Delivered | Meaning |
+| --- | --- | --- |
+| no `rt` | EXIF applied | the default is already doing work |
+| `rt-0` | EXIF applied | a no-op, **not** "no rotation" |
+| `rt-360` | stored pixels | this is how you say "no rotation" |
+| `rt-90` | stored pixels turned 90° CW | absolute, and it *overrides* EXIF |
+
+The third row is the trap. `rt-` replaces EXIF handling rather than adding to
+it, so the value sent has to be `exifRotation + rotation`, and a correction of
+0 has to emit nothing at all. Send a bare `rt-<rotation>` and the eighteen
+EXIF-tagged files fall over sideways the moment anyone corrects one of them.
+
+Chaining matters too: `rt-90:w-400` rotates and *then* resizes, so the width
+next/image asked for applies to the upright painting. The other order crops a
+wallpaper against the wrong edges.
+
+`next/image` complicates one thing. A loader only receives `src`, `width` and
+`quality` — there is nowhere to put a rotation — so `PaintingImage` passes a
+per-image `loader` prop built on the same helpers as the app-wide one in
+`lib/imagekit-loader.ts`.
+
+### Finding them
+
+`scripts/detect_orientation.py` is a local tool, not part of the site and not
+installed on Vercel. It turns each painting four ways and scores every turn
+with CLIP against captions for upright and captions for sideways, keeping the
+widest margin. Scoring against upright captions alone is much worse: a
+caption's score is dominated by "does this look like a painting at all", which
+is identical for all four turns, and subtracting the sideways captions cancels
+it out.
+
+Its output is a shortlist. It writes a before/after review sheet to look at
+first, `--selftest` measures it against paintings whose orientation is known,
+and every proposal can be overruled with one click in `/admin`. Abstract work
+is where it fails — and not only it: a good few of the 38 in
+`/paintings/Abstract` have no right way up to find. `--skip /paintings/Abstract`.
 
 ## Next.js 16 notes
 

@@ -1,3 +1,5 @@
+import type { Country } from "./schema";
+
 /**
  * Page furniture that lives in ImageKit's /site folder rather than
  * /paintings, so the gallery never lists it.
@@ -6,6 +8,21 @@ export const SITE_IMAGES = {
   portrait: "/site/dubi.jpg",
   hero: "/site/home_art.jpg",
 } as const;
+
+/**
+ * The country whose works front the home page's "From the collection" strip.
+ *
+ * A named country rather than a slice across everything: 227 of the 258 works
+ * are still untagged, so "spread across the collection" in practice meant
+ * "whatever six the filename sort landed on". The Swiss paintings are a set
+ * someone has been through, so they are the ones fit to be the first thing a
+ * visitor sees.
+ *
+ * Change this to any value in COUNTRIES. If nothing published carries it, the
+ * strip falls back to the whole collection rather than coming up empty — see
+ * getFeaturedPaintings in lib/paintings.ts.
+ */
+export const FEATURED_COUNTRY: Country = "Switzerland";
 
 /**
  * Basil's biography, carried over from the old site's index.html.

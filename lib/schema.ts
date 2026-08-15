@@ -97,6 +97,11 @@ export const CUSTOM_METADATA_SCHEMA = [
     label: "Checked by hand",
     schema: { type: "Boolean" as const, defaultValue: false },
   },
+  {
+    name: "rotation",
+    label: "Rotation correction",
+    schema: { type: "Number" as const, minValue: 0, maxValue: 270, defaultValue: 0 },
+  },
 ] as const;
 
 export type Painting = {
@@ -104,8 +109,26 @@ export type Painting = {
   id: string;
   /** Media-library path, e.g. "/paintings/Switzerland/bridge.jpg". */
   path: string;
+  /**
+   * Size **as delivered**, not as stored. ImageKit rotates on the way out for
+   * a file whose EXIF asks for it, so for those the stored width and height
+   * are the wrong way round; `rotation` transposes them again. Getting this
+   * wrong leaves a portrait painting in a landscape box with air above and
+   * below it.
+   */
   width: number;
   height: number;
+  /**
+   * Degrees clockwise ImageKit already applies for us, read off the file's
+   * EXIF orientation. Not editable — it is a property of the file.
+   */
+  exifRotation: number;
+  /**
+   * The correction a curator or the detector added **on top of** that, one of
+   * 0, 90, 180, 270. Phone photos of paintings often carry no EXIF hint at all
+   * and are simply stored sideways, which no automatic handling can fix.
+   */
+  rotation: number;
   title: string;
   description: string;
   year: number | null;
@@ -159,6 +182,30 @@ export function slug(value: string): string {
     .replace(/^-|-$/g, "");
 }
 
+/** The only rotations that mean anything for a photograph of a painting. */
+export const QUARTER_TURNS = [0, 90, 180, 270] as const;
+
+/** Snap anything to the nearest quarter turn in [0, 360). */
+export function normaliseRotation(deg: number | null | undefined): number {
+  if (typeof deg !== "number" || !Number.isFinite(deg)) return 0;
+  return (((Math.round(deg / 90) * 90) % 360) + 360) % 360;
+}
+
+/**
+ * ImageKit reports EXIF orientation as the human-readable string the tag
+ * stands for. Only the four upright cases are listed: the mirrored ones
+ * ("Mirror horizontal and rotate 90 CW" and friends) come from scanners and
+ * screenshots, none are present in this collection, and treating one as a
+ * plain rotation would flip the painting. They fall through to 0, which leaves
+ * ImageKit's own default handling in charge.
+ */
+const EXIF_ROTATION: Record<string, number> = {
+  "Horizontal (normal)": 0,
+  "Rotate 90 CW": 90,
+  "Rotate 180": 180,
+  "Rotate 270 CW": 270,
+};
+
 /** Shape of the fields we read off an ImageKit file object. */
 export type ImageKitFileLike = {
   fileId: string;
@@ -169,16 +216,28 @@ export type ImageKitFileLike = {
   description?: string | null;
   tags?: string[] | null;
   customMetadata?: Record<string, unknown> | null;
+  embeddedMetadata?: Record<string, unknown> | null;
 };
 
 export function toPainting(file: ImageKitFileLike): Painting {
   const cm = file.customMetadata ?? {};
 
+  const exifRotation =
+    EXIF_ROTATION[String(file.embeddedMetadata?.Orientation ?? "")] ?? 0;
+  const rotation = normaliseRotation(cleanNumber(cm.rotation));
+  // A quarter turn swaps the axes, so the delivered image is the transpose of
+  // the stored one. ImageKit reports the stored size.
+  const transposed = (exifRotation + rotation) % 180 === 90;
+  const storedWidth = file.width ?? 0;
+  const storedHeight = file.height ?? 0;
+
   return {
     id: file.fileId,
     path: file.filePath,
-    width: file.width ?? 0,
-    height: file.height ?? 0,
+    width: transposed ? storedHeight : storedWidth,
+    height: transposed ? storedWidth : storedHeight,
+    exifRotation,
+    rotation,
     // Fall back to a readable filename so nothing ever renders blank.
     title: cleanString(cm.title) ?? prettifyFilename(file.name),
     description: cleanString(file.description) ?? "",
